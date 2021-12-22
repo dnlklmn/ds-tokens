@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 22 Dec 2021 19:49:36 GMT
+-->
+<resources>
+  <string name="global_xs">4</string>
+  <string name="global_s">8</string>
+  <string name="global_m">16</string>
+  <string name="global_l">24</string>
+  <string name="global_xl">32</string>
+  <string name="global_xxl">48</string>
+  <string name="substrate_padding_button_big_left_right">$xl</string>
+  <string name="substrate_padding_button_big_top_bottom">$m</string>
+  <string name="substrate_padding_button_default_left_right">$m</string>
+  <string name="substrate_padding_button_default_top_bottom">$s</string>
+  <string name="substrate_padding_button_small_left_right">$m</string>
+  <string name="substrate_padding_button_small_top_bottom">$s</string>
+  <string name="substrate_padding_dropdown_default_all">$s</string>
+  <string name="substrate_padding_list_default_top_bottom">$l</string>
+  <string name="substrate_padding_content_card_default_all">$m</string>
+  <string name="substrate_padding_page_default_all">$l</string>
+  <string name="substrate_gap_list_default">$m</string>
+  <string name="substrate_gap_list_small">$s</string>
+  <string name="substrate_gap_label_default">$s</string>
+  <string name="substrate_gap_sidebar_default">$xl</string>
+  <string name="substrate_gap_sidebar_small">$m</string>
+  <string name="substrate_gap_title_default">$m</string>
+  <string name="substrate_gap_title_small">$xs</string>
+  <string name="substrate_gap_actions_default">$l</string>
+  <string name="substrate_gap_content_card_default">$l</string>
+  <string name="polkadot_padding_button_left_right">$xl</string>
+  <string name="polkadot_padding_button_top_bottom">$l</string>
+  <string name="polkadot_padding_dropdown_all">$l</string>
+  <string name="polkadot_gap_label_default">$s</string>
+  <string name="polkadot_gap_sidebar_default">$xxl</string>
+  <string name="polkadot_gap_sidebar_small">$l</string>
+  <string name="polkadot_gap_title_default">$m</string>
+  
+</resources>

@@ -16,14 +16,17 @@
       "buildPath": "build/android/",
       "files": [
         {
-          "destination": "font_dimens.xml",
-          "format": "android/fontDimens"
-        },
-        {
           "destination": "colors.xml",
           "format": "android/resources",
           "filter": {
-            "attributes": { "type": "colors" }
+            "type": "color"
+          }
+        },
+        {
+          "destination": "spacing.xml",
+          "format": "android/resources",
+          "filter": {
+            "type": "spacing"
           }
         }
       ]
@@ -37,6 +40,14 @@
           "format": "ios-swift/class.swift",
           "className": "StyleDictionary",
           "filter": {}
+        },
+        {
+          "destination": "StyleDictionaryColor.swift",
+          "format": "ios-swift/class.swift",
+          "className": "StyleDictionary",
+          "filter": {
+            "type": "color"
+          }
         }
       ]
     }
