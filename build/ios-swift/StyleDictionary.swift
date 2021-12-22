@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 22 Dec 2021 17:32:48 GMT
+// Generated on Wed, 22 Dec 2021 19:13:46 GMT
 
 
 import UIKit
@@ -84,8 +84,8 @@ public class StyleDictionary {
     public static let polkadotPaddingDropdownAll = $l
     public static let substrateBody1 = [object Object]
     public static let substrateBody2 = [object Object]
+    public static let substrateButton = [object Object]
     public static let substrateButtonBig = [object Object]
-    public static let substrateButtonDefault = [object Object]
     public static let substrateButtonDefault = $xs
     public static let substrateButtonSmall = [object Object]
     public static let substrateCaption = [object Object]
