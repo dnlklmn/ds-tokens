@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 22 Dec 2021 19:13:46 GMT
+// Generated on Wed, 22 Dec 2021 19:38:06 GMT
 
 
 import UIKit
@@ -125,6 +125,7 @@ public class StyleDictionary {
     public static let substrateLabel = [object Object]
     public static let substrateLightBgDefault = $white
     public static let substrateLightBgGrey = $grey.100
+    public static let substrateLightColorPrimary = $substrate-green.500-base
     public static let substrateLightHighlightError = $error-light
     public static let substrateLightHighlightGreen = $substrate-green.100-t
     public static let substrateLightStrokeDefault = $grey.400

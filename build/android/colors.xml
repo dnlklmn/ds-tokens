@@ -2,8 +2,9 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 22 Dec 2021 19:13:46 GMT
+  Generated on Wed, 22 Dec 2021 19:38:06 GMT
 -->
 <resources>
+  <string name="substrate_light_color_primary">$substrate-green.500-base</string>
   
 </resources>
