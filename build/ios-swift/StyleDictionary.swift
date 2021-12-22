@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Wed, 22 Dec 2021 16:29:07 GMT
+// Generated on Wed, 22 Dec 2021 16:31:08 GMT
 
 
 import UIKit
@@ -146,14 +146,8 @@ public class StyleDictionary {
     public static let substrateLightBody1 = [object Object]
     public static let substrateLightBody2 = [object Object]
     public static let substrateLightButtonBig = [object Object]
-    public static let substrateLightButtonCtaHover = [object Object]
-    public static let substrateLightButtonCtaIdle = [object Object]
-    public static let substrateLightButtonDefault = $borderradius.xs
     public static let substrateLightButtonDefault = [object Object]
-    public static let substrateLightButtonPrimaryBg = $substrate-green.500-base
     public static let substrateLightButtonSmall = [object Object]
-    public static let substrateLightButtonTextSmall = [object Object]
-    public static let substrateLightButtonWhite = $white
     public static let substrateLightCaption = [object Object]
     public static let substrateLightCardDefault = $xs
     public static let substrateLightCardDefaultShadow = [object Object]
