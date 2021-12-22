@@ -23,7 +23,7 @@
           "destination": "colors.xml",
           "format": "android/resources",
           "filter": {
-            "attributes": { "type": "color" }
+            "attributes": { "type": "colors" }
           }
         }
       ]
