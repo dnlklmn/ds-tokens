@@ -1,8 +1,6 @@
-# Build with Style dictionary
-[Style Dictionary](https://amzn.github.io/style-dictionary/#/)
+# Generate output files with Style Dictionary
+See examples in build folder, documentation: [Style Dictionary](https://amzn.github.io/style-dictionary/#/)
 
-See examples in build folder
-
-### config.js
+### config.json
 Transform and format to generate output files
 [Details here](https://amzn.github.io/style-dictionary/#/config)
