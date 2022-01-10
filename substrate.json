@@ -235,130 +235,189 @@
         "value": "48",
         "type": "spacing"
       }
+    },
+    "gap": {
+      "m": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "s": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "xs": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "64",
+        "type": "spacing"
+      }
     }
   },
   "spaces": {
-    "padding": {
-      "button": {
-        "big-left-right": {
-          "value": "$padding.xl",
-          "type": "spacing"
-        },
-        "big-top-bottom": {
-          "value": "$padding.m",
-          "type": "spacing"
-        },
-        "default-left-right": {
-          "value": "$padding.l",
-          "type": "spacing"
-        },
-        "default-top-bottom": {
-          "value": "$padding.s",
-          "type": "spacing"
-        },
-        "small-left-right": {
-          "value": "$padding.m",
-          "type": "spacing"
-        },
-        "small-top-bottom": {
-          "value": "$padding.s",
-          "type": "spacing"
-        }
-      },
-      "dropdown": {
-        "default-all": {
-          "value": "$s",
-          "type": "spacing"
-        }
-      },
-      "list": {
-        "default-top-bottom": {
-          "value": "$l",
-          "type": "spacing"
-        }
-      },
-      "content-card": {
-        "default-all": {
-          "value": "$m",
-          "type": "spacing"
-        }
-      },
-      "page": {
-        "default-all": {
-          "value": "$l",
-          "type": "spacing"
-        }
-      }
-    },
-    "gap": {
-      "list": {
-        "default": {
-          "value": "$m",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$s",
-          "type": "spacing"
-        }
-      },
-      "label": {
-        "default": {
-          "value": "$s",
-          "description": "Gap between label and component",
-          "type": "spacing"
-        }
-      },
-      "sidebar": {
-        "default": {
-          "value": "$xl",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$m",
-          "type": "spacing"
-        }
-      },
-      "title": {
-        "default": {
-          "value": "$padding.m",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$padding.xs",
-          "type": "spacing"
-        }
-      },
-      "actions": {
-        "default": {
-          "value": "$l",
-          "type": "spacing"
-        }
-      },
-      "content-card": {
-        "default": {
-          "value": "$l",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$padding.m",
-          "type": "spacing"
-        }
-      },
-      "button": {
-        "default": {
-          "value": "$padding.s",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$padding.xs",
-          "type": "spacing"
-        }
-      }
-    },
     "button": {
       "default": {
         "value": "$borderradius.xs",
         "type": "borderRadius"
+      },
+      "padding": {
+        "default": {
+          "leftRight": {
+            "value": "$padding.l",
+            "type": "spacing"
+          },
+          "topBottom": {
+            "value": "$padding.s",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "leftRight": {
+            "value": "$padding.m",
+            "type": "spacing"
+          },
+          "topBottom": {
+            "value": "$padding.s",
+            "type": "spacing"
+          }
+        },
+        "big": {
+          "leftRight": {
+            "value": "$padding.xl",
+            "type": "spacing"
+          },
+          "topBottom": {
+            "value": "$padding.m",
+            "type": "spacing"
+          }
+        }
+      },
+      "gap": {
+        "default": {
+          "value": "$gap.s",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "$gap.xs",
+          "type": "spacing"
+        }
+      }
+    },
+    "dropdown": {
+      "padding": {
+        "all": {
+          "value": "$padding.s",
+          "type": "spacing"
+        }
+      }
+    },
+    "list": {
+      "gap": {
+        "default": {
+          "value": "$gap.xl",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "$gap.m",
+          "type": "spacing"
+        }
+      },
+      "padding": {
+        "default": {
+          "topBottom": {
+            "value": "$padding.l",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "contentCard": {
+      "padding": {
+        "default": {
+          "all": {
+            "value": "$padding.l",
+            "type": "spacing"
+          }
+        }
+      },
+      "gap": {
+        "default": {
+          "value": "$gap.l",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "$gap.m",
+          "type": "spacing"
+        }
+      }
+    },
+    "page": {
+      "padding": {
+        "default": {
+          "all": {
+            "value": "$padding.l",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "text": {
+      "label": {
+        "gap": {
+          "vertical": {
+            "value": "$gap.s",
+            "type": "spacing"
+          }
+        }
+      },
+      "title": {
+        "gap": {
+          "default": {
+            "horizontal": {
+              "value": "$gap.m",
+              "type": "spacing"
+            },
+            "vertical": {
+              "value": "$gap.s",
+              "type": "spacing"
+            }
+          },
+          "small": {
+            "horizontal": {
+              "value": "$gap.xs",
+              "type": "spacing"
+            }
+          }
+        }
+      }
+    },
+    "form": {
+      "gap": {
+        "default": {
+          "value": "$gap.m",
+          "type": "spacing"
+        }
+      }
+    },
+    "actions": {
+      "gap": {
+        "default": {
+          "value": "$gap.l",
+          "type": "spacing"
+        },
+        "big": {
+          "value": "$gap.xl",
+          "type": "spacing"
+        }
       }
     }
   },
@@ -655,12 +714,14 @@
         "type": "boxShadow"
       },
       "base": {
-        "value": "$white",
-        "type": "color"
-      },
-      "highlight": {
-        "value": "$substrate-green.100-t",
-        "type": "color"
+        "default": {
+          "value": "$white",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "$substrate-green.100-t",
+          "type": "color"
+        }
       },
       "border": {
         "hint": {
@@ -816,8 +877,14 @@
         "type": "boxShadow"
       },
       "base": {
-        "value": "$grey.700",
-        "type": "color"
+        "default": {
+          "value": "$grey.700",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "$substrate-green.600-s",
+          "type": "color"
+        }
       },
       "idle": {
         "value": {
@@ -830,15 +897,15 @@
         },
         "type": "boxShadow"
       },
-      "highlight": {
-        "value": "$substrate-green.600-s",
-        "type": "color"
-      },
       "border": {
         "hint": {
           "value": "$black",
           "type": "color"
         }
+      },
+      "highlight-copy": {
+        "value": "$substrate-green.600-s",
+        "type": "color"
       }
     },
     "button": {
