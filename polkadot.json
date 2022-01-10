@@ -237,131 +237,6 @@
       }
     }
   },
-  "spacing": {
-    "padding": {
-      "button": {
-        "big-left-right": {
-          "value": "$padding.xl",
-          "type": "spacing"
-        },
-        "big-top-bottom": {
-          "value": "$padding.m",
-          "type": "spacing"
-        },
-        "default-left-right": {
-          "value": "$padding.l",
-          "type": "spacing"
-        },
-        "default-top-bottom": {
-          "value": "$padding.s",
-          "type": "spacing"
-        },
-        "small-left-right": {
-          "value": "$padding.m",
-          "type": "spacing"
-        },
-        "small-top-bottom": {
-          "value": "$padding.s",
-          "type": "spacing"
-        }
-      },
-      "dropdown": {
-        "default-all": {
-          "value": "$s",
-          "type": "spacing"
-        }
-      },
-      "list": {
-        "default-top-bottom": {
-          "value": "$l",
-          "type": "spacing"
-        }
-      },
-      "content-card": {
-        "default-all": {
-          "value": "$m",
-          "type": "spacing"
-        }
-      },
-      "page": {
-        "default-all": {
-          "value": "$l",
-          "type": "spacing"
-        }
-      }
-    },
-    "gap": {
-      "list": {
-        "default": {
-          "value": "$m",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$s",
-          "type": "spacing"
-        }
-      },
-      "label": {
-        "default": {
-          "value": "$s",
-          "description": "Gap between label and component",
-          "type": "spacing"
-        }
-      },
-      "sidebar": {
-        "default": {
-          "value": "$xl",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$m",
-          "type": "spacing"
-        }
-      },
-      "title": {
-        "default": {
-          "value": "$padding.m",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$padding.xs",
-          "type": "spacing"
-        }
-      },
-      "actions": {
-        "default": {
-          "value": "$l",
-          "type": "spacing"
-        }
-      },
-      "content-card": {
-        "default": {
-          "value": "$l",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$padding.m",
-          "type": "spacing"
-        }
-      },
-      "button": {
-        "default": {
-          "value": "$padding.s",
-          "type": "spacing"
-        },
-        "small": {
-          "value": "$padding.xs",
-          "type": "spacing"
-        }
-      }
-    },
-    "button": {
-      "default": {
-        "value": "$borderradius.xs",
-        "type": "borderRadius"
-      }
-    }
-  },
   "typography": {
     "H1": {
       "value": {
@@ -889,6 +764,131 @@
           "type": "dropShadow"
         },
         "type": "boxShadow"
+      }
+    }
+  },
+  "spaces": {
+    "padding": {
+      "button": {
+        "big-left-right": {
+          "value": "$padding.xl",
+          "type": "spacing"
+        },
+        "big-top-bottom": {
+          "value": "$padding.m",
+          "type": "spacing"
+        },
+        "default-left-right": {
+          "value": "$padding.l",
+          "type": "spacing"
+        },
+        "default-top-bottom": {
+          "value": "$padding.s",
+          "type": "spacing"
+        },
+        "small-left-right": {
+          "value": "$padding.m",
+          "type": "spacing"
+        },
+        "small-top-bottom": {
+          "value": "$padding.s",
+          "type": "spacing"
+        }
+      },
+      "dropdown": {
+        "default-all": {
+          "value": "$s",
+          "type": "spacing"
+        }
+      },
+      "list": {
+        "default-top-bottom": {
+          "value": "$l",
+          "type": "spacing"
+        }
+      },
+      "content-card": {
+        "default-all": {
+          "value": "$m",
+          "type": "spacing"
+        }
+      },
+      "page": {
+        "default-all": {
+          "value": "$l",
+          "type": "spacing"
+        }
+      }
+    },
+    "gap": {
+      "list": {
+        "default": {
+          "value": "$m",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "$s",
+          "type": "spacing"
+        }
+      },
+      "label": {
+        "default": {
+          "value": "$s",
+          "description": "Gap between label and component",
+          "type": "spacing"
+        }
+      },
+      "sidebar": {
+        "default": {
+          "value": "$xl",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "$m",
+          "type": "spacing"
+        }
+      },
+      "title": {
+        "default": {
+          "value": "$padding.m",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "$padding.xs",
+          "type": "spacing"
+        }
+      },
+      "actions": {
+        "default": {
+          "value": "$l",
+          "type": "spacing"
+        }
+      },
+      "content-card": {
+        "default": {
+          "value": "$l",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "$padding.m",
+          "type": "spacing"
+        }
+      },
+      "button": {
+        "default": {
+          "value": "$padding.s",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "$padding.xs",
+          "type": "spacing"
+        }
+      }
+    },
+    "button": {
+      "default": {
+        "value": "$borderradius.xs",
+        "type": "borderRadius"
       }
     }
   }
