@@ -248,7 +248,7 @@
       "padding": {
         "default": {
           "leftRight": {
-            "value": "$padding.l",
+            "value": "$padding.m",
             "type": "spacing"
           },
           "topBottom": {
@@ -340,9 +340,15 @@
       "padding": {
         "default": {
           "all": {
-            "value": "$padding.l",
+            "value": "$padding.xl",
             "type": "spacing"
           }
+        }
+      },
+      "gap": {
+        "default": {
+          "value": "$gap.xxl",
+          "type": "spacing"
         }
       }
     },
@@ -370,6 +376,12 @@
           "small": {
             "horizontal": {
               "value": "$gap.xs",
+              "type": "spacing"
+            }
+          },
+          "big": {
+            "horizontal": {
+              "value": "$gap.xl",
               "type": "spacing"
             }
           }
