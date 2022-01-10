@@ -610,30 +610,20 @@
       }
     },
     "textfield": {
-      "bg-primary": {
+      "bgPrimary": {
         "value": "$substrate-green.100-t",
         "type": "color"
       },
-      "bg-error": {
+      "bgError": {
         "value": "$error-light",
         "type": "color"
       },
-      "border-error": {
+      "borderError": {
         "value": "$error",
         "type": "color"
       },
-      "border-primary": {
+      "borderPrimary": {
         "value": "$substrate-green.500-base",
-        "type": "color"
-      }
-    },
-    "stroke": {
-      "default": {
-        "value": "$grey.400",
-        "type": "color"
-      },
-      "hint": {
-        "value": "$grey.300",
         "type": "color"
       }
     },
@@ -670,29 +660,31 @@
       }
     },
     "button": {
-      "base-primary": {
-        "value": "$substrate-green.500-base",
-        "type": "color"
-      },
-      "base-hover": {
-        "value": "$substrate-green.490-t",
-        "type": "color"
-      },
-      "base-down": {
-        "value": "$substrate-green.510-s",
-        "type": "color"
-      },
-      "base-light": {
-        "value": "$substrate-green.100-t",
-        "type": "color"
-      },
-      "base-secondary": {
-        "value": "$white",
-        "type": "color"
-      },
-      "base-destructive": {
-        "value": "$error",
-        "type": "color"
+      "base": {
+        "primary": {
+          "value": "$substrate-green.500-base",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$substrate-green.490-t",
+          "type": "color"
+        },
+        "down": {
+          "value": "$substrate-green.510-s",
+          "type": "color"
+        },
+        "light": {
+          "value": "$substrate-green.100-t",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "$white",
+          "type": "color"
+        },
+        "destructive": {
+          "value": "$error",
+          "type": "color"
+        }
       },
       "text": {
         "primary-inverts": {
@@ -729,6 +721,16 @@
           "type": "dropShadow"
         },
         "type": "boxShadow"
+      },
+      "border": {
+        "primary": {
+          "value": "$substrate-green.500-base",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$substrate-green.300-t",
+          "type": "color"
+        }
       }
     }
   },
@@ -787,16 +789,6 @@
         "type": "color"
       }
     },
-    "stroke": {
-      "default": {
-        "value": "$grey.700",
-        "type": "color"
-      },
-      "hint": {
-        "value": "$grey.700",
-        "type": "color"
-      }
-    },
     "dropdown": {
       "pop": {
         "value": {
@@ -830,29 +822,31 @@
       }
     },
     "button": {
-      "base-primary": {
-        "value": "$substrate-green.500-base",
-        "type": "color"
-      },
-      "base-hover": {
-        "value": "$substrate-green.490-t",
-        "type": "color"
-      },
-      "base-down": {
-        "value": "$substrate-green.510-s",
-        "type": "color"
-      },
-      "base-light": {
-        "value": "$substrate-green.100-t",
-        "type": "color"
-      },
-      "base-secondary": {
-        "value": "$grey.700",
-        "type": "color"
-      },
-      "base-destructive": {
-        "value": "$error",
-        "type": "color"
+      "base": {
+        "primary": {
+          "value": "$substrate-green.500-base",
+          "type": "color"
+        },
+        "hover": {
+          "value": "$substrate-green.490-t",
+          "type": "color"
+        },
+        "down": {
+          "value": "$substrate-green.510-s",
+          "type": "color"
+        },
+        "light": {
+          "value": "$substrate-green.100-t",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "$grey.700",
+          "type": "color"
+        },
+        "destructive": {
+          "value": "$error",
+          "type": "color"
+        }
       },
       "text": {
         "primary-inverts": {
@@ -889,6 +883,16 @@
           "type": "dropShadow"
         },
         "type": "boxShadow"
+      },
+      "border": {
+        "primary": {
+          "value": "$substrate-green.500-base",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$substrate-green.700-s",
+          "type": "color"
+        }
       }
     }
   }
