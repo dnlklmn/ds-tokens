@@ -657,6 +657,12 @@
       "highlight": {
         "value": "$substrate-green.100-t",
         "type": "color"
+      },
+      "border": {
+        "hint": {
+          "value": "$grey.100",
+          "type": "color"
+        }
       }
     },
     "button": {
