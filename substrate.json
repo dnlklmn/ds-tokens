@@ -239,7 +239,7 @@
       }
     }
   },
-  "spaces": {
+  "space": {
     "button": {
       "default": {
         "value": "$borderradius.xs",
