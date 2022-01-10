@@ -610,21 +610,25 @@
       }
     },
     "textfield": {
-      "bgPrimary": {
-        "value": "$substrate-green.100-t",
-        "type": "color"
+      "bg": {
+        "primary": {
+          "value": "$substrate-green.100-t",
+          "type": "color"
+        },
+        "error": {
+          "value": "$error-light",
+          "type": "color"
+        }
       },
-      "bgError": {
-        "value": "$error-light",
-        "type": "color"
-      },
-      "borderError": {
-        "value": "$error",
-        "type": "color"
-      },
-      "borderPrimary": {
-        "value": "$substrate-green.500-base",
-        "type": "color"
+      "border": {
+        "error": {
+          "value": "$error",
+          "type": "color"
+        },
+        "primary": {
+          "value": "$substrate-green.500-base",
+          "type": "color"
+        }
       }
     },
     "dropdown": {
@@ -778,21 +782,25 @@
       }
     },
     "textfield": {
-      "bg-primary": {
-        "value": "$substrate-green.700-s",
-        "type": "color"
+      "bg": {
+        "primary": {
+          "value": "$substrate-green.700-s",
+          "type": "color"
+        },
+        "error": {
+          "value": "$error-dark",
+          "type": "color"
+        }
       },
-      "bg-error": {
-        "value": "$error-dark",
-        "type": "color"
-      },
-      "border-error": {
-        "value": "$error",
-        "type": "color"
-      },
-      "border-primary": {
-        "value": "$substrate-green.500-base",
-        "type": "color"
+      "border": {
+        "error": {
+          "value": "$error",
+          "type": "color"
+        },
+        "primary": {
+          "value": "$substrate-green.500-base",
+          "type": "color"
+        }
       }
     },
     "dropdown": {
