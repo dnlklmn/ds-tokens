@@ -660,7 +660,7 @@
       },
       "border": {
         "hint": {
-          "value": "$grey.100",
+          "value": "$grey.200",
           "type": "color"
         }
       }
@@ -825,6 +825,12 @@
       "highlight": {
         "value": "$substrate-green.600-s",
         "type": "color"
+      },
+      "border": {
+        "hint": {
+          "value": "$black",
+          "type": "color"
+        }
       }
     },
     "button": {
