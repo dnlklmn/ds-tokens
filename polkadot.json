@@ -237,7 +237,7 @@
       }
     }
   },
-  "substrate": {
+  "spacing": {
     "padding": {
       "button": {
         "big-left-right": {
