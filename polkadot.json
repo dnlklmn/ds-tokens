@@ -237,7 +237,7 @@
       }
     }
   },
-  "substrate spaces": {
+  "substrate": {
     "padding": {
       "button": {
         "big-left-right": {
@@ -362,7 +362,7 @@
       }
     }
   },
-  "substrate typography": {
+  "typography": {
     "H1": {
       "value": {
         "fontFamily": "$fontFamilies.karla",
@@ -572,7 +572,7 @@
       "type": "typography"
     }
   },
-  "substrate light": {
+  "light": {
     "text": {
       "default": {
         "value": "$grey.900",
@@ -732,7 +732,7 @@
       }
     }
   },
-  "substrate dark": {
+  "dark": {
     "text": {
       "default": {
         "value": "$grey.50",
