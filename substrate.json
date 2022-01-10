@@ -652,11 +652,11 @@
     },
     "bg": {
       "default": {
-        "value": "$white",
+        "value": "$grey.50",
         "type": "color"
       },
       "grey": {
-        "value": "$grey.100",
+        "value": "$white",
         "type": "color"
       }
     },
@@ -838,11 +838,11 @@
     },
     "bg": {
       "default": {
-        "value": "$grey.800",
+        "value": "#181922",
         "type": "color"
       },
       "grey": {
-        "value": "$grey.900",
+        "value": "#232431",
         "type": "color"
       }
     },
