@@ -262,7 +262,7 @@
         },
         "small": {
           "leftRight": {
-            "value": "$padding.m",
+            "value": "$padding.s",
             "type": "spacing"
           },
           "topBottom": {
@@ -420,6 +420,14 @@
         },
         "big": {
           "value": "$gap.xl",
+          "type": "spacing"
+        }
+      }
+    },
+    "tag": {
+      "padding": {
+        "all": {
+          "value": "$padding.s",
           "type": "spacing"
         }
       }
@@ -827,6 +835,26 @@
           "type": "color"
         }
       }
+    },
+    "tag": {
+      "base": {
+        "default": {
+          "value": "$white",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "$grey.900",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "$grey.300",
+          "type": "color"
+        }
+      }
     }
   },
   "dark": {
@@ -1018,6 +1046,26 @@
         },
         "quiet": {
           "value": "$grey.200",
+          "type": "color"
+        }
+      }
+    },
+    "tag": {
+      "base": {
+        "default": {
+          "value": "$substrate-blue.950-s",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "$grey.100",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "$grey.800",
           "type": "color"
         }
       }
