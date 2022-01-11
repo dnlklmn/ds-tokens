@@ -108,6 +108,10 @@
       "900-s": {
         "value": "#212738",
         "type": "color"
+      },
+      "950-s": {
+        "value": "#181922",
+        "type": "color"
       }
     },
     "polkadot-pink": {
@@ -842,11 +846,11 @@
     },
     "bg": {
       "default": {
-        "value": "#181922",
+        "value": "$substrate-blue.950-s",
         "type": "color"
       },
       "grey": {
-        "value": "#242531",
+        "value": "$substrate-blue.900-s",
         "type": "color"
       }
     },
