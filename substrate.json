@@ -991,7 +991,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.200",
+          "value": "$grey.300",
           "type": "color"
         }
       },
@@ -1045,7 +1045,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.200",
+          "value": "$grey.300",
           "type": "color"
         }
       }
