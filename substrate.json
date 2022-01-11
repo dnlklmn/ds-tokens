@@ -797,6 +797,10 @@
         "quiet": {
           "value": "$white",
           "type": "color"
+        },
+        "disabled": {
+          "value": "$grey.500",
+          "type": "color"
         }
       },
       "idle": {
@@ -1010,6 +1014,10 @@
         },
         "quiet": {
           "value": "$grey.900",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "$grey.200",
           "type": "color"
         }
       },
