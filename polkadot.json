@@ -250,7 +250,7 @@
   "space": {
     "button": {
       "default": {
-        "value": "$borderradius.xs",
+        "value": "100",
         "type": "borderRadius"
       },
       "padding": {
