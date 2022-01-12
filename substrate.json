@@ -542,11 +542,11 @@
       "value": {
         "fontFamily": "$fontFamilies.karla",
         "fontWeight": "$fontWeights.karla-1",
-        "lineHeight": "$lineHeights.0",
+        "lineHeight": "$lineHeights.3",
         "fontSize": "$fontSize.1",
         "letterSpacing": "$letterSpacing.2",
         "paragraphSpacing": "$paragraphSpacing.0",
-        "textCase": "$textCase.capitalize",
+        "textCase": "$textCase.none",
         "textDecoration": "$textDecoration.none"
       },
       "type": "typography"
@@ -559,7 +559,7 @@
         "fontSize": "$fontSize.4",
         "letterSpacing": "$letterSpacing.2",
         "paragraphSpacing": "$paragraphSpacing.0",
-        "textCase": "$textCase.capitalize",
+        "textCase": "$textCase.none",
         "textDecoration": "$textDecoration.none"
       },
       "type": "typography"
@@ -637,7 +637,7 @@
         "fontSize": "$fontSize.3",
         "letterSpacing": "$letterSpacing.2",
         "paragraphSpacing": "$paragraphSpacing.0",
-        "textCase": "$textCase.capitalize",
+        "textCase": "$textCase.none",
         "textDecoration": "$textDecoration.none"
       },
       "type": "typography"
