@@ -112,6 +112,10 @@
       "950-s": {
         "value": "#181922",
         "type": "color"
+      },
+      "800-s": {
+        "value": "#313a4f",
+        "type": "color"
       }
     },
     "polkadot-pink": {
@@ -953,7 +957,7 @@
       },
       "base": {
         "default": {
-          "value": "#181922",
+          "value": "$substrate-blue.800-s",
           "type": "color"
         },
         "highlight": {
@@ -977,6 +981,17 @@
           "value": "$grey.900",
           "type": "color"
         }
+      },
+      "hover": {
+        "value": {
+          "x": "0",
+          "y": "$padding.s",
+          "blur": "$padding.s",
+          "spread": "0",
+          "color": "#00000008",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
       }
     },
     "button": {
