@@ -748,6 +748,17 @@
           "value": "$grey.200",
           "type": "color"
         }
+      },
+      "hover": {
+        "value": {
+          "x": "0",
+          "y": "$padding.s",
+          "blur": "$padding.s",
+          "spread": "0",
+          "color": "#0000008",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
       }
     },
     "button": {
@@ -946,7 +957,7 @@
           "type": "color"
         },
         "highlight": {
-          "value": "$substrate-green.600-s",
+          "value": "$substrate-green.800-s",
           "type": "color"
         }
       },
@@ -1076,6 +1087,12 @@
           "value": "$grey.800",
           "type": "color"
         }
+      }
+    },
+    "substrate-green": {
+      "800-s": {
+        "value": "#004e2d",
+        "type": "color"
       }
     }
   }
