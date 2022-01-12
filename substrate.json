@@ -102,7 +102,7 @@
         "type": "color"
       },
       "700-s": {
-        "value": "#303b60",
+        "value": "#46526d",
         "type": "color"
       },
       "900-s": {
@@ -407,7 +407,7 @@
     "form": {
       "gap": {
         "default": {
-          "value": "$gap.xl",
+          "value": "$gap.l",
           "type": "spacing"
         },
         "small": {
@@ -749,7 +749,7 @@
       },
       "border": {
         "hint": {
-          "value": "$grey.200",
+          "value": "$grey.300",
           "type": "color"
         }
       },
@@ -957,7 +957,7 @@
       },
       "base": {
         "default": {
-          "value": "$substrate-blue.800-s",
+          "value": "$substrate-blue.900-s",
           "type": "color"
         },
         "highlight": {
@@ -978,7 +978,7 @@
       },
       "border": {
         "hint": {
-          "value": "$grey.900",
+          "value": "$substrate-blue.700-s",
           "type": "color"
         }
       },
