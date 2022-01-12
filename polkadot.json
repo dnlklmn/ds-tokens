@@ -658,7 +658,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "$substrate-green.500-base",
+        "value": "$polkadot-pink.500-base",
         "type": "color"
       },
       "link": {
@@ -687,7 +687,7 @@
     "textfield": {
       "bg": {
         "primary": {
-          "value": "$substrate-green.100-t",
+          "value": "$polkadot-pink.100-t",
           "type": "color"
         },
         "error": {
@@ -701,7 +701,7 @@
           "type": "color"
         },
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$polkadot-pink.500-base",
           "type": "color"
         },
         "default": {
@@ -743,7 +743,7 @@
           "type": "color"
         },
         "highlight": {
-          "value": "$substrate-green.100-t",
+          "value": "$polkadot-pink.100-t",
           "type": "color"
         }
       },
@@ -768,19 +768,19 @@
     "button": {
       "base": {
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$polkadot-pink.500-base",
           "type": "color"
         },
         "hover": {
-          "value": "$substrate-green.490-t",
+          "value": "$polkadot-pink.490-t",
           "type": "color"
         },
         "down": {
-          "value": "$substrate-green.510-s",
+          "value": "$polkadot-pink.510-s",
           "type": "color"
         },
         "light": {
-          "value": "$substrate-green.100-t",
+          "value": "$polkadot-pink.100-t",
           "type": "color"
         },
         "secondary": {
@@ -798,7 +798,7 @@
       },
       "text": {
         "primary-inverts": {
-          "value": "$substrate-green.500-base",
+          "value": "$polkadot-pink.500-base",
           "type": "color"
         },
         "white": {
@@ -806,7 +806,7 @@
           "type": "color"
         },
         "primary-stable": {
-          "value": "$substrate-green.500-base",
+          "value": "$polkadot-pink.500-base",
           "type": "color"
         },
         "quiet": {
@@ -842,11 +842,11 @@
       },
       "border": {
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$polkadot-pink.500-base",
           "type": "color"
         },
         "disabled": {
-          "value": "$substrate-green.300-t",
+          "value": "$polkadot-pink.300-t",
           "type": "color"
         },
         "quiet": {
@@ -887,7 +887,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "$substrate-green.500-base",
+        "value": "$polkadot-pink.500-base",
         "type": "color"
       },
       "link": {
@@ -916,7 +916,7 @@
     "textfield": {
       "bg": {
         "primary": {
-          "value": "$substrate-green.700-s",
+          "value": "$polkadot-pink.700-s",
           "type": "color"
         },
         "error": {
@@ -930,7 +930,7 @@
           "type": "color"
         },
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$polkadot-pink.500-base",
           "type": "color"
         },
         "default": {
@@ -961,7 +961,7 @@
           "type": "color"
         },
         "highlight": {
-          "value": "$substrate-green.800-s",
+          "value": "$polkadot-pink.800-s",
           "type": "color"
         }
       },
@@ -997,19 +997,19 @@
     "button": {
       "base": {
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$polkadot-pink.500-base",
           "type": "color"
         },
         "hover": {
-          "value": "$substrate-green.490-t",
+          "value": "$polkadot-pink.490-t",
           "type": "color"
         },
         "down": {
-          "value": "$substrate-green.510-s",
+          "value": "$polkadot-pink.510-s",
           "type": "color"
         },
         "light": {
-          "value": "$substrate-green.100-t",
+          "value": "$polkadot-pink.100-t",
           "type": "color"
         },
         "secondary": {
@@ -1035,7 +1035,7 @@
           "type": "color"
         },
         "primary-stable": {
-          "value": "$substrate-green.500-base",
+          "value": "$polkadot-pink.500-base",
           "type": "color"
         },
         "quiet": {
@@ -1071,11 +1071,11 @@
       },
       "border": {
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$polkadot-pink.500-base",
           "type": "color"
         },
         "disabled": {
-          "value": "$substrate-green.700-s",
+          "value": "$polkadot-pink.700-s",
           "type": "color"
         },
         "quiet": {
