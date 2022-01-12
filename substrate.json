@@ -555,7 +555,7 @@
       "value": {
         "fontFamily": "$fontFamilies.karla",
         "fontWeight": "$fontWeights.karla-1",
-        "lineHeight": "$lineHeights.0",
+        "lineHeight": "$lineHeights.4",
         "fontSize": "$fontSize.4",
         "letterSpacing": "$letterSpacing.2",
         "paragraphSpacing": "$paragraphSpacing.0",
