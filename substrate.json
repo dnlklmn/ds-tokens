@@ -438,6 +438,10 @@
     }
   },
   "typography": {
+    "0": {
+      "value": "0",
+      "type": "letterSpacing"
+    },
     "H1": {
       "value": {
         "fontFamily": "$fontFamilies.karla",
@@ -645,6 +649,20 @@
         "textDecoration": "$textDecoration.none"
       },
       "type": "typography"
+    },
+    "fontSize": {
+      "10": {
+        "value": "103",
+        "type": "fontSizes"
+      }
+    },
+    "karla": {
+      "value": "karla",
+      "type": "fontFamilies"
+    },
+    "regular": {
+      "value": "regular",
+      "type": "fontWeights"
     }
   },
   "light": {
