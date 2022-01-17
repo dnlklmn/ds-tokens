@@ -406,7 +406,7 @@
       "label": {
         "gap": {
           "vertical": {
-            "value": "$gap.s",
+            "value": "$gap.m",
             "type": "spacing"
           }
         }
@@ -445,7 +445,7 @@
     "form": {
       "gap": {
         "default": {
-          "value": "$gap.l",
+          "value": "$gap.xl",
           "type": "spacing"
         },
         "small": {
@@ -476,6 +476,14 @@
       "padding": {
         "all": {
           "value": "$padding.s",
+          "type": "spacing"
+        }
+      }
+    },
+    "header": {
+      "padding": {
+        "left-right": {
+          "value": "{padding.s}",
           "type": "spacing"
         }
       }
@@ -569,7 +577,7 @@
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "{fontSize.0}",
+        "fontSize": "{fontSize.1}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -582,7 +590,7 @@
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "{fontSize.3}",
+        "fontSize": "{fontSize.2}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -632,7 +640,7 @@
     "Overline": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Medium",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.0}",
         "letterSpacing": "3%",
@@ -684,7 +692,7 @@
     "ButtonDefault": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Semi Bold",
         "lineHeight": "32",
         "fontSize": "{fontSize.2}",
         "letterSpacing": "3%",
@@ -741,6 +749,19 @@
         "value": "Inter",
         "type": "fontFamilies"
       }
+    },
+    "Code": {
+      "value": {
+        "fontFamily": "Roboto Mono",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "18",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
     }
   },
   "light": {
@@ -979,7 +1000,7 @@
         "type": "color"
       },
       "dimmed": {
-        "value": "$grey.700",
+        "value": "$grey.500",
         "type": "color"
       },
       "primary": {
@@ -991,7 +1012,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "$parity-blue.300-t",
+        "value": "{parity-blue.300-t}50",
         "type": "color"
       },
       "error": {
@@ -1030,7 +1051,7 @@
           "type": "color"
         },
         "default": {
-          "value": "$parity-blue.800-s",
+          "value": "{parity-blue.300-t}50",
           "type": "color"
         },
         "bright": {
@@ -1074,7 +1095,7 @@
       },
       "border": {
         "hint": {
-          "value": "$substrate-blue.700-s",
+          "value": "{substrate-blue.700-s}00",
           "type": "color"
         }
       },
@@ -1114,6 +1135,10 @@
         },
         "quiet": {
           "value": "$grey.300",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{substrate-blue.800-s}",
           "type": "color"
         }
       },
@@ -1199,6 +1224,12 @@
     "substrate-green": {
       "800-s": {
         "value": "#004e2d",
+        "type": "color"
+      }
+    },
+    "codeBlock": {
+      "background": {
+        "value": "{parity-blue.700-s}80",
         "type": "color"
       }
     }
