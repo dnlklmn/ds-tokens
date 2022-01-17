@@ -245,12 +245,50 @@
         "value": "64",
         "type": "spacing"
       }
+    },
+    "parity-blue": {
+      "900-s": {
+        "value": "#041a2f",
+        "type": "color"
+      },
+      "800-s": {
+        "value": "#09355d",
+        "type": "color"
+      },
+      "700-s": {
+        "value": "#0d4f8c",
+        "type": "color"
+      },
+      "600-s": {
+        "value": "#1269ba",
+        "type": "color"
+      },
+      "100-t": {
+        "value": "#e8f3fd",
+        "type": "color"
+      },
+      "200-t": {
+        "value": "#d0e6fb",
+        "type": "color"
+      },
+      "300-t": {
+        "value": "#a2cef6",
+        "type": "color"
+      },
+      "400-t": {
+        "value": "#73b5f2",
+        "type": "color"
+      },
+      "500-base": {
+        "value": "#3996ec",
+        "type": "color"
+      }
     }
   },
   "space": {
     "button": {
       "default": {
-        "value": "$borderradius.xs",
+        "value": "$borderradius.s",
         "type": "borderRadius"
       },
       "padding": {
@@ -905,11 +943,11 @@
     },
     "bg": {
       "default": {
-        "value": "$substrate-blue.950-s",
+        "value": "$black",
         "type": "color"
       },
       "grey": {
-        "value": "$substrate-blue.900-s",
+        "value": "$grey.900",
         "type": "color"
       }
     },
@@ -957,11 +995,11 @@
       },
       "base": {
         "default": {
-          "value": "$substrate-blue.900-s",
+          "value": "$grey.900",
           "type": "color"
         },
         "highlight": {
-          "value": "$substrate-green.800-s",
+          "value": "$parity-blue.800-s",
           "type": "color"
         }
       },
@@ -997,19 +1035,15 @@
     "button": {
       "base": {
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$parity-blue.500-base",
           "type": "color"
         },
         "hover": {
-          "value": "$substrate-green.490-t",
-          "type": "color"
-        },
-        "down": {
-          "value": "$substrate-green.510-s",
+          "value": "$parity-blue.400-t",
           "type": "color"
         },
         "light": {
-          "value": "$substrate-green.100-t",
+          "value": "$parity-blue.800-s",
           "type": "color"
         },
         "secondary": {
@@ -1035,7 +1069,7 @@
           "type": "color"
         },
         "primary-stable": {
-          "value": "$substrate-green.500-base",
+          "value": "$parity-blue.500-base",
           "type": "color"
         },
         "quiet": {
@@ -1071,11 +1105,11 @@
       },
       "border": {
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$parity-blue.500-base",
           "type": "color"
         },
         "disabled": {
-          "value": "$substrate-green.700-s",
+          "value": "$parity-blue.700-s",
           "type": "color"
         },
         "quiet": {
