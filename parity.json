@@ -562,14 +562,14 @@
     },
     "Body2": {
       "value": {
-        "fontFamily": "$fontFamilies.inter",
-        "fontWeight": "$fontWeights.inter-2",
-        "lineHeight": "$lineHeights.2",
-        "fontSize": "$fontSize.2",
-        "letterSpacing": "$letterSpacing.1",
-        "paragraphSpacing": "$paragraphSpacing.0",
-        "textCase": "$textCase.none",
-        "textDecoration": "$textDecoration.none"
+        "fontFamily": "inter",
+        "fontWeight": "regular",
+        "lineHeight": "20",
+        "fontSize": "14",
+        "letterSpacing": "3%",
+        "paragraphSpacing": "0",
+        "textCase": "none",
+        "textDecoration": "none"
       },
       "type": "typography"
     },
