@@ -440,8 +440,8 @@
   "typography": {
     "H1": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-0",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-1",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.10",
         "letterSpacing": "$letterSpacing.1",
@@ -453,8 +453,8 @@
     },
     "H2": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-0",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-1",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.9",
         "letterSpacing": "$letterSpacing.1",
@@ -466,8 +466,8 @@
     },
     "H3": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-1",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.8",
         "letterSpacing": "$letterSpacing.1",
@@ -479,8 +479,8 @@
     },
     "H5": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-0",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.6",
         "letterSpacing": "$letterSpacing.1",
@@ -492,8 +492,8 @@
     },
     "H6": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-1",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.5",
         "letterSpacing": "$letterSpacing.1",
@@ -505,8 +505,8 @@
     },
     "S1": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-2",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.1",
         "fontSize": "$fontSize.4",
         "letterSpacing": "$letterSpacing.1",
@@ -518,8 +518,8 @@
     },
     "Body2": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-2",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.2",
         "fontSize": "$fontSize.2",
         "letterSpacing": "$letterSpacing.1",
@@ -531,8 +531,8 @@
     },
     "Body1": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-2",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.3",
         "letterSpacing": "$letterSpacing.1",
@@ -544,8 +544,8 @@
     },
     "ButtonSmall": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-1",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.3",
         "fontSize": "$fontSize.1",
         "letterSpacing": "$letterSpacing.2",
@@ -557,8 +557,8 @@
     },
     "ButtonBig": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-1",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.4",
         "fontSize": "$fontSize.4",
         "letterSpacing": "$letterSpacing.2",
@@ -570,8 +570,8 @@
     },
     "Caption": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-2",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.2",
         "letterSpacing": "$letterSpacing.1",
@@ -583,8 +583,8 @@
     },
     "Overline": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-0",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.1",
         "letterSpacing": "$letterSpacing.1",
@@ -596,8 +596,8 @@
     },
     "H4": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-0",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.7",
         "letterSpacing": "$letterSpacing.1",
@@ -609,8 +609,8 @@
     },
     "S2": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-0",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.3",
         "letterSpacing": "$letterSpacing.1",
@@ -622,8 +622,8 @@
     },
     "Label": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-0",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
         "fontSize": "$fontSize.0",
         "letterSpacing": "$letterSpacing.0",
@@ -635,8 +635,8 @@
     },
     "ButtonDefault": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-1",
+        "fontFamily": "$fontFamilies.inter",
+        "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.1",
         "fontSize": "$fontSize.3",
         "letterSpacing": "$letterSpacing.2",
