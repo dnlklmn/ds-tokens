@@ -452,6 +452,12 @@
           "value": "$gap.s",
           "type": "spacing"
         }
+      },
+      "padding": {
+        "default": {
+          "value": "$padding.m",
+          "type": "spacing"
+        }
       }
     },
     "actions": {
@@ -481,7 +487,7 @@
         "fontFamily": "$fontFamilies.inter",
         "fontWeight": "$fontWeights.inter-1",
         "lineHeight": "$lineHeights.0",
-        "fontSize": "$fontSize.10",
+        "fontSize": "$fontSize.11",
         "letterSpacing": "$letterSpacing.1",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -494,7 +500,7 @@
         "fontFamily": "$fontFamilies.inter",
         "fontWeight": "$fontWeights.inter-1",
         "lineHeight": "$lineHeights.0",
-        "fontSize": "$fontSize.9",
+        "fontSize": "$fontSize.10",
         "letterSpacing": "$letterSpacing.1",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -507,7 +513,7 @@
         "fontFamily": "$fontFamilies.inter",
         "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.0",
-        "fontSize": "$fontSize.8",
+        "fontSize": "$fontSize.9",
         "letterSpacing": "$letterSpacing.1",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -520,7 +526,7 @@
         "fontFamily": "$fontFamilies.inter",
         "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
-        "fontSize": "$fontSize.6",
+        "fontSize": "$fontSize.7",
         "letterSpacing": "$letterSpacing.1",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -531,9 +537,9 @@
     "H6": {
       "value": {
         "fontFamily": "$fontFamilies.inter",
-        "fontWeight": "$fontWeights.inter-2",
+        "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
-        "fontSize": "$fontSize.5",
+        "fontSize": "$fontSize.6",
         "letterSpacing": "$letterSpacing.1",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -544,9 +550,9 @@
     "S1": {
       "value": {
         "fontFamily": "$fontFamilies.inter",
-        "fontWeight": "$fontWeights.inter-2",
+        "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.1",
-        "fontSize": "$fontSize.4",
+        "fontSize": "$fontSize.5",
         "letterSpacing": "$letterSpacing.1",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -585,7 +591,7 @@
         "fontFamily": "$fontFamilies.inter",
         "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.3",
-        "fontSize": "$fontSize.1",
+        "fontSize": "$fontSize.0",
         "letterSpacing": "$letterSpacing.2",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -598,7 +604,7 @@
         "fontFamily": "$fontFamilies.inter",
         "fontWeight": "$fontWeights.inter-2",
         "lineHeight": "$lineHeights.4",
-        "fontSize": "$fontSize.4",
+        "fontSize": "$fontSize.5",
         "letterSpacing": "$letterSpacing.2",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -624,7 +630,7 @@
         "fontFamily": "$fontFamilies.inter",
         "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
-        "fontSize": "$fontSize.1",
+        "fontSize": "$fontSize.0",
         "letterSpacing": "$letterSpacing.1",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.uppercase",
@@ -637,7 +643,7 @@
         "fontFamily": "$fontFamilies.inter",
         "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
-        "fontSize": "$fontSize.7",
+        "fontSize": "$fontSize.8",
         "letterSpacing": "$letterSpacing.1",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -663,7 +669,7 @@
         "fontFamily": "$fontFamilies.inter",
         "fontWeight": "$fontWeights.inter-0",
         "lineHeight": "$lineHeights.0",
-        "fontSize": "$fontSize.0",
+        "fontSize": "$fontSize.1",
         "letterSpacing": "$letterSpacing.0",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.uppercase",
@@ -674,9 +680,9 @@
     "ButtonDefault": {
       "value": {
         "fontFamily": "$fontFamilies.inter",
-        "fontWeight": "$fontWeights.inter-2",
+        "fontWeight": "$fontWeights.inter-3",
         "lineHeight": "$lineHeights.1",
-        "fontSize": "$fontSize.3",
+        "fontSize": "$fontSize.4",
         "letterSpacing": "$letterSpacing.2",
         "paragraphSpacing": "$paragraphSpacing.0",
         "textCase": "$textCase.none",
@@ -925,7 +931,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "$substrate-green.500-base",
+        "value": "$parity-blue.500-base",
         "type": "color"
       },
       "link": {
@@ -933,7 +939,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "$grey.700",
+        "value": "$parity-blue.300-t",
         "type": "color"
       },
       "error": {
@@ -972,7 +978,7 @@
           "type": "color"
         },
         "default": {
-          "value": "$grey.700",
+          "value": "$parity-blue.800-s",
           "type": "color"
         },
         "bright": {
