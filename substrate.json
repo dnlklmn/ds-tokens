@@ -759,7 +759,7 @@
           "y": "$padding.s",
           "blur": "$padding.s",
           "spread": "0",
-          "color": "#0000008",
+          "color": "#00000008",
           "type": "dropShadow"
         },
         "type": "boxShadow"
