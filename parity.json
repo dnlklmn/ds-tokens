@@ -1046,11 +1046,11 @@
     "textfield": {
       "bg": {
         "primary": {
-          "value": "$substrate-green.700-s",
+          "value": "{parity-blue.700-s}70",
           "type": "color"
         },
         "error": {
-          "value": "$error-dark",
+          "value": "{error-dark}70",
           "type": "color"
         }
       },
@@ -1060,7 +1060,7 @@
           "type": "color"
         },
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$parity-blue.500-base",
           "type": "color"
         },
         "default": {
