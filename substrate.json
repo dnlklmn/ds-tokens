@@ -435,6 +435,14 @@
           "type": "spacing"
         }
       }
+    },
+    "textField": {
+      "code": {
+        "default": {
+          "value": "{borderradius.s}",
+          "type": "borderRadius"
+        }
+      }
     }
   },
   "typography": {
@@ -539,6 +547,19 @@
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.3}",
+        "letterSpacing": "3%",
+        "paragraphSpacing": "0",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "Code1": {
+      "value": {
+        "fontFamily": "{fontFamily.secondary}",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "{fontSize.1}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -694,7 +715,7 @@
         "type": "fontFamilies"
       },
       "secondary": {
-        "value": "Inter",
+        "value": "Source Code Pro",
         "type": "fontFamilies"
       }
     }
@@ -744,6 +765,10 @@
         },
         "error": {
           "value": "$error-light",
+          "type": "color"
+        },
+        "code": {
+          "value": "{substrate-blue.900-s}",
           "type": "color"
         }
       },
