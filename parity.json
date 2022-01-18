@@ -750,12 +750,25 @@
         "type": "fontFamilies"
       }
     },
-    "Code": {
+    "Crypto1": {
       "value": {
         "fontFamily": "Roboto Mono",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "18",
+        "fontSize": "{fontSize.2}",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography"
+    },
+    "Crypto2": {
+      "value": {
+        "fontFamily": "Roboto Mono",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "{fontSize.0}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textDecoration": "none",
