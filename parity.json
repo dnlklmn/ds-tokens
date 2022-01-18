@@ -406,7 +406,7 @@
       "label": {
         "gap": {
           "vertical": {
-            "value": "$gap.m",
+            "value": "$gap.s",
             "type": "spacing"
           }
         }
@@ -577,7 +577,7 @@
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "{fontSize.1}",
+        "fontSize": "{fontSize.2}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -629,7 +629,7 @@
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "{fontSize.1}",
+        "fontSize": "{fontSize.0}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -704,7 +704,7 @@
     },
     "fontSize": {
       "0": {
-        "value": "12",
+        "value": "13",
         "type": "fontSizes"
       },
       "1": {
@@ -712,11 +712,11 @@
         "type": "fontSizes"
       },
       "2": {
-        "value": "16",
+        "value": "15",
         "type": "fontSizes"
       },
       "3": {
-        "value": "18",
+        "value": "19",
         "type": "fontSizes"
       },
       "4": {
