@@ -140,7 +140,7 @@
         "type": "spacing"
       }
     },
-    "parity-blue": {
+    "primary": {
       "900-s": {
         "value": "#041a2f",
         "type": "color"
@@ -911,7 +911,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "$parity-blue.500-base",
+        "value": "{primary.500-base}",
         "type": "color"
       },
       "link": {
@@ -919,7 +919,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{parity-blue.300-t}50",
+        "value": "{primary.300-t}50",
         "type": "color"
       },
       "error": {
@@ -940,7 +940,7 @@
     "textfield": {
       "bg": {
         "primary": {
-          "value": "{parity-blue.700-s}70",
+          "value": "{primary.700-s}70",
           "type": "color"
         },
         "error": {
@@ -954,11 +954,11 @@
           "type": "color"
         },
         "primary": {
-          "value": "$parity-blue.500-base",
+          "value": "{primary.500-base}",
           "type": "color"
         },
         "default": {
-          "value": "{parity-blue.300-t}50",
+          "value": "{primary.300-t}50",
           "type": "color"
         },
         "bright": {
@@ -985,7 +985,7 @@
           "type": "color"
         },
         "highlight": {
-          "value": "$parity-blue.800-s",
+          "value": "{primary.800-s}",
           "type": "color"
         }
       },
@@ -1021,15 +1021,15 @@
     "button": {
       "base": {
         "primary": {
-          "value": "$parity-blue.500-base",
+          "value": "{primary.500-base}",
           "type": "color"
         },
         "hover": {
-          "value": "$parity-blue.400-t",
+          "value": "{primary.400-t}",
           "type": "color"
         },
         "light": {
-          "value": "$parity-blue.800-s",
+          "value": "{primary.800-s}",
           "type": "color"
         },
         "secondary": {
@@ -1059,7 +1059,7 @@
           "type": "color"
         },
         "primary-stable": {
-          "value": "$parity-blue.500-base",
+          "value": "{primary.500-base}",
           "type": "color"
         },
         "quiet": {
@@ -1095,11 +1095,11 @@
       },
       "border": {
         "primary": {
-          "value": "$parity-blue.500-base",
+          "value": "{primary.500-base}",
           "type": "color"
         },
         "disabled": {
-          "value": "$parity-blue.700-s",
+          "value": "{primary.700-s}",
           "type": "color"
         },
         "quiet": {
@@ -1136,7 +1136,7 @@
     },
     "codeBlock": {
       "background": {
-        "value": "{parity-blue.700-s}80",
+        "value": "{primary.700-s}80",
         "type": "color"
       }
     }
