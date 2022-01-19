@@ -310,7 +310,7 @@
       "padding": {
         "default": {
           "all": {
-            "value": "$padding.xl",
+            "value": "$padding.m",
             "type": "spacing"
           }
         }
@@ -369,7 +369,7 @@
     "form": {
       "gap": {
         "default": {
-          "value": "$gap.xl",
+          "value": "$gap.m",
           "type": "spacing"
         },
         "small": {
@@ -590,7 +590,7 @@
     "S2": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Medium",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.2}",
         "letterSpacing": "0%",
@@ -636,7 +636,7 @@
         "type": "fontSizes"
       },
       "2": {
-        "value": "15",
+        "value": "16",
         "type": "fontSizes"
       },
       "3": {
@@ -674,7 +674,7 @@
         "type": "fontFamilies"
       }
     },
-    "Crypto1": {
+    "Code1": {
       "value": {
         "fontFamily": "Roboto Mono",
         "fontWeight": "Regular",
@@ -687,7 +687,7 @@
       },
       "type": "typography"
     },
-    "Crypto2": {
+    "Code2": {
       "value": {
         "fontFamily": "Roboto Mono",
         "fontWeight": "Regular",
@@ -949,7 +949,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{primary.300-t}50",
+        "value": "{primary.300-t}70",
         "type": "color"
       },
       "error": {
