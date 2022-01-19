@@ -1161,7 +1161,7 @@
           "y": "4",
           "blur": "4",
           "spread": "0",
-          "color": "#00000045",
+          "color": "#00000010",
           "type": "dropShadow"
         },
         "type": "boxShadow"
