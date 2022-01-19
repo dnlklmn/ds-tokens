@@ -198,6 +198,22 @@
       "900-s": {
         "value": "#112022",
         "type": "color"
+      },
+      "400-t": {
+        "value": "#89BCC3",
+        "type": "color"
+      },
+      "300-t": {
+        "value": "#AACFD4",
+        "type": "color"
+      },
+      "200-t": {
+        "value": "#DDECEE",
+        "type": "color"
+      },
+      "100-t": {
+        "value": "#EEF5F6",
+        "type": "color"
       }
     },
     "on": {
@@ -753,7 +769,7 @@
           "type": "color"
         },
         "sensitive": {
-          "value": "{secondary.600-s}50",
+          "value": "{secondary.200-t}",
           "type": "color"
         }
       },
