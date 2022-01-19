@@ -754,7 +754,7 @@
         "type": "color"
       },
       "grey": {
-        "value": "$grey.900",
+        "value": "{white}",
         "type": "color"
       }
     },
@@ -942,7 +942,7 @@
       },
       "text": {
         "default": {
-          "value": "$grey.100",
+          "value": "$grey.950",
           "type": "color"
         }
       },
@@ -1009,7 +1009,7 @@
     },
     "bg": {
       "default": {
-        "value": "$black",
+        "value": "{grey.950}",
         "type": "color"
       },
       "grey": {
@@ -1086,7 +1086,7 @@
       },
       "border": {
         "hint": {
-          "value": "{primary.700-s}00",
+          "value": "{grey.800}",
           "type": "color"
         }
       },
@@ -1195,13 +1195,13 @@
     "tag": {
       "base": {
         "default": {
-          "value": "$primary.950-s",
+          "value": "{black}",
           "type": "color"
         }
       },
       "text": {
         "default": {
-          "value": "$grey.100",
+          "value": "$grey.950",
           "type": "color"
         }
       },
@@ -1221,6 +1221,16 @@
     "codeBlock": {
       "background": {
         "value": "{primary.700-s}80",
+        "type": "color"
+      }
+    },
+    "tab": {
+      "bg": {
+        "value": "{black}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{grey.900}",
         "type": "color"
       }
     }
