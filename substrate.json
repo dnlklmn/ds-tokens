@@ -411,7 +411,7 @@
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.s",
+          "value": "$gap.m",
           "type": "spacing"
         }
       }
@@ -997,7 +997,7 @@
     "textfield": {
       "bg": {
         "primary": {
-          "value": "$substrate-green.700-s",
+          "value": "$substrate-green.900-s",
           "type": "color"
         },
         "error": {
@@ -1011,7 +1011,7 @@
           "type": "color"
         },
         "primary": {
-          "value": "$substrate-green.500-base",
+          "value": "$substrate-green.700-s",
           "type": "color"
         },
         "default": {
@@ -1090,7 +1090,7 @@
           "type": "color"
         },
         "light": {
-          "value": "$substrate-green.100-t",
+          "value": "$substrate-green.900-s",
           "type": "color"
         },
         "secondary": {
