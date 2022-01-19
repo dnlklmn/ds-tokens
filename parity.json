@@ -678,7 +678,7 @@
       "value": {
         "fontFamily": "Roboto Mono",
         "fontWeight": "Regular",
-        "lineHeight": "AUTO",
+        "lineHeight": "140%",
         "fontSize": "{fontSize.2}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
@@ -955,6 +955,10 @@
       "error": {
         "value": "$error",
         "type": "color"
+      },
+      "secondary": {
+        "value": "{secondary.500-base}",
+        "type": "color"
       }
     },
     "bg": {
@@ -975,6 +979,10 @@
         },
         "error": {
           "value": "{error-dark}70",
+          "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.600-s}50",
           "type": "color"
         }
       },
