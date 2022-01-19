@@ -945,7 +945,7 @@
         "type": "color"
       },
       "link": {
-        "value": "$substrate-blue.500-base",
+        "value": "$primary.500-base",
         "type": "color"
       },
       "disabled": {
@@ -1032,7 +1032,7 @@
       },
       "border": {
         "hint": {
-          "value": "{substrate-blue.700-s}00",
+          "value": "{primary.700-s}00",
           "type": "color"
         }
       },
@@ -1075,7 +1075,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{substrate-blue.800-s}",
+          "value": "{primary.800-s}",
           "type": "color"
         }
       },
@@ -1141,7 +1141,7 @@
     "tag": {
       "base": {
         "default": {
-          "value": "$substrate-blue.950-s",
+          "value": "$primary.950-s",
           "type": "color"
         }
       },
