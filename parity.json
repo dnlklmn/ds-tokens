@@ -913,7 +913,7 @@
           "y": "8",
           "blur": "8",
           "spread": "0",
-          "color": "#00000038",
+          "color": "#00000022",
           "type": "dropShadow"
         },
         "type": "boxShadow"
