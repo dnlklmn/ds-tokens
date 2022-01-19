@@ -1106,7 +1106,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{substrate-green.200-t}",
+          "value": "{substrate-green.800-s}",
           "type": "color"
         }
       },
