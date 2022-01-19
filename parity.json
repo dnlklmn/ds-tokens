@@ -874,7 +874,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{primary.200-t}",
+          "value": "{primary.300-t}",
           "type": "color"
         }
       },
@@ -955,12 +955,6 @@
           "value": "$grey.800",
           "type": "color"
         }
-      }
-    },
-    "substrate-green": {
-      "800-s": {
-        "value": "#004e2d",
-        "type": "color"
       }
     },
     "codeBlock": {
