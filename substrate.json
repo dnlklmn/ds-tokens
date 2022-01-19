@@ -861,7 +861,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "$white",
+          "value": "{grey.50}",
           "type": "color"
         },
         "destructive": {
@@ -870,6 +870,10 @@
         },
         "quiet": {
           "value": "$grey.800",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{substrate-green.300-t}",
           "type": "color"
         }
       },
@@ -1099,6 +1103,10 @@
         },
         "quiet": {
           "value": "$grey.300",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{substrate-green.200-t}",
           "type": "color"
         }
       },
