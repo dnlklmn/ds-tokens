@@ -761,11 +761,11 @@
     "textfield": {
       "bg": {
         "primary": {
-          "value": "{primary.700-s}70",
+          "value": "{primary.200-t}",
           "type": "color"
         },
         "error": {
-          "value": "{error-dark}70",
+          "value": "{error}30",
           "type": "color"
         },
         "sensitive": {
@@ -806,11 +806,11 @@
       },
       "base": {
         "default": {
-          "value": "$grey.900",
+          "value": "$grey.100",
           "type": "color"
         },
         "highlight": {
-          "value": "{primary.800-s}",
+          "value": "{grey.200}",
           "type": "color"
         }
       },
@@ -827,7 +827,7 @@
       },
       "border": {
         "hint": {
-          "value": "{primary.700-s}00",
+          "value": "{grey.300}",
           "type": "color"
         }
       },
