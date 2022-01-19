@@ -744,7 +744,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "{secondary.500-base}",
+        "value": "{secondary.600-s}",
         "type": "color"
       }
     },
@@ -1003,7 +1003,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "{secondary.500-base}",
+        "value": "{secondary.400-t}",
         "type": "color"
       }
     },
