@@ -176,6 +176,10 @@
       "500-base": {
         "value": "#3996ec",
         "type": "color"
+      },
+      "450-t": {
+        "value": "#459CED",
+        "type": "color"
       }
     },
     "secondary": {
@@ -736,7 +740,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{primary.300-t}70",
+        "value": "{grey.700}70",
         "type": "color"
       },
       "error": {
@@ -995,7 +999,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{primary.300-t}70",
+        "value": "{grey.700}",
         "type": "color"
       },
       "error": {
@@ -1020,7 +1024,7 @@
     "textfield": {
       "bg": {
         "primary": {
-          "value": "{primary.700-s}70",
+          "value": "{primary.800-s}",
           "type": "color"
         },
         "error": {
@@ -1069,7 +1073,7 @@
           "type": "color"
         },
         "highlight": {
-          "value": "{primary.800-s}",
+          "value": "{primary.400-t}20",
           "type": "color"
         }
       },
@@ -1109,7 +1113,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.400-t}",
+          "value": "{primary.450-t}",
           "type": "color"
         },
         "light": {
@@ -1117,7 +1121,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "$grey.700",
+          "value": "{secondary.500-base}",
           "type": "color"
         },
         "destructive": {
@@ -1125,11 +1129,15 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.300",
+          "value": "$grey.100",
           "type": "color"
         },
         "disabled": {
-          "value": "{primary.800-s}",
+          "value": "{primary.700-s}",
+          "type": "color"
+        },
+        "destructiveDisabled": {
+          "value": "{error}70",
           "type": "color"
         }
       },
@@ -1148,10 +1156,6 @@
         },
         "quiet": {
           "value": "$grey.900",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "$grey.200",
           "type": "color"
         }
       },
@@ -1195,19 +1199,19 @@
     "tag": {
       "base": {
         "default": {
-          "value": "{black}",
+          "value": "{grey.900}",
           "type": "color"
         }
       },
       "text": {
         "default": {
-          "value": "$grey.950",
+          "value": "$grey.50",
           "type": "color"
         }
       },
       "border": {
         "default": {
-          "value": "$grey.800",
+          "value": "$grey.700",
           "type": "color"
         }
       }
