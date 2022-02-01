@@ -1,5 +1,5 @@
 {
-  "source": ["./tokens.json"],
+  "source": ["./substrate.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
@@ -8,6 +8,15 @@
         {
           "destination": "_variables.scss",
           "format": "scss/variables"
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "css",
+      "files": [
+        {
+          "format": "css/variables",
+          "destination": "variables.css"
         }
       ]
     },

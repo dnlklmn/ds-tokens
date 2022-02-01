@@ -401,7 +401,7 @@
     "textField": {
       "code": {
         "default": {
-          "value": "{borderradius.s}",
+          "value": "$borderradius.s",
           "type": "borderRadius"
         }
       }
@@ -414,7 +414,7 @@
     },
     "H1": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
+        "fontFamily": "$fontFamily.primary",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.8}",
@@ -427,7 +427,7 @@
     },
     "H2": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
+        "fontFamily": "$fontFamily.primary",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.7}",
