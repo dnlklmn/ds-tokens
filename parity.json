@@ -986,6 +986,44 @@
         "value": "{white}",
         "type": "color"
       }
+    },
+    "paging": {
+      "on": {
+        "value": "$secondary.500-base",
+        "type": "color"
+      },
+      "off": {
+        "value": "$secondary.200-t",
+        "type": "color"
+      }
+    },
+    "separator": {
+      "default": {
+        "value": "$grey.300",
+        "type": "color"
+      }
+    },
+    "card": {
+      "bg": {
+        "error": {
+          "value": "{error}20",
+          "type": "color"
+        },
+        "default": {
+          "value": "$grey.100",
+          "type": "color"
+        },
+        "light": {
+          "value": "$white",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "$grey.300",
+          "type": "color"
+        }
+      }
     }
   },
   "dark": {
