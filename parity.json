@@ -1106,10 +1106,6 @@
         "bright": {
           "value": "$grey.500",
           "type": "color"
-        },
-        "sensitive": {
-          "value": "$secondary.500-base",
-          "type": "color"
         }
       }
     },
@@ -1187,7 +1183,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.100",
+          "value": "$grey.900",
           "type": "color"
         },
         "disabled": {
@@ -1213,7 +1209,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.900",
+          "value": "$primary.500-base",
           "type": "color"
         }
       },
