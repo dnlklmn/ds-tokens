@@ -427,7 +427,7 @@
     "header": {
       "padding": {
         "left-right": {
-          "value": "{padding.m}",
+          "value": "{padding.s}",
           "type": "spacing"
         }
       }
@@ -1322,6 +1322,14 @@
       "border": {
         "default": {
           "value": "$grey.700",
+          "type": "color"
+        }
+      }
+    },
+    "icon": {
+      "highlight": {
+        "default": {
+          "value": "{primary.400-t}20",
           "type": "color"
         }
       }
