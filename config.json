@@ -1,5 +1,5 @@
 {
-  "source": ["./parity.json"],
+  "source": ["./substrate.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
