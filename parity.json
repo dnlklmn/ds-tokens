@@ -1032,6 +1032,24 @@
           "type": "color"
         }
       }
+    },
+    "keyboard": {
+      "background": {
+        "default": {
+          "value": "#CED2D9",
+          "type": "color"
+        }
+      },
+      "key": {
+        "default": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#AEB3BE",
+          "type": "color"
+        }
+      }
     }
   },
   "dark": {
@@ -1336,6 +1354,24 @@
       "highlight": {
         "default": {
           "value": "{primary.400-t}20",
+          "type": "color"
+        }
+      }
+    },
+    "keyboard": {
+      "background": {
+        "default": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "key": {
+        "default": {
+          "value": "#646464",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "#3F3F3F",
           "type": "color"
         }
       }
