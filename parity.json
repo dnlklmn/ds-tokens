@@ -1270,12 +1270,6 @@
         }
       }
     },
-    "substrate-green": {
-      "800-s": {
-        "value": "#004e2d",
-        "type": "color"
-      }
-    },
     "codeBlock": {
       "background": {
         "value": "{primary.700-s}80",
