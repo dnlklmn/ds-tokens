@@ -227,6 +227,44 @@
     "warning": {
       "value": "#FFD541",
       "type": "color"
+    },
+    "fontSize": {
+      "0": {
+        "value": "13",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "19",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "26",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "36",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "51",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "64",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "103",
+        "type": "fontSizes"
+      }
     }
   },
   "space": {
