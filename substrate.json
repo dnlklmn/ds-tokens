@@ -938,6 +938,12 @@
           "value": "#AEB3BE",
           "type": "color"
         }
+      },
+      "separator": {
+        "default": {
+          "value": "#aeb3be",
+          "type": "color"
+        }
       }
     }
   },
@@ -1197,6 +1203,12 @@
         },
         "dimmed": {
           "value": "#3F3F3F",
+          "type": "color"
+        }
+      },
+      "separator": {
+        "default": {
+          "value": "#3f3f3f",
           "type": "color"
         }
       }
