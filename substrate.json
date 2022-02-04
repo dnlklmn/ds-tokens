@@ -859,6 +859,10 @@
         "disabled": {
           "value": "$grey.500",
           "type": "color"
+        },
+        "destructive": {
+          "value": "$white",
+          "type": "color"
         }
       },
       "idle": {
@@ -1091,6 +1095,10 @@
         },
         "disabled": {
           "value": "$grey.200",
+          "type": "color"
+        },
+        "destructive": {
+          "value": "$white",
           "type": "color"
         }
       },
