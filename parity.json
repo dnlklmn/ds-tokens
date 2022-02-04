@@ -1179,7 +1179,7 @@
           "type": "color"
         },
         "destructive": {
-          "value": "$error",
+          "value": "$grey.900",
           "type": "color"
         },
         "quiet": {
@@ -1210,6 +1210,10 @@
         },
         "quiet": {
           "value": "$primary.500-base",
+          "type": "color"
+        },
+        "destructive": {
+          "value": "$error",
           "type": "color"
         }
       },
