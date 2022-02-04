@@ -1191,7 +1191,7 @@
           "type": "color"
         },
         "destructiveDisabled": {
-          "value": "{error}70",
+          "value": "$grey.900",
           "type": "color"
         }
       },
