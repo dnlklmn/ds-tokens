@@ -880,15 +880,15 @@
           "type": "color"
         },
         "secondary": {
-          "value": "$grey.700",
+          "value": "$secondary.500-base",
           "type": "color"
         },
         "destructive": {
-          "value": "$error",
+          "value": "$white",
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.300",
+          "value": "$white",
           "type": "color"
         },
         "disabled": {
@@ -915,6 +915,10 @@
         },
         "disabled": {
           "value": "{primary.500-base}70",
+          "type": "color"
+        },
+        "destructive": {
+          "value": "$error",
           "type": "color"
         }
       },
