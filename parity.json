@@ -1172,6 +1172,10 @@
         "bright": {
           "value": "{grey.500}",
           "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.500-base}",
+          "type": "color"
         }
       }
     },
