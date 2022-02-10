@@ -799,8 +799,12 @@
         "value": "{error}",
         "type": "color"
       },
-      "secondary": {
+      "sensitive": {
         "value": "{secondary.600-s}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{warning}",
         "type": "color"
       }
     },
@@ -917,7 +921,7 @@
           "value": "{primary.800-s}",
           "type": "color"
         },
-        "secondary": {
+        "sensitive": {
           "value": "{secondary.500-base}",
           "type": "color"
         },
@@ -929,8 +933,12 @@
           "value": "{white}",
           "type": "color"
         },
-        "disabled": {
+        "primaryDisabled": {
           "value": "{primary.300-t}",
+          "type": "color"
+        },
+        "sensitiveDisabled": {
+          "value": "{secondary.300-t}",
           "type": "color"
         }
       },
@@ -1122,7 +1130,7 @@
         "value": "{error}",
         "type": "color"
       },
-      "secondary": {
+      "sensitive": {
         "value": "{secondary.400-t}",
         "type": "color"
       },
@@ -1171,6 +1179,10 @@
         },
         "bright": {
           "value": "{grey.500}",
+          "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.500-base}",
           "type": "color"
         }
       }
@@ -1240,7 +1252,7 @@
           "value": "{primary.800-s}",
           "type": "color"
         },
-        "secondary": {
+        "sensitive": {
           "value": "{secondary.500-base}",
           "type": "color"
         },
@@ -1252,11 +1264,15 @@
           "value": "{grey.900}",
           "type": "color"
         },
-        "disabled": {
-          "value": "{primary.700-s}",
+        "primaryDisabled": {
+          "value": "{grey.900}",
           "type": "color"
         },
         "destructiveDisabled": {
+          "value": "{grey.900}",
+          "type": "color"
+        },
+        "secondaryDisabled": {
           "value": "{grey.900}",
           "type": "color"
         }
