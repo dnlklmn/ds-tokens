@@ -929,8 +929,12 @@
           "value": "{white}",
           "type": "color"
         },
-        "disabled": {
+        "primaryDisabled": {
           "value": "{primary.300-t}",
+          "type": "color"
+        },
+        "secondaryDisabled": {
+          "value": "{secondary.300-t}",
           "type": "color"
         }
       },
