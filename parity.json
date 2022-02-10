@@ -799,8 +799,12 @@
         "value": "{error}",
         "type": "color"
       },
-      "secondary": {
+      "sensitive": {
         "value": "{secondary.600-s}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{warning}",
         "type": "color"
       }
     },
@@ -917,7 +921,7 @@
           "value": "{primary.800-s}",
           "type": "color"
         },
-        "secondary": {
+        "sensitive": {
           "value": "{secondary.500-base}",
           "type": "color"
         },
