@@ -937,7 +937,7 @@
           "value": "{primary.300-t}",
           "type": "color"
         },
-        "secondaryDisabled": {
+        "sensitiveDisabled": {
           "value": "{secondary.300-t}",
           "type": "color"
         }
