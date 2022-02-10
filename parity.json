@@ -1256,11 +1256,15 @@
           "value": "{grey.900}",
           "type": "color"
         },
-        "disabled": {
+        "primaryDisabled": {
           "value": "{grey.900}",
           "type": "color"
         },
         "destructiveDisabled": {
+          "value": "{grey.900}",
+          "type": "color"
+        },
+        "secondaryDisabled": {
           "value": "{grey.900}",
           "type": "color"
         }
