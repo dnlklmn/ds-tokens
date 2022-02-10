@@ -1257,7 +1257,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{primary.700-s}",
+          "value": "{grey.900}",
           "type": "color"
         },
         "destructiveDisabled": {
