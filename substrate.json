@@ -495,7 +495,7 @@
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "{fontSize.0}",
+        "fontSize": "{fontSize.1}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
