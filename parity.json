@@ -708,7 +708,7 @@
         "type": "fontSizes"
       },
       "2": {
-        "value": "16",
+        "value": "1rem",
         "type": "fontSizes"
       },
       "3": {
