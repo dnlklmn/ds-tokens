@@ -635,14 +635,14 @@
     },
     "Label": {
       "value": {
-        "fontFamily": "$fontFamilies.karla",
-        "fontWeight": "$fontWeights.karla-0",
-        "lineHeight": "$lineHeights.0",
-        "fontSize": "$fontSize.0",
-        "letterSpacing": "$letterSpacing.0",
-        "paragraphSpacing": "$paragraphSpacing.0",
-        "textCase": "$textCase.uppercase",
-        "textDecoration": "$textDecoration.none"
+        "fontFamily": "{fontFamily.primary}",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
+        "fontSize": "{fontSize.0}",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textCase": "none",
+        "textDecoration": "none"
       },
       "type": "typography"
     },

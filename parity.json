@@ -700,14 +700,14 @@
     },
     "Label": {
       "value": {
-        "fontFamily": "{fontFamilies.karla}",
-        "fontWeight": "{fontWeights.karla-0}",
-        "lineHeight": "{lineHeights.0}",
+        "fontFamily": "{fontFamilies.primayt}",
+        "fontWeight": "Regular",
+        "lineHeight": "AUTO",
         "fontSize": "{fontSize.0}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "textCase": "{textCase.uppercase}",
-        "textDecoration": "{textDecoration.non}e"
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textCase": "none",
+        "textDecoration": "none"
       },
       "type": "typography"
     },
