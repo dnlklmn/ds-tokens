@@ -885,8 +885,8 @@
     "dropdown": {
       "pop": {
         "value": {
-          "x": "{s}",
-          "y": "{l}",
+          "x": "{offset.s}",
+          "y": "{offset.l}",
           "blur": "0",
           "spread": "0",
           "color": "#00000060",
@@ -907,8 +907,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "{padding.s}",
-          "blur": "{padding.l}",
+          "y": "{offset.s}",
+          "blur": "{offset.l}",
           "spread": "0",
           "color": "#00000050",
           "type": "dropShadow"
@@ -924,8 +924,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "{padding.s}",
-          "blur": "{padding.s}",
+          "y": "{offset.s}",
+          "blur": "{offset.s}",
           "spread": "0",
           "color": "#00000008",
           "type": "dropShadow"
@@ -997,8 +997,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "4",
-          "blur": "4",
+          "y": "{offset.xs}",
+          "blur": "{offset.xs}",
           "spread": "0",
           "color": "#00000015",
           "type": "dropShadow"
@@ -1008,8 +1008,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "8",
-          "blur": "8",
+          "y": "{offsest.s}",
+          "blur": "{offsest.s}",
           "spread": "0",
           "color": "#00000022",
           "type": "dropShadow"
@@ -1216,9 +1216,9 @@
     "dropdown": {
       "pop": {
         "value": {
-          "x": "{s}",
-          "y": "{l}",
-          "blur": "0",
+          "x": "0",
+          "y": "{offset.s}",
+          "blur": "{offset.l}",
           "spread": "0",
           "color": "#00000060",
           "type": "dropShadow"
@@ -1238,8 +1238,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "{padding.s}",
-          "blur": "{padding.l}",
+          "y": "{offset.s}",
+          "blur": "{offset.l}",
           "spread": "0",
           "color": "#00000050",
           "type": "dropShadow"
@@ -1255,8 +1255,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "{padding.s}",
-          "blur": "{padding.s}",
+          "y": "{offset.s}",
+          "blur": "{offset.s}",
           "spread": "0",
           "color": "#00000008",
           "type": "dropShadow"
@@ -1339,8 +1339,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "8",
-          "blur": "8",
+          "y": "{offset.s}",
+          "blur": "{offset.s}",
           "spread": "0",
           "color": "#00000038",
           "type": "dropShadow"
