@@ -230,39 +230,39 @@
     },
     "fontSize": {
       "0": {
-        "value": "13",
+        "value": "0.8125rem",
         "type": "fontSizes"
       },
       "1": {
-        "value": "14",
+        "value": "0.875rem",
         "type": "fontSizes"
       },
       "2": {
-        "value": "16",
+        "value": "1rem",
         "type": "fontSizes"
       },
       "3": {
-        "value": "19",
+        "value": "1.1875rem",
         "type": "fontSizes"
       },
       "4": {
-        "value": "26",
+        "value": "1.625rem",
         "type": "fontSizes"
       },
       "5": {
-        "value": "36",
+        "value": "2.25rem",
         "type": "fontSizes"
       },
       "6": {
-        "value": "51",
+        "value": "3.1875rem",
         "type": "fontSizes"
       },
       "7": {
-        "value": "64",
+        "value": "4rem",
         "type": "fontSizes"
       },
       "8": {
-        "value": "103",
+        "value": "6.4375rem",
         "type": "fontSizes"
       }
     }
