@@ -207,6 +207,32 @@
         "value": "64",
         "type": "spacing"
       }
+    },
+    "offset": {
+      "xs": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "s": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "64",
+        "type": "spacing"
+      }
     }
   },
   "space": {
@@ -757,8 +783,8 @@
       "pop": {
         "value": {
           "x": "0",
-          "y": "$padding.s",
-          "blur": "$padding.l",
+          "y": "{offset.s}",
+          "blur": "{offset.l}",
           "spread": "0",
           "color": "#00000030",
           "type": "dropShadow"
@@ -768,8 +794,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "$padding.xs",
-          "blur": "$padding.m",
+          "y": "{offset.xs}",
+          "blur": "{offset.m}",
           "spread": "0",
           "color": "#00000015",
           "type": "dropShadow"
@@ -795,8 +821,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "$padding.s",
-          "blur": "$padding.s",
+          "y": "{offset.s}",
+          "blur": "{offset.s}",
           "spread": "0",
           "color": "#00000008",
           "type": "dropShadow"
@@ -868,8 +894,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "4",
-          "blur": "4",
+          "y": "{offset.xs}",
+          "blur": "{offset.xs}",
           "spread": "0",
           "color": "#00000010",
           "type": "dropShadow"
@@ -879,8 +905,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "8",
-          "blur": "8",
+          "y": "{offset.s}",
+          "blur": "{offset.s}",
           "spread": "0",
           "color": "#00000007",
           "type": "dropShadow"
@@ -1017,9 +1043,9 @@
     "dropdown": {
       "pop": {
         "value": {
-          "x": "$s",
-          "y": "$l",
-          "blur": "0",
+          "x": "0",
+          "y": "{offset.s}",
+          "blur": "{offset.l}",
           "spread": "0",
           "color": "#00000060",
           "type": "dropShadow"
@@ -1039,8 +1065,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "$padding.s",
-          "blur": "$padding.l",
+          "y": "{offset.s}",
+          "blur": "{offset.l}",
           "spread": "0",
           "color": "#00000050",
           "type": "dropShadow"
@@ -1056,8 +1082,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "$padding.s",
-          "blur": "$padding.s",
+          "y": "{offset.s}",
+          "blur": "{offset.s}",
           "spread": "0",
           "color": "#00000008",
           "type": "dropShadow"
@@ -1129,8 +1155,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "4",
-          "blur": "4",
+          "y": "{offset.xs}",
+          "blur": "{offset.xs}",
           "spread": "0",
           "color": "#00000045",
           "type": "dropShadow"
@@ -1140,8 +1166,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "8",
-          "blur": "8",
+          "y": "{offset.s}",
+          "blur": "{offset.s}",
           "spread": "0",
           "color": "#00000038",
           "type": "dropShadow"
