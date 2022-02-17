@@ -265,6 +265,32 @@
         "value": "6.4375rem",
         "type": "fontSizes"
       }
+    },
+    "offset": {
+      "xs": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "s": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "64",
+        "type": "spacing"
+      }
     }
   },
   "space": {
