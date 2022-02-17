@@ -885,9 +885,9 @@
     "dropdown": {
       "pop": {
         "value": {
-          "x": "{offset.s}",
-          "y": "{offset.l}",
-          "blur": "0",
+          "x": "0",
+          "y": "{offset.s}",
+          "blur": "{offset.l}",
           "spread": "0",
           "color": "#00000060",
           "type": "dropShadow"
@@ -1328,8 +1328,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "4",
-          "blur": "4",
+          "y": "{offset.xs}",
+          "blur": "{offset.xs}",
           "spread": "0",
           "color": "#00000045",
           "type": "dropShadow"
