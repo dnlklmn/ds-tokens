@@ -286,8 +286,12 @@
     },
     "dropdown": {
       "padding": {
-        "all": {
+        "default": {
           "value": "$padding.s",
+          "type": "spacing"
+        },
+        "big": {
+          "value": "{padding.m}",
           "type": "spacing"
         }
       }
@@ -431,6 +435,12 @@
           "type": "borderRadius"
         }
       }
+    },
+    "card": {
+      "default": {
+        "value": "{borderradius.m}",
+        "type": "borderRadius"
+      }
     }
   },
   "typography": {
@@ -480,7 +490,7 @@
     "H5": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Black",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.4}",
         "letterSpacing": "0%",
@@ -493,7 +503,7 @@
     "H6": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Black",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.3}",
         "letterSpacing": "0%",
@@ -583,10 +593,10 @@
     },
     "Caption": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
+        "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "{fontSize.0}",
+        "fontSize": "{fontSize.1}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -623,9 +633,9 @@
     "S2": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "{fontSize.1}",
+        "fontSize": "{fontSize.3}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textCase": "none",
