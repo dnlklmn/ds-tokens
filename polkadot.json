@@ -699,11 +699,11 @@
     },
     "fontFamily": {
       "primary": {
-        "value": "Karla",
+        "value": "Polkadot",
         "type": "fontFamilies"
       },
       "secondary": {
-        "value": "Source Code Pro",
+        "value": "Inter",
         "type": "fontFamilies"
       }
     }
