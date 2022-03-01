@@ -52,35 +52,35 @@
     },
     "primary": {
       "100-t": {
-        "value": "#d4f7e8",
+        "value": "#FFD6EC",
         "type": "color"
       },
       "300-t": {
-        "value": "#92ecc6",
+        "value": "#F26BB3",
         "type": "color"
       },
       "500-base": {
-        "value": "#24cc85",
+        "value": "#E6007A",
         "type": "color"
       },
       "600-s": {
-        "value": "#008e53",
+        "value": "#B2005F",
         "type": "color"
       },
       "700-s": {
-        "value": "#00643a",
+        "value": "#800044",
         "type": "color"
       },
       "900-s": {
-        "value": "#00331e",
+        "value": "#4D0029",
         "type": "color"
       },
       "510-s": {
-        "value": "#23C580",
+        "value": "#CC006C",
         "type": "color"
       },
       "490-t": {
-        "value": "#26D68C",
+        "value": "#FF0087",
         "type": "color"
       }
     },
@@ -233,12 +233,16 @@
         "value": "64",
         "type": "spacing"
       }
+    },
+    "success": {
+      "value": "#C2FF32",
+      "type": "color"
     }
   },
   "space": {
     "button": {
       "default": {
-        "value": "$borderradius.xs",
+        "value": "$borderradius.xl",
         "type": "borderRadius"
       },
       "padding": {
@@ -434,6 +438,10 @@
           "value": "$borderradius.s",
           "type": "borderRadius"
         }
+      },
+      "default": {
+        "value": "{borderradius.s}",
+        "type": "borderRadius"
       }
     },
     "card": {
@@ -567,8 +575,8 @@
     },
     "ButtonSmall": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontFamily": "$fontFamily.primary",
+        "fontWeight": "Regular",
         "lineHeight": "16",
         "fontSize": "{fontSize.0}",
         "letterSpacing": "3%",
@@ -581,7 +589,7 @@
     "ButtonBig": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Regular",
         "lineHeight": "24",
         "fontSize": "{fontSize.3}",
         "letterSpacing": "3%",
@@ -645,10 +653,10 @@
     },
     "Label": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
+        "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "{fontSize.0}",
+        "fontSize": "{fontSize.1}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -659,7 +667,7 @@
     "ButtonDefault": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Regular",
         "lineHeight": "32",
         "fontSize": "{fontSize.2}",
         "letterSpacing": "3%",
@@ -867,7 +875,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.800",
+          "value": "{white}",
           "type": "color"
         },
         "disabled": {
@@ -889,7 +897,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$white",
+          "value": "{primary.500-base}",
           "type": "color"
         },
         "disabled": {
