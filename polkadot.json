@@ -258,7 +258,7 @@
         },
         "small": {
           "leftRight": {
-            "value": "$padding.s",
+            "value": "$padding.m",
             "type": "spacing"
           },
           "topBottom": {
