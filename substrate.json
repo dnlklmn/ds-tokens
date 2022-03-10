@@ -254,25 +254,41 @@
         "type": "color"
       }
     },
-    "borderradius": {
-      "xs": {
-        "value": "4",
+    "borderRadius": {
+      "none": {
+        "value": "0px",
         "type": "borderRadius"
       },
-      "s": {
-        "value": "8",
+      "sm": {
+        "value": "0.125 rem",
         "type": "borderRadius"
       },
-      "m": {
-        "value": "16",
+      "default": {
+        "value": "0.25 rem",
         "type": "borderRadius"
       },
-      "l": {
-        "value": "32",
+      "md": {
+        "value": "0.375 rem",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "0.5 rem",
         "type": "borderRadius"
       },
       "xl": {
-        "value": "64",
+        "value": "0.75 rem",
+        "type": "borderRadius"
+      },
+      "2xl": {
+        "value": "1 rem",
+        "type": "borderRadius"
+      },
+      "3xl": {
+        "value": "1.5 rem",
+        "type": "borderRadius"
+      },
+      "full": {
+        "value": "9999 px",
         "type": "borderRadius"
       }
     },
@@ -291,90 +307,12 @@
     "error-dark": {
       "value": "#6B0000",
       "type": "color"
-    },
-    "padding": {
-      "xs": {
-        "value": "4",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "8",
-        "type": "spacing"
-      },
-      "m": {
-        "value": "16",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "24",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "32",
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": "48",
-        "type": "spacing"
-      }
-    },
-    "gap": {
-      "m": {
-        "value": "16",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "8",
-        "type": "spacing"
-      },
-      "xs": {
-        "value": "4",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "24",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "32",
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": "64",
-        "type": "spacing"
-      }
-    },
-    "offset": {
-      "xs": {
-        "value": "4",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "8",
-        "type": "spacing"
-      },
-      "m": {
-        "value": "16",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "24",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "32",
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": "64",
-        "type": "spacing"
-      }
     }
   },
   "space": {
     "button": {
       "default": {
-        "value": "$borderradius.xs",
+        "value": "{borderRadius.default}",
         "type": "borderRadius"
       },
       "padding": {
@@ -531,11 +469,11 @@
     "form": {
       "gap": {
         "default": {
-          "value": "$gap.l",
+          "value": "{6}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.m",
+          "value": "{4}",
           "type": "spacing"
         }
       }
@@ -543,11 +481,11 @@
     "actions": {
       "gap": {
         "default": {
-          "value": "$gap.l",
+          "value": "{6}",
           "type": "spacing"
         },
         "big": {
-          "value": "$gap.xl",
+          "value": "{8}",
           "type": "spacing"
         }
       }
@@ -555,7 +493,7 @@
     "tag": {
       "padding": {
         "all": {
-          "value": "$padding.s",
+          "value": "{2}",
           "type": "spacing"
         }
       }
@@ -563,7 +501,7 @@
     "textField": {
       "code": {
         "default": {
-          "value": "$borderradius.s",
+          "value": "{borderRadius.md}",
           "type": "borderRadius"
         }
       }
