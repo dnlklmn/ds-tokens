@@ -4,7 +4,7 @@
       "value": "0px",
       "type": "spacing"
     },
-    "0-5": {
+    "0,5": {
       "value": "0.125 rem",
       "type": "spacing"
     },
@@ -12,7 +12,7 @@
       "value": "0.25 rem",
       "type": "spacing"
     },
-    "1-5": {
+    "1,5": {
       "value": "0.375 rem",
       "type": "spacing"
     },
@@ -20,7 +20,7 @@
       "value": "0.5 rem",
       "type": "spacing"
     },
-    "2-5": {
+    "2,5": {
       "value": "0.625 rem",
       "type": "spacing"
     },
@@ -28,7 +28,7 @@
       "value": "0.75 rem",
       "type": "spacing"
     },
-    "3-5": {
+    "3,5": {
       "value": "0.875 rem",
       "type": "spacing"
     },
