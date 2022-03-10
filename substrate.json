@@ -1,11 +1,11 @@
 {
   "global": {
     "0": {
-      "5": {
-        "value": "0.125 rem",
-        "type": "spacing"
-      },
       "value": "0px",
+      "type": "spacing"
+    },
+    "0.5": {
+      "value": "0.125 rem",
       "type": "spacing"
     },
     "black": {
