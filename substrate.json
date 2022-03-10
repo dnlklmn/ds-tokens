@@ -4,32 +4,16 @@
       "value": "0px",
       "type": "spacing"
     },
-    "0,5": {
-      "value": "0.125 rem",
-      "type": "spacing"
-    },
     "1": {
       "value": "0.25 rem",
-      "type": "spacing"
-    },
-    "1,5": {
-      "value": "0.375 rem",
       "type": "spacing"
     },
     "2": {
       "value": "0.5 rem",
       "type": "spacing"
     },
-    "2,5": {
-      "value": "0.625 rem",
-      "type": "spacing"
-    },
     "3": {
       "value": "0.75 rem",
-      "type": "spacing"
-    },
-    "3,5": {
-      "value": "0.875 rem",
       "type": "spacing"
     },
     "4": {
@@ -134,6 +118,22 @@
     },
     "96": {
       "value": "24 rem",
+      "type": "spacing"
+    },
+    "0,5": {
+      "value": "0.125 rem",
+      "type": "spacing"
+    },
+    "1,5": {
+      "value": "0.375 rem",
+      "type": "spacing"
+    },
+    "2,5": {
+      "value": "0.625 rem",
+      "type": "spacing"
+    },
+    "3,5": {
+      "value": "0.875 rem",
       "type": "spacing"
     },
     "black": {
@@ -380,42 +380,42 @@
       "padding": {
         "default": {
           "leftRight": {
-            "value": "$padding.m",
+            "value": "{4}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "$padding.s",
+            "value": "{2}",
             "type": "spacing"
           }
         },
         "small": {
           "leftRight": {
-            "value": "$padding.s",
+            "value": "{2,5}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "$padding.s",
+            "value": "{2}",
             "type": "spacing"
           }
         },
         "big": {
           "leftRight": {
-            "value": "$padding.xl",
+            "value": "{8}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "$padding.m",
+            "value": "{4}",
             "type": "spacing"
           }
         }
       },
       "gap": {
         "default": {
-          "value": "$gap.s",
+          "value": "{2}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.xs",
+          "value": "{1}",
           "type": "spacing"
         }
       }
@@ -423,7 +423,7 @@
     "dropdown": {
       "padding": {
         "all": {
-          "value": "$padding.s",
+          "value": "{2}",
           "type": "spacing"
         }
       }
@@ -431,18 +431,18 @@
     "list": {
       "gap": {
         "default": {
-          "value": "$gap.xl",
+          "value": "{8}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.m",
+          "value": "{4}",
           "type": "spacing"
         }
       },
       "padding": {
         "default": {
           "topBottom": {
-            "value": "$padding.l",
+            "value": "{6}",
             "type": "spacing"
           }
         }
@@ -452,18 +452,18 @@
       "padding": {
         "default": {
           "all": {
-            "value": "$padding.l",
+            "value": "{6}",
             "type": "spacing"
           }
         }
       },
       "gap": {
         "default": {
-          "value": "$gap.l",
+          "value": "{6}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.m",
+          "value": "{4}",
           "type": "spacing"
         }
       }
@@ -472,18 +472,18 @@
       "padding": {
         "default": {
           "all": {
-            "value": "$padding.xl",
+            "value": "{8}",
             "type": "spacing"
           }
         }
       },
       "gap": {
         "default": {
-          "value": "$gap.xxl",
+          "value": "{16}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.l",
+          "value": "{6}",
           "type": "spacing"
         }
       }
@@ -492,7 +492,7 @@
       "label": {
         "gap": {
           "vertical": {
-            "value": "$gap.s",
+            "value": "{2}",
             "type": "spacing"
           }
         }
@@ -501,27 +501,27 @@
         "gap": {
           "default": {
             "horizontal": {
-              "value": "$gap.m",
+              "value": "{4}",
               "type": "spacing"
             },
             "vertical": {
-              "value": "$gap.s",
+              "value": "{2}",
               "type": "spacing"
             }
           },
           "small": {
             "horizontal": {
-              "value": "$gap.xs",
+              "value": "{1}",
               "type": "spacing"
             }
           },
           "big": {
             "horizontal": {
-              "value": "$gap.xl",
+              "value": "{8}",
               "type": "spacing"
             },
             "vertical": {
-              "value": "$gap.m",
+              "value": "{4}",
               "type": "spacing"
             }
           }
