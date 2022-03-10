@@ -8,6 +8,10 @@
       "value": "0.125 rem",
       "type": "spacing"
     },
+    "1": {
+      "value": "0.25 rem",
+      "type": "spacing"
+    },
     "black": {
       "value": "#171717",
       "type": "color"
