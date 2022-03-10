@@ -307,6 +307,16 @@
     "error-dark": {
       "value": "#6B0000",
       "type": "color"
+    },
+    "fontFamily": {
+      "primary": {
+        "value": "Karla",
+        "type": "fontFamilies"
+      },
+      "secondary": {
+        "value": "Source Code Pro",
+        "type": "fontFamilies"
+      }
     }
   },
   "space": {
@@ -769,16 +779,6 @@
       "8": {
         "value": "6.4375rem",
         "type": "fontSizes"
-      }
-    },
-    "fontFamily": {
-      "primary": {
-        "value": "Karla",
-        "type": "fontFamilies"
-      },
-      "secondary": {
-        "value": "Source Code Pro",
-        "type": "fontFamilies"
       }
     }
   },
