@@ -266,28 +266,6 @@
         "type": "color"
       }
     },
-    "borderradius": {
-      "xs": {
-        "value": "4",
-        "type": "borderRadius"
-      },
-      "s": {
-        "value": "8",
-        "type": "borderRadius"
-      },
-      "m": {
-        "value": "16",
-        "type": "borderRadius"
-      },
-      "l": {
-        "value": "32",
-        "type": "borderRadius"
-      },
-      "xl": {
-        "value": "64",
-        "type": "borderRadius"
-      }
-    },
     "error": {
       "default": {
         "value": "#FA5449",
@@ -313,6 +291,92 @@
     "success": {
       "value": "#C2FF32",
       "type": "color"
+    },
+    "borderRadius": {
+      "none": {
+        "value": "0px",
+        "type": "borderRadius"
+      },
+      "sm": {
+        "value": "0.125 rem",
+        "type": "borderRadius"
+      },
+      "default": {
+        "value": "0.25 rem",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "0.375 rem",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "0.5 rem",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "0.75 rem",
+        "type": "borderRadius"
+      },
+      "2xl": {
+        "value": "1 rem",
+        "type": "borderRadius"
+      },
+      "3xl": {
+        "value": "1.5 rem",
+        "type": "borderRadius"
+      },
+      "full": {
+        "value": "9999 px",
+        "type": "borderRadius"
+      }
+    },
+    "fontFamily": {
+      "primary": {
+        "value": "Polkadot",
+        "type": "fontFamilies"
+      },
+      "secondary": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "0.75rem",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "0.875rem",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "1rem",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "1.125rem",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "1.625rem",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "2.25rem",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "3.1875rem",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "4rem",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "6.4375rem",
+        "type": "fontSizes"
+      }
     }
   },
   "space": {
