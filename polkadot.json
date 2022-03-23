@@ -382,7 +382,7 @@
   "space": {
     "button": {
       "default": {
-        "value": "$borderradius.xl",
+        "value": "{borderRadius.full}",
         "type": "borderRadius"
       },
       "padding": {
@@ -575,27 +575,23 @@
     "textField": {
       "code": {
         "default": {
-          "value": "$borderradius.s",
+          "value": "{borderRadius.xl}",
           "type": "borderRadius"
         }
       },
       "default": {
-        "value": "{borderradius.s}",
+        "value": "{borderRadius.lg}",
         "type": "borderRadius"
       }
     },
     "card": {
       "default": {
-        "value": "{borderradius.m}",
+        "value": "{borderRadius.md}",
         "type": "borderRadius"
       }
     }
   },
   "typography": {
-    "0": {
-      "value": "0",
-      "type": "letterSpacing"
-    },
     "H1": {
       "value": {
         "fontFamily": "$fontFamily.primary",
@@ -816,54 +812,6 @@
         "textDecoration": "none"
       },
       "type": "typography"
-    },
-    "fontSize": {
-      "0": {
-        "value": "0.75rem",
-        "type": "fontSizes"
-      },
-      "1": {
-        "value": "0.875rem",
-        "type": "fontSizes"
-      },
-      "2": {
-        "value": "1rem",
-        "type": "fontSizes"
-      },
-      "3": {
-        "value": "1.125rem",
-        "type": "fontSizes"
-      },
-      "4": {
-        "value": "1.625rem",
-        "type": "fontSizes"
-      },
-      "5": {
-        "value": "2.25rem",
-        "type": "fontSizes"
-      },
-      "6": {
-        "value": "3.1875rem",
-        "type": "fontSizes"
-      },
-      "7": {
-        "value": "4rem",
-        "type": "fontSizes"
-      },
-      "8": {
-        "value": "6.4375rem",
-        "type": "fontSizes"
-      }
-    },
-    "fontFamily": {
-      "primary": {
-        "value": "Polkadot",
-        "type": "fontFamilies"
-      },
-      "secondary": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      }
     }
   },
   "light": {
