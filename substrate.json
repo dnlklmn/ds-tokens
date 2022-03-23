@@ -136,10 +136,6 @@
       "value": "0.875 rem",
       "type": "spacing"
     },
-    "black": {
-      "value": "#171717",
-      "type": "color"
-    },
     "grey": {
       "50": {
         "value": "#fcfcfc",
@@ -192,39 +188,39 @@
         "type": "color"
       },
       "200-t": {
-        "value": "#B1F1D6",
+        "value": "#A8F0D2",
         "type": "color"
       },
       "300-t": {
-        "value": "#92ecc6",
+        "value": "#70E6B4",
         "type": "color"
       },
       "400-t": {
-        "value": "#51E1A4",
-        "type": "color"
-      },
-      "490-t": {
-        "value": "#26D68C",
+        "value": "#3CDD99",
         "type": "color"
       },
       "500-base": {
         "value": "#24cc85",
         "type": "color"
       },
-      "510-s": {
-        "value": "#23C580",
-        "type": "color"
-      },
       "600-s": {
-        "value": "#008e53",
+        "value": "#00C271",
         "type": "color"
       },
       "700-s": {
-        "value": "#00643a",
+        "value": "#00804A",
+        "type": "color"
+      },
+      "800-s": {
+        "value": "#005C35",
         "type": "color"
       },
       "900-s": {
-        "value": "#00331e",
+        "value": "#004227",
+        "type": "color"
+      },
+      "950-s": {
+        "value": "#001A0F",
         "type": "color"
       }
     },
@@ -242,7 +238,7 @@
         "type": "color"
       },
       "400-t": {
-        "value": "#88A1F6",
+        "value": "#7A96F5",
         "type": "color"
       },
       "500-base": {
@@ -250,19 +246,19 @@
         "type": "color"
       },
       "600-s": {
-        "value": "#334b99",
+        "value": "#365FE2",
         "type": "color"
       },
       "700-s": {
-        "value": "#46526d",
+        "value": "#2C54AF",
         "type": "color"
       },
       "800-s": {
-        "value": "#313a4f",
+        "value": "#2E3F6B",
         "type": "color"
       },
       "900-s": {
-        "value": "#252933",
+        "value": "#262E40",
         "type": "color"
       },
       "950-s": {
@@ -308,20 +304,26 @@
         "type": "borderRadius"
       }
     },
+    "error": {
+      "default": {
+        "value": "#FA5449",
+        "type": "color"
+      },
+      "light": {
+        "value": "#FFD5D5",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#6B0000",
+        "type": "color"
+      }
+    },
     "white": {
       "value": "#ffffff",
       "type": "color"
     },
-    "error": {
-      "value": "#FA5449",
-      "type": "color"
-    },
-    "error-light": {
-      "value": "#FFD5D5",
-      "type": "color"
-    },
-    "error-dark": {
-      "value": "#6B0000",
+    "black": {
+      "value": "#171717",
       "type": "color"
     },
     "fontFamily": {
@@ -817,7 +819,7 @@
         "type": "color"
       },
       "error": {
-        "value": "$error",
+        "value": "{error.default}",
         "type": "color"
       }
     },
@@ -838,7 +840,7 @@
           "type": "color"
         },
         "error": {
-          "value": "$error-light",
+          "value": "{error.light}",
           "type": "color"
         },
         "code": {
@@ -848,7 +850,7 @@
       },
       "border": {
         "error": {
-          "value": "$error",
+          "value": "{error.default}",
           "type": "color"
         },
         "primary": {
@@ -923,11 +925,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.490-t}",
+          "value": "{primary.400-t}",
           "type": "color"
         },
         "down": {
-          "value": "{primary.510-s}",
+          "value": "{primary.600-s}",
           "type": "color"
         },
         "light": {
@@ -939,7 +941,7 @@
           "type": "color"
         },
         "destructive": {
-          "value": "$error",
+          "value": "{error.default}",
           "type": "color"
         },
         "quiet": {
@@ -1082,7 +1084,7 @@
         "type": "color"
       },
       "error": {
-        "value": "$error",
+        "value": "{error.default}",
         "type": "color"
       }
     },
@@ -1103,13 +1105,13 @@
           "type": "color"
         },
         "error": {
-          "value": "$error-dark",
+          "value": "{error.dark}",
           "type": "color"
         }
       },
       "border": {
         "error": {
-          "value": "$error",
+          "value": "{error.default}",
           "type": "color"
         },
         "primary": {
@@ -1200,7 +1202,7 @@
           "type": "color"
         },
         "destructive": {
-          "value": "$error",
+          "value": "{error.default}",
           "type": "color"
         },
         "quiet": {
