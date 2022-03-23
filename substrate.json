@@ -317,6 +317,44 @@
         "value": "Source Code Pro",
         "type": "fontFamilies"
       }
+    },
+    "fontSize": {
+      "0": {
+        "value": "0.75rem",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "0.875rem",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "1rem",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "1.125rem",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "1.625rem",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "2.25rem",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "3.1875rem",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "4rem",
+        "type": "fontSizes"
+      },
+      "8": {
+        "value": "6.4375rem",
+        "type": "fontSizes"
+      }
     }
   },
   "space": {
@@ -600,6 +638,19 @@
       },
       "type": "typography"
     },
+    "S2": {
+      "value": {
+        "fontFamily": "{fontFamily.primary}",
+        "fontWeight": "Bold",
+        "lineHeight": "AUTO",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
     "Body2": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
@@ -704,19 +755,6 @@
       },
       "type": "typography"
     },
-    "S2": {
-      "value": {
-        "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
-        "lineHeight": "AUTO",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "0%",
-        "paragraphSpacing": "0",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
     "Label": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
@@ -742,44 +780,6 @@
         "textDecoration": "none"
       },
       "type": "typography"
-    },
-    "fontSize": {
-      "0": {
-        "value": "0.75rem",
-        "type": "fontSizes"
-      },
-      "1": {
-        "value": "0.875rem",
-        "type": "fontSizes"
-      },
-      "2": {
-        "value": "1rem",
-        "type": "fontSizes"
-      },
-      "3": {
-        "value": "1.125rem",
-        "type": "fontSizes"
-      },
-      "4": {
-        "value": "1.625rem",
-        "type": "fontSizes"
-      },
-      "5": {
-        "value": "2.25rem",
-        "type": "fontSizes"
-      },
-      "6": {
-        "value": "3.1875rem",
-        "type": "fontSizes"
-      },
-      "7": {
-        "value": "4rem",
-        "type": "fontSizes"
-      },
-      "8": {
-        "value": "6.4375rem",
-        "type": "fontSizes"
-      }
     }
   },
   "light": {
