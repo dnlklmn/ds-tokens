@@ -556,10 +556,6 @@
     }
   },
   "typography": {
-    "0": {
-      "value": "0",
-      "type": "letterSpacing"
-    },
     "H1": {
       "value": {
         "fontFamily": "$fontFamily.primary",
@@ -592,6 +588,19 @@
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.6}",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "H4": {
+      "value": {
+        "fontFamily": "{fontFamily.primary}",
+        "fontWeight": "Bold",
+        "lineHeight": "AUTO",
+        "fontSize": "{fontSize.5}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -690,6 +699,19 @@
       },
       "type": "typography"
     },
+    "ButtonDefault": {
+      "value": {
+        "fontFamily": "{fontFamily.primary}",
+        "fontWeight": "Bold",
+        "lineHeight": "32",
+        "fontSize": "{fontSize.2}",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
     "ButtonSmall": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
@@ -742,38 +764,12 @@
       },
       "type": "typography"
     },
-    "H4": {
-      "value": {
-        "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
-        "lineHeight": "AUTO",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "0%",
-        "paragraphSpacing": "0",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
     "Label": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.0}",
-        "letterSpacing": "0%",
-        "paragraphSpacing": "0",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "ButtonDefault": {
-      "value": {
-        "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
-        "lineHeight": "32",
-        "fontSize": "{fontSize.2}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textCase": "none",
