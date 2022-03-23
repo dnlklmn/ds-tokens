@@ -421,6 +421,10 @@
         "small": {
           "value": "{1}",
           "type": "spacing"
+        },
+        "big": {
+          "value": "{2}",
+          "type": "spacing"
         }
       }
     },
