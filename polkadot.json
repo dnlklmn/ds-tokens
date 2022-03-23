@@ -1,5 +1,141 @@
 {
   "global": {
+    "0": {
+      "value": "0px",
+      "type": "spacing"
+    },
+    "1": {
+      "value": "0.25 rem",
+      "type": "spacing"
+    },
+    "2": {
+      "value": "0.5 rem",
+      "type": "spacing"
+    },
+    "3": {
+      "value": "0.75 rem",
+      "type": "spacing"
+    },
+    "4": {
+      "value": "1 rem",
+      "type": "spacing"
+    },
+    "5": {
+      "value": "1.25 rem",
+      "type": "spacing"
+    },
+    "6": {
+      "value": "1.5 rem",
+      "type": "spacing"
+    },
+    "7": {
+      "value": "1.75 rem",
+      "type": "spacing"
+    },
+    "8": {
+      "value": "2 rem",
+      "type": "spacing"
+    },
+    "9": {
+      "value": "2.25 rem",
+      "type": "spacing"
+    },
+    "10": {
+      "value": "2.5 rem",
+      "type": "spacing"
+    },
+    "11": {
+      "value": "2.75 rem",
+      "type": "spacing"
+    },
+    "12": {
+      "value": "3 rem",
+      "type": "spacing"
+    },
+    "14": {
+      "value": "3.5 rem",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "4 rem",
+      "type": "spacing"
+    },
+    "20": {
+      "value": "5 rem",
+      "type": "spacing"
+    },
+    "24": {
+      "value": "6 rem",
+      "type": "spacing"
+    },
+    "28": {
+      "value": "7 rem",
+      "type": "spacing"
+    },
+    "32": {
+      "value": "8 rem",
+      "type": "spacing"
+    },
+    "36": {
+      "value": "9 rem",
+      "type": "spacing"
+    },
+    "40": {
+      "value": "10 rem",
+      "type": "spacing"
+    },
+    "44": {
+      "value": "11 rem",
+      "type": "spacing"
+    },
+    "48": {
+      "value": "12 rem",
+      "type": "spacing"
+    },
+    "52": {
+      "value": "13 rem",
+      "type": "spacing"
+    },
+    "56": {
+      "value": "14 rem",
+      "type": "spacing"
+    },
+    "60": {
+      "value": "15 rem",
+      "type": "spacing"
+    },
+    "64": {
+      "value": "16 rem",
+      "type": "spacing"
+    },
+    "72": {
+      "value": "18 rem",
+      "type": "spacing"
+    },
+    "80": {
+      "value": "20 rem",
+      "type": "spacing"
+    },
+    "96": {
+      "value": "24 rem",
+      "type": "spacing"
+    },
+    "0,5": {
+      "value": "0.125 rem",
+      "type": "spacing"
+    },
+    "1,5": {
+      "value": "0.375 rem",
+      "type": "spacing"
+    },
+    "2,5": {
+      "value": "0.625 rem",
+      "type": "spacing"
+    },
+    "3,5": {
+      "value": "0.875 rem",
+      "type": "spacing"
+    },
     "black": {
       "value": "#171717",
       "type": "color"
@@ -55,8 +191,16 @@
         "value": "#FFD6EC",
         "type": "color"
       },
+      "200-t": {
+        "value": "#F7A1CF",
+        "type": "color"
+      },
       "300-t": {
         "value": "#F26BB3",
+        "type": "color"
+      },
+      "400-t": {
+        "value": "#FF0087",
         "type": "color"
       },
       "500-base": {
@@ -64,10 +208,14 @@
         "type": "color"
       },
       "600-s": {
-        "value": "#B2005F",
+        "value": "#CC006C",
         "type": "color"
       },
       "700-s": {
+        "value": "#B2005F",
+        "type": "color"
+      },
+      "800-s": {
         "value": "#800044",
         "type": "color"
       },
@@ -75,46 +223,50 @@
         "value": "#4D0029",
         "type": "color"
       },
-      "510-s": {
-        "value": "#CC006C",
-        "type": "color"
-      },
-      "490-t": {
-        "value": "#FF0087",
+      "950-s": {
+        "value": "#33001B",
         "type": "color"
       }
     },
     "secondary": {
       "100-t": {
-        "value": "#e7ecfd",
+        "value": "#EDD6FF",
+        "type": "color"
+      },
+      "200-t": {
+        "value": "#D9A8FF",
         "type": "color"
       },
       "300-t": {
-        "value": "#b8c7fa",
+        "value": "#BE6BFF",
+        "type": "color"
+      },
+      "400-t": {
+        "value": "#A533FF",
         "type": "color"
       },
       "500-base": {
-        "value": "#4e73f2",
+        "value": "#8F00FF",
         "type": "color"
       },
       "600-s": {
-        "value": "#334b99",
+        "value": "#7200CC",
         "type": "color"
       },
       "700-s": {
-        "value": "#46526d",
-        "type": "color"
-      },
-      "900-s": {
-        "value": "#252933",
-        "type": "color"
-      },
-      "950-s": {
-        "value": "#181922",
+        "value": "#580099",
         "type": "color"
       },
       "800-s": {
-        "value": "#313a4f",
+        "value": "#3B0066",
+        "type": "color"
+      },
+      "900-s": {
+        "value": "#280042",
+        "type": "color"
+      },
+      "950-s": {
+        "value": "#180029",
         "type": "color"
       }
     },
@@ -155,84 +307,6 @@
     "error-dark": {
       "value": "#6B0000",
       "type": "color"
-    },
-    "padding": {
-      "xs": {
-        "value": "4",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "8",
-        "type": "spacing"
-      },
-      "m": {
-        "value": "16",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "24",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "32",
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": "48",
-        "type": "spacing"
-      }
-    },
-    "gap": {
-      "m": {
-        "value": "16",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "8",
-        "type": "spacing"
-      },
-      "xs": {
-        "value": "4",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "24",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "32",
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": "64",
-        "type": "spacing"
-      }
-    },
-    "offset": {
-      "xs": {
-        "value": "4",
-        "type": "spacing"
-      },
-      "s": {
-        "value": "8",
-        "type": "spacing"
-      },
-      "m": {
-        "value": "16",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "24",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "32",
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": "64",
-        "type": "spacing"
-      }
     },
     "success": {
       "value": "#C2FF32",
