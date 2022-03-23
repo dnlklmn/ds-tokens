@@ -322,42 +322,42 @@
       "padding": {
         "default": {
           "leftRight": {
-            "value": "$padding.m",
+            "value": "{4}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "$padding.s",
+            "value": "{2}",
             "type": "spacing"
           }
         },
         "small": {
           "leftRight": {
-            "value": "$padding.m",
+            "value": "{4}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "$padding.s",
+            "value": "{2}",
             "type": "spacing"
           }
         },
         "big": {
           "leftRight": {
-            "value": "$padding.xl",
+            "value": "{8}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "$padding.m",
+            "value": "{4}",
             "type": "spacing"
           }
         }
       },
       "gap": {
         "default": {
-          "value": "$gap.s",
+          "value": "{1}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.xs",
+          "value": "{0,5}",
           "type": "spacing"
         }
       }
@@ -365,11 +365,11 @@
     "dropdown": {
       "padding": {
         "default": {
-          "value": "$padding.s",
+          "value": "{2}",
           "type": "spacing"
         },
         "big": {
-          "value": "{padding.m}",
+          "value": "{4}",
           "type": "spacing"
         }
       }
@@ -377,18 +377,18 @@
     "list": {
       "gap": {
         "default": {
-          "value": "$gap.xl",
+          "value": "{8}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.m",
+          "value": "{4}",
           "type": "spacing"
         }
       },
       "padding": {
         "default": {
           "topBottom": {
-            "value": "$padding.l",
+            "value": "{6}",
             "type": "spacing"
           }
         }
@@ -398,18 +398,18 @@
       "padding": {
         "default": {
           "all": {
-            "value": "$padding.l",
+            "value": "{6}",
             "type": "spacing"
           }
         }
       },
       "gap": {
         "default": {
-          "value": "$gap.l",
+          "value": "{6}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.m",
+          "value": "{4}",
           "type": "spacing"
         }
       }
@@ -418,18 +418,18 @@
       "padding": {
         "default": {
           "all": {
-            "value": "$padding.xl",
+            "value": "{8}",
             "type": "spacing"
           }
         }
       },
       "gap": {
         "default": {
-          "value": "$gap.xxl",
+          "value": "{12}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.l",
+          "value": "{6}",
           "type": "spacing"
         }
       }
@@ -438,7 +438,7 @@
       "label": {
         "gap": {
           "vertical": {
-            "value": "$gap.s",
+            "value": "{2}",
             "type": "spacing"
           }
         }
@@ -447,27 +447,27 @@
         "gap": {
           "default": {
             "horizontal": {
-              "value": "$gap.m",
+              "value": "{4}",
               "type": "spacing"
             },
             "vertical": {
-              "value": "$gap.s",
+              "value": "{2}",
               "type": "spacing"
             }
           },
           "small": {
             "horizontal": {
-              "value": "$gap.xs",
+              "value": "{1}",
               "type": "spacing"
             }
           },
           "big": {
             "horizontal": {
-              "value": "$gap.xl",
+              "value": "{8}",
               "type": "spacing"
             },
             "vertical": {
-              "value": "$gap.m",
+              "value": "{4}",
               "type": "spacing"
             }
           }
@@ -477,11 +477,11 @@
     "form": {
       "gap": {
         "default": {
-          "value": "$gap.l",
+          "value": "{6}",
           "type": "spacing"
         },
         "small": {
-          "value": "$gap.m",
+          "value": "{4}",
           "type": "spacing"
         }
       }
@@ -489,11 +489,11 @@
     "actions": {
       "gap": {
         "default": {
-          "value": "$gap.l",
+          "value": "{6}",
           "type": "spacing"
         },
         "big": {
-          "value": "$gap.xl",
+          "value": "{8}",
           "type": "spacing"
         }
       }
@@ -501,7 +501,7 @@
     "tag": {
       "padding": {
         "all": {
-          "value": "$padding.s",
+          "value": "{2}",
           "type": "spacing"
         }
       }
