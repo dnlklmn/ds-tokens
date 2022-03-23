@@ -929,11 +929,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.490-t}",
+          "value": "{primary.400-t}",
           "type": "color"
         },
         "down": {
-          "value": "{primary.510-s}",
+          "value": "{primary.600-s}",
           "type": "color"
         },
         "light": {
@@ -1190,11 +1190,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.490-t}",
+          "value": "{primary.400-t}",
           "type": "color"
         },
         "down": {
-          "value": "{primary.510-s}",
+          "value": "{primary.600-s}",
           "type": "color"
         },
         "light": {
