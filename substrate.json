@@ -1136,8 +1136,8 @@
       "pop": {
         "value": {
           "x": "0",
-          "y": "{offset.s}",
-          "blur": "{offset.l}",
+          "y": "{2}",
+          "blur": "{6}",
           "spread": "0",
           "color": "#00000060",
           "type": "dropShadow"
@@ -1157,8 +1157,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "{offset.s}",
-          "blur": "{offset.l}",
+          "y": "{2}",
+          "blur": "{6}",
           "spread": "0",
           "color": "#00000050",
           "type": "dropShadow"
@@ -1174,8 +1174,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "{offset.s}",
-          "blur": "{offset.s}",
+          "y": "{2}",
+          "blur": "{2}",
           "spread": "0",
           "color": "#00000008",
           "type": "dropShadow"
@@ -1190,11 +1190,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.490-t}",
+          "value": "{primary.400-t}",
           "type": "color"
         },
         "down": {
-          "value": "{primary.510-s}",
+          "value": "{primary.600-s}",
           "type": "color"
         },
         "light": {
@@ -1247,8 +1247,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "{offset.xs}",
-          "blur": "{offset.xs}",
+          "y": "{1}",
+          "blur": "{1}",
           "spread": "0",
           "color": "#00000045",
           "type": "dropShadow"
@@ -1258,8 +1258,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "{offset.s}",
-          "blur": "{offset.s}",
+          "y": "{2}",
+          "blur": "{2}",
           "spread": "0",
           "color": "#00000038",
           "type": "dropShadow"
