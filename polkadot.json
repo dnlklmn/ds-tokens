@@ -1029,7 +1029,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.800",
+          "value": "$grey.400",
           "type": "color"
         }
       }
@@ -1086,7 +1086,7 @@
         "type": "color"
       },
       "dimmed": {
-        "value": "$grey.700",
+        "value": "{grey.600}",
         "type": "color"
       },
       "primary": {
@@ -1108,11 +1108,11 @@
     },
     "bg": {
       "default": {
-        "value": "{secondary.950-s}",
+        "value": "{grey.900}",
         "type": "color"
       },
       "grey": {
-        "value": "{secondary.900-s}",
+        "value": "{grey.950}",
         "type": "color"
       }
     },
@@ -1164,7 +1164,7 @@
           "type": "color"
         },
         "highlight": {
-          "value": "$secondary.800-s",
+          "value": "$primary.800-s",
           "type": "color"
         }
       },
@@ -1290,7 +1290,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.300",
+          "value": "$grey.700",
           "type": "color"
         }
       }
