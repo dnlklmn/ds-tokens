@@ -660,7 +660,7 @@
     "S1": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Regular",
         "lineHeight": "32",
         "fontSize": "{fontSize.3}",
         "letterSpacing": "0%",
@@ -674,7 +674,7 @@
       "value": {
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
-        "lineHeight": "AUTO",
+        "lineHeight": "180%",
         "fontSize": "{fontSize.1}",
         "letterSpacing": "0",
         "paragraphSpacing": "0",
@@ -764,7 +764,7 @@
     "H4": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Bold",
+        "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.5}",
         "letterSpacing": "0%",
@@ -790,12 +790,12 @@
     "Label": {
       "value": {
         "fontFamily": "{fontFamily.secondary}",
-        "fontWeight": "Regular",
+        "fontWeight": "Semi Bold",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.1}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
-        "textCase": "none",
+        "textCase": "Uppercase",
         "textDecoration": "none"
       },
       "type": "typography"
@@ -1216,7 +1216,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "$grey.700",
+          "value": "{grey.900}",
           "type": "color"
         },
         "destructive": {
