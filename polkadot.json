@@ -634,7 +634,7 @@
     "H5": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Black",
+        "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.4}",
         "letterSpacing": "0%",
@@ -647,8 +647,8 @@
     "H6": {
       "value": {
         "fontFamily": "{fontFamily.primary}",
-        "fontWeight": "Black",
-        "lineHeight": "AUTO",
+        "fontWeight": "Regular",
+        "lineHeight": "150%",
         "fontSize": "{fontSize.3}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
@@ -672,7 +672,7 @@
     },
     "Body2": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
+        "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
         "lineHeight": "180%",
         "fontSize": "{fontSize.1}",
@@ -685,7 +685,7 @@
     },
     "Body1": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
+        "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.2}",
@@ -1077,6 +1077,10 @@
           "type": "color"
         }
       }
+    },
+    "separator": {
+      "value": "{grey.300}",
+      "type": "color"
     }
   },
   "dark": {
@@ -1086,7 +1090,7 @@
         "type": "color"
       },
       "dimmed": {
-        "value": "{grey.600}",
+        "value": "{grey.500}",
         "type": "color"
       },
       "primary": {
@@ -1338,6 +1342,10 @@
           "type": "color"
         }
       }
+    },
+    "separator": {
+      "value": "{grey.800}",
+      "type": "color"
     }
   }
 }
