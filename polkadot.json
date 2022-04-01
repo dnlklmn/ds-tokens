@@ -1232,7 +1232,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{secondary.800-s}",
+          "value": "{primary.800-s}",
           "type": "color"
         }
       },
