@@ -419,7 +419,7 @@
       },
       "gap": {
         "default": {
-          "value": "{1}",
+          "value": "{2}",
           "type": "spacing"
         },
         "small": {
