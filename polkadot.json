@@ -750,7 +750,7 @@
     },
     "Overline": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
+        "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Bold",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.0}",
