@@ -750,10 +750,10 @@
     },
     "Overline": {
       "value": {
-        "fontFamily": "{fontFamily.secondary}",
-        "fontWeight": "Bold",
+        "fontFamily": "{fontFamily.primary}",
+        "fontWeight": "Regular",
         "lineHeight": "AUTO",
-        "fontSize": "{fontSize.0}",
+        "fontSize": "{fontSize.1}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "Uppercase",
@@ -862,7 +862,7 @@
           "type": "color"
         },
         "code": {
-          "value": "{secondary.900-s}",
+          "value": "{secondary.700-s}",
           "type": "color"
         }
       },
