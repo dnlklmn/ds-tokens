@@ -59,6 +59,14 @@
           }
         }
       ]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [{
+        "destination": "variables.js",
+        "format": "javascript/es6"
+      }]
     }
   }
 }
