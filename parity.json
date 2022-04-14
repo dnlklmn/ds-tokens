@@ -982,7 +982,7 @@
           "type": "color"
         },
         "destructive": {
-          "value": "{white}",
+          "value": "{error.default}",
           "type": "color"
         },
         "quiet": {
@@ -1020,7 +1020,7 @@
           "type": "color"
         },
         "destructive": {
-          "value": "{error.default}",
+          "value": "{white}",
           "type": "color"
         }
       },
