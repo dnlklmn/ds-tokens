@@ -184,7 +184,7 @@
     },
     "primary": {
       "100-t": {
-        "value": "#FFD6EC",
+        "value": "#ffe4f3",
         "type": "color"
       },
       "200-t": {
@@ -208,7 +208,7 @@
         "type": "color"
       },
       "700-s": {
-        "value": "#B2005F",
+        "value": "#a9005a",
         "type": "color"
       },
       "800-s": {
@@ -354,7 +354,7 @@
         "type": "fontSizes"
       },
       "3": {
-        "value": "1.125rem",
+        "value": "1.25rem",
         "type": "fontSizes"
       },
       "4": {
@@ -398,11 +398,11 @@
         },
         "small": {
           "leftRight": {
-            "value": "{3}",
+            "value": "{6}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "{2}",
+            "value": "{3}",
             "type": "spacing"
           }
         },
@@ -713,8 +713,8 @@
       "value": {
         "fontFamily": "$fontFamily.primary",
         "fontWeight": "Regular",
-        "lineHeight": "16",
-        "fontSize": "{fontSize.0}",
+        "lineHeight": "131%",
+        "fontSize": "{fontSize.1}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -804,8 +804,8 @@
       "value": {
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
-        "lineHeight": "32",
-        "fontSize": "{fontSize.2}",
+        "lineHeight": "131%",
+        "fontSize": "{fontSize.3}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -943,7 +943,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.400-t}",
+          "value": "{primary.700-s}",
           "type": "color"
         },
         "down": {
@@ -971,7 +971,7 @@
           "type": "color"
         }
       },
-      "text": {
+      "foreground": {
         "primary-inverts": {
           "value": "{primary.500-base}",
           "type": "color"
@@ -994,6 +994,10 @@
         },
         "destructive": {
           "value": "$white",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{primary.700-s}",
           "type": "color"
         }
       },
@@ -1030,6 +1034,10 @@
         },
         "quiet": {
           "value": "$grey.400",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{primary.700-s}",
           "type": "color"
         }
       }
@@ -1295,6 +1303,10 @@
         },
         "quiet": {
           "value": "$grey.700",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{primary.700-s}",
           "type": "color"
         }
       }
