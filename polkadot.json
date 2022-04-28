@@ -398,11 +398,11 @@
         },
         "small": {
           "leftRight": {
-            "value": "{6}",
+            "value": "{4}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "{3}",
+            "value": "{2}",
             "type": "spacing"
           }
         },
