@@ -358,7 +358,7 @@
         "type": "fontSizes"
       },
       "4": {
-        "value": "1.625rem",
+        "value": "1.5 rem",
         "type": "fontSizes"
       },
       "5": {
@@ -408,11 +408,11 @@
         },
         "big": {
           "leftRight": {
-            "value": "{8}",
+            "value": "{10}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "{4}",
+            "value": "{6}",
             "type": "spacing"
           }
         }
@@ -726,8 +726,8 @@
       "value": {
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
-        "lineHeight": "24",
-        "fontSize": "{fontSize.3}",
+        "lineHeight": "131%",
+        "fontSize": "{fontSize.4}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
         "textCase": "none",
@@ -984,6 +984,10 @@
         },
         "hover-destructive": {
           "value": "{error.dark}",
+          "type": "color"
+        },
+        "pressed-tertiary": {
+          "value": "{primary.200-t}",
           "type": "color"
         }
       },
