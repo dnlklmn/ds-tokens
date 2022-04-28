@@ -268,15 +268,15 @@
     },
     "error": {
       "default": {
-        "value": "#FA5449",
+        "value": "#D84331",
         "type": "color"
       },
       "light": {
-        "value": "#FFD5D5",
+        "value": "#FBECEA",
         "type": "color"
       },
       "dark": {
-        "value": "#6B0000",
+        "value": "#9F3327",
         "type": "color"
       }
     },
@@ -942,7 +942,7 @@
           "value": "{primary.500-base}",
           "type": "color"
         },
-        "hover": {
+        "hover-primary": {
           "value": "{primary.700-s}",
           "type": "color"
         },
@@ -955,7 +955,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{grey.50}",
+          "value": "{secondary.500-base}",
           "type": "color"
         },
         "destructive": {
@@ -970,8 +970,20 @@
           "value": "{grey.200}",
           "type": "color"
         },
-        "pressed": {
+        "pressed-primary": {
           "value": "{primary.800-s}",
+          "type": "color"
+        },
+        "hover-secondary": {
+          "value": "{secondary.600-s}",
+          "type": "color"
+        },
+        "pressed-secondary": {
+          "value": "{secondary.700-s}",
+          "type": "color"
+        },
+        "hover-destructive": {
+          "value": "{error.dark}",
           "type": "color"
         }
       },
@@ -993,7 +1005,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "$grey.500",
+          "value": "$grey.400",
           "type": "color"
         },
         "destructive": {
@@ -1012,6 +1024,17 @@
           "blur": "{1}",
           "spread": "0",
           "color": "#00000010",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "pressed": {
+        "value": {
+          "x": "0",
+          "y": "{1}",
+          "blur": "{1}",
+          "spread": "0",
+          "color": "#00000015",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1042,6 +1065,10 @@
         },
         "hover": {
           "value": "{primary.700-s}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{primary.800-s}",
           "type": "color"
         }
       }
