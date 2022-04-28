@@ -388,11 +388,11 @@
       "padding": {
         "default": {
           "leftRight": {
-            "value": "{4}",
+            "value": "{6}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "{2}",
+            "value": "{3}",
             "type": "spacing"
           }
         },
