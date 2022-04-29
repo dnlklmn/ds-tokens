@@ -328,7 +328,7 @@
     },
     "fontFamily": {
       "primary": {
-        "value": "Karla",
+        "value": "Inter",
         "type": "fontFamilies"
       },
       "secondary": {
@@ -725,7 +725,7 @@
       "value": {
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Bold",
-        "lineHeight": "32",
+        "lineHeight": "131%",
         "fontSize": "{fontSize.2}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
@@ -738,7 +738,7 @@
       "value": {
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Bold",
-        "lineHeight": "16",
+        "lineHeight": "131%",
         "fontSize": "{fontSize.0}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
@@ -751,7 +751,7 @@
       "value": {
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Bold",
-        "lineHeight": "24",
+        "lineHeight": "131%",
         "fontSize": "{fontSize.3}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
@@ -945,11 +945,23 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{grey.50}",
+          "value": "{secondary.500-base}",
+          "type": "color"
+        },
+        "secondary-hover": {
+          "value": "{secondary.600-s}",
+          "type": "color"
+        },
+        "secondary-pressed": {
+          "value": "{secondary.700-s}",
           "type": "color"
         },
         "destructive": {
           "value": "{error.default}",
+          "type": "color"
+        },
+        "destructive-hover": {
+          "value": "{error.dark}",
           "type": "color"
         },
         "quiet": {
@@ -959,9 +971,13 @@
         "disabled": {
           "value": "{grey.300}",
           "type": "color"
+        },
+        "tertiary-pressed": {
+          "value": "{primary.300-t}",
+          "type": "color"
         }
       },
-      "text": {
+      "foreground": {
         "primary-inverts": {
           "value": "{primary.500-base}",
           "type": "color"
