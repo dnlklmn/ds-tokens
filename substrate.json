@@ -1242,7 +1242,15 @@
           "type": "color"
         },
         "secondary": {
-          "value": "$grey.700",
+          "value": "{secondary.500-base}",
+          "type": "color"
+        },
+        "secondary-hover": {
+          "value": "{secondary.600-s}",
+          "type": "color"
+        },
+        "secondary-pressed": {
+          "value": "{secondary.700-s}",
           "type": "color"
         },
         "destructive": {
