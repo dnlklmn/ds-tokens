@@ -847,7 +847,7 @@
         "type": "color"
       },
       "grey": {
-        "value": "$grey.100",
+        "value": "$grey.50",
         "type": "color"
       }
     },
@@ -942,8 +942,12 @@
           "value": "{primary.500-base}",
           "type": "color"
         },
-        "hover-primary": {
+        "primary-hover": {
           "value": "{primary.700-s}",
+          "type": "color"
+        },
+        "primary-pressed": {
+          "value": "{primary.800-s}",
           "type": "color"
         },
         "down": {
@@ -958,8 +962,20 @@
           "value": "{secondary.500-base}",
           "type": "color"
         },
+        "secondary-hover": {
+          "value": "{secondary.600-s}",
+          "type": "color"
+        },
+        "secondary-pressed": {
+          "value": "{secondary.700-s}",
+          "type": "color"
+        },
         "destructive": {
           "value": "{error.default}",
+          "type": "color"
+        },
+        "destructive-hover": {
+          "value": "{error.dark}",
           "type": "color"
         },
         "quiet": {
@@ -970,23 +986,7 @@
           "value": "{grey.200}",
           "type": "color"
         },
-        "pressed-primary": {
-          "value": "{primary.800-s}",
-          "type": "color"
-        },
-        "hover-secondary": {
-          "value": "{secondary.600-s}",
-          "type": "color"
-        },
-        "pressed-secondary": {
-          "value": "{secondary.700-s}",
-          "type": "color"
-        },
-        "hover-destructive": {
-          "value": "{error.dark}",
-          "type": "color"
-        },
-        "pressed-tertiary": {
+        "tertiary-pressed": {
           "value": "{primary.200-t}",
           "type": "color"
         }
@@ -1250,8 +1250,12 @@
           "value": "{primary.500-base}",
           "type": "color"
         },
-        "hover": {
-          "value": "{primary.400-t}",
+        "primary-hover": {
+          "value": "{primary.600-s}",
+          "type": "color"
+        },
+        "primary-pressed": {
+          "value": "{primary.800-s}",
           "type": "color"
         },
         "down": {
@@ -1263,23 +1267,39 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{grey.900}",
+          "value": "{secondary.500-base}",
+          "type": "color"
+        },
+        "secondary-hover": {
+          "value": "{secondary.600-s}",
+          "type": "color"
+        },
+        "secondary-pressed": {
+          "value": "{secondary.700-s}",
           "type": "color"
         },
         "destructive": {
           "value": "{error.default}",
           "type": "color"
         },
+        "destructive-hover": {
+          "value": "{error.dark}",
+          "type": "color"
+        },
         "quiet": {
-          "value": "$grey.300",
+          "value": "{grey.700}",
           "type": "color"
         },
         "disabled": {
-          "value": "{primary.800-s}",
+          "value": "{grey.800}",
+          "type": "color"
+        },
+        "tertiary-pressed": {
+          "value": "{primary.100-t}",
           "type": "color"
         }
       },
-      "text": {
+      "foreground": {
         "primary-inverts": {
           "value": "$white",
           "type": "color"
@@ -1293,15 +1313,19 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.900",
+          "value": "{white}",
           "type": "color"
         },
         "disabled": {
-          "value": "$grey.200",
+          "value": "$grey.600",
           "type": "color"
         },
         "destructive": {
           "value": "$white",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{primary.700-s}",
           "type": "color"
         }
       },
@@ -1342,6 +1366,10 @@
         },
         "hover": {
           "value": "{primary.700-s}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{primary.800-s}",
           "type": "color"
         }
       }
