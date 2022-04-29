@@ -1031,7 +1031,7 @@
           "y": "{1}",
           "blur": "{1}",
           "spread": "0",
-          "color": "#00000010",
+          "color": "#00000000",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1042,7 +1042,7 @@
           "y": "{1}",
           "blur": "{1}",
           "spread": "0",
-          "color": "#00000015",
+          "color": "#00000000",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1053,7 +1053,7 @@
           "y": "{2}",
           "blur": "{2}",
           "spread": "0",
-          "color": "#00000007",
+          "color": "#00000000",
           "type": "dropShadow"
         },
         "type": "boxShadow"
