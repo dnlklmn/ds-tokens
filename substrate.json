@@ -314,7 +314,7 @@
         "type": "color"
       },
       "dark": {
-        "value": "#6B0000",
+        "value": "#D60E01",
         "type": "color"
       }
     },
@@ -384,7 +384,7 @@
       "padding": {
         "default": {
           "leftRight": {
-            "value": "{4}",
+            "value": "{3}",
             "type": "spacing"
           },
           "topBottom": {
@@ -404,11 +404,11 @@
         },
         "big": {
           "leftRight": {
-            "value": "{8}",
+            "value": "{4}",
             "type": "spacing"
           },
           "topBottom": {
-            "value": "{4}",
+            "value": "{3}",
             "type": "spacing"
           }
         }
@@ -725,7 +725,7 @@
       "value": {
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Bold",
-        "lineHeight": "131%",
+        "lineHeight": "125%",
         "fontSize": "{fontSize.2}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
@@ -965,7 +965,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.800",
+          "value": "{white}",
           "type": "color"
         },
         "disabled": {
@@ -973,7 +973,7 @@
           "type": "color"
         },
         "tertiary-pressed": {
-          "value": "{primary.300-t}",
+          "value": "{primary.200-t}",
           "type": "color"
         }
       },
@@ -991,7 +991,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$white",
+          "value": "{primary.500-base}",
           "type": "color"
         },
         "disabled": {
@@ -1000,6 +1000,14 @@
         },
         "destructive": {
           "value": "$white",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{primary.500-base}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{primary.700-s}",
           "type": "color"
         }
       },
@@ -1031,11 +1039,19 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{primary.300-t}",
+          "value": "{grey.400}",
           "type": "color"
         },
         "quiet": {
           "value": "$grey.800",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{primary.500-base}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{primary.600-s}",
           "type": "color"
         }
       }
