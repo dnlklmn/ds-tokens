@@ -928,8 +928,12 @@
           "value": "{primary.500-base}",
           "type": "color"
         },
-        "hover": {
-          "value": "{primary.400-t}",
+        "primary-hover": {
+          "value": "{primary.600-s}",
+          "type": "color"
+        },
+        "primary-pressed": {
+          "value": "{primary.700-s}",
           "type": "color"
         },
         "down": {
@@ -953,7 +957,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{primary.300-t}",
+          "value": "{grey.300}",
           "type": "color"
         }
       },
