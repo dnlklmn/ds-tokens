@@ -1250,7 +1250,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "{secondary.700-s}",
+          "value": "{grey.700}",
           "type": "color"
         },
         "disabled": {
@@ -1272,11 +1272,11 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.900",
+          "value": "{white}",
           "type": "color"
         },
         "disabled": {
-          "value": "{grey.400}",
+          "value": "{grey.600}",
           "type": "color"
         },
         "destructive": {
