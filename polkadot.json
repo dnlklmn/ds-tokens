@@ -138,7 +138,7 @@
     },
     "grey": {
       "50": {
-        "value": "#F3F3F6",
+        "value": "#F9F9FB",
         "type": "color"
       },
       "100": {
@@ -221,6 +221,10 @@
       },
       "950-s": {
         "value": "#33001B",
+        "type": "color"
+      },
+      "50-t": {
+        "value": "#FFF5FB",
         "type": "color"
       }
     },
@@ -377,6 +381,16 @@
         "value": "6.4375rem",
         "type": "fontSizes"
       }
+    },
+    "fontWeight": {
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "semiBold": {
+        "value": "Semi Bold",
+        "type": "fontWeights"
+      }
     }
   },
   "space": {
@@ -500,46 +514,6 @@
         }
       }
     },
-    "text": {
-      "label": {
-        "gap": {
-          "vertical": {
-            "value": "{2}",
-            "type": "spacing"
-          }
-        }
-      },
-      "title": {
-        "gap": {
-          "default": {
-            "horizontal": {
-              "value": "{4}",
-              "type": "spacing"
-            },
-            "vertical": {
-              "value": "{2}",
-              "type": "spacing"
-            }
-          },
-          "small": {
-            "horizontal": {
-              "value": "{1}",
-              "type": "spacing"
-            }
-          },
-          "big": {
-            "horizontal": {
-              "value": "{8}",
-              "type": "spacing"
-            },
-            "vertical": {
-              "value": "{4}",
-              "type": "spacing"
-            }
-          }
-        }
-      }
-    },
     "form": {
       "gap": {
         "default": {
@@ -572,21 +546,25 @@
         }
       }
     },
-    "textField": {
-      "code": {
-        "default": {
-          "value": "{borderRadius.xl}",
-          "type": "borderRadius"
-        }
-      },
-      "default": {
-        "value": "{borderRadius.lg}",
-        "type": "borderRadius"
-      }
-    },
     "card": {
       "default": {
         "value": "{borderRadius.md}",
+        "type": "borderRadius"
+      }
+    },
+    "textField": {
+      "padding": {
+        "topBottom": {
+          "value": "{3}",
+          "type": "spacing"
+        },
+        "leftRight": {
+          "value": "{4}",
+          "type": "spacing"
+        }
+      },
+      "default": {
+        "value": "{borderRadius.default}",
         "type": "borderRadius"
       }
     }
@@ -687,9 +665,9 @@
       "value": {
         "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
-        "lineHeight": "AUTO",
+        "lineHeight": "150%",
         "fontSize": "{fontSize.2}",
-        "letterSpacing": "3%",
+        "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textCase": "none",
         "textDecoration": "none"
@@ -790,12 +768,12 @@
     "Label": {
       "value": {
         "fontFamily": "{fontFamily.secondary}",
-        "fontWeight": "Semi Bold",
-        "lineHeight": "AUTO",
-        "fontSize": "{fontSize.1}",
+        "fontWeight": "{fontWeight.regular}",
+        "lineHeight": "150%",
+        "fontSize": "{fontSize.2}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
-        "textCase": "Uppercase",
+        "textCase": "None",
         "textDecoration": "none"
       },
       "type": "typography"
@@ -854,7 +832,7 @@
     "textfield": {
       "bg": {
         "primary": {
-          "value": "{primary.100-t}",
+          "value": "{primary.50-t}",
           "type": "color"
         },
         "error": {
@@ -863,6 +841,14 @@
         },
         "code": {
           "value": "{secondary.900-s}",
+          "type": "color"
+        },
+        "light": {
+          "value": "{grey.50}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{grey.100}",
           "type": "color"
         }
       },
@@ -876,11 +862,25 @@
           "type": "color"
         },
         "default": {
-          "value": "$grey.400",
+          "value": "{grey.100}",
           "type": "color"
         },
         "bright": {
           "value": "$grey.700",
+          "type": "color"
+        },
+        "error-light": {
+          "value": "{error.light}",
+          "type": "color"
+        }
+      },
+      "foreground": {
+        "primary": {
+          "value": "{grey.900}",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "{grey.400}",
           "type": "color"
         }
       }
