@@ -566,6 +566,12 @@
       "default": {
         "value": "{borderRadius.default}",
         "type": "borderRadius"
+      },
+      "gap": {
+        "icon-text": {
+          "value": "{1}",
+          "type": "spacing"
+        }
       }
     }
   },
