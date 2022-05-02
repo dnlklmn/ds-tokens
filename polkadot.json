@@ -554,13 +554,25 @@
     },
     "textField": {
       "padding": {
-        "topBottom": {
-          "value": "{3}",
-          "type": "spacing"
+        "medium": {
+          "topBottom": {
+            "value": "{3}",
+            "type": "spacing"
+          },
+          "leftRight": {
+            "value": "{4}",
+            "type": "spacing"
+          }
         },
-        "leftRight": {
-          "value": "{4}",
-          "type": "spacing"
+        "small": {
+          "topBottom": {
+            "value": "{2}",
+            "type": "spacing"
+          },
+          "leftRight": {
+            "value": "{3}",
+            "type": "spacing"
+          }
         }
       },
       "default": {
@@ -571,6 +583,18 @@
         "icon-text": {
           "value": "{1}",
           "type": "spacing"
+        },
+        "medium": {
+          "vertical": {
+            "value": "{2}",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "vertical": {
+            "value": "{2}",
+            "type": "spacing"
+          }
         }
       }
     }
@@ -658,7 +682,7 @@
       "value": {
         "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
-        "lineHeight": "180%",
+        "lineHeight": "130%",
         "fontSize": "{fontSize.1}",
         "letterSpacing": "0",
         "paragraphSpacing": "0",
