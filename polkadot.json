@@ -732,7 +732,7 @@
     },
     "ButtonBig": {
       "value": {
-        "fontFamily": "{fontFamily.secondary}",
+        "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
         "lineHeight": "131%",
         "fontSize": "{fontSize.4}",
