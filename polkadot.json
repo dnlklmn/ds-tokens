@@ -437,7 +437,7 @@
           "type": "spacing"
         },
         "small": {
-          "value": "{0,5}",
+          "value": "{1}",
           "type": "spacing"
         }
       }
@@ -719,7 +719,7 @@
     },
     "ButtonSmall": {
       "value": {
-        "fontFamily": "$fontFamily.primary",
+        "fontFamily": "$fontFamily.secondary",
         "fontWeight": "Regular",
         "lineHeight": "131%",
         "fontSize": "{fontSize.1}",
@@ -732,7 +732,7 @@
     },
     "ButtonBig": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
+        "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
         "lineHeight": "131%",
         "fontSize": "{fontSize.4}",
@@ -810,7 +810,7 @@
     },
     "ButtonDefault": {
       "value": {
-        "fontFamily": "{fontFamily.primary}",
+        "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
         "lineHeight": "131%",
         "fontSize": "{fontSize.2}",
@@ -910,7 +910,7 @@
           "type": "color"
         },
         "dimmed": {
-          "value": "{grey.400}",
+          "value": "{grey.500}",
           "type": "color"
         }
       }
