@@ -1048,7 +1048,7 @@
           "value": "{error.700-s}",
           "type": "color"
         },
-        "quiet": {
+        "inverted": {
           "value": "{white}",
           "type": "color"
         },
@@ -1380,10 +1380,14 @@
           "type": "color"
         },
         "destructive-hover": {
-          "value": "{error.300-t}",
+          "value": "{error.600-s}",
           "type": "color"
         },
-        "quiet": {
+        "destructive-pressed": {
+          "value": "{error.700-s}",
+          "type": "color"
+        },
+        "inverted": {
           "value": "{grey.700}",
           "type": "color"
         },
@@ -1471,6 +1475,10 @@
         },
         "pressed": {
           "value": "{primary.500-base}",
+          "type": "color"
+        },
+        "focused": {
+          "value": "{white}",
           "type": "color"
         }
       },
