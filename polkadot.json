@@ -403,6 +403,16 @@
         "value": "Semi Bold",
         "type": "fontWeights"
       }
+    },
+    "borderWidth": {
+      "1": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "2": {
+        "value": "2",
+        "type": "borderWidth"
+      }
     }
   },
   "space": {
@@ -608,6 +618,20 @@
             "type": "spacing"
           }
         }
+      }
+    },
+    "button-borderWidth": {
+      "medium": {
+        "value": "{borderWidth.2}",
+        "type": "borderWidth"
+      },
+      "small": {
+        "value": "{borderWidth.1}",
+        "type": "borderWidth"
+      },
+      "large": {
+        "value": "{borderWidth.2}",
+        "type": "borderWidth"
       }
     }
   },
