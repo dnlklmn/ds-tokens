@@ -288,11 +288,11 @@
         "type": "color"
       },
       "600-s": {
-        "value": "#991000",
+        "value": "#B21200",
         "type": "color"
       },
       "700-s": {
-        "value": "#4C0800",
+        "value": "#7F0D00",
         "type": "color"
       }
     },
@@ -1041,7 +1041,11 @@
           "type": "color"
         },
         "destructive-hover": {
-          "value": "{error.300-t}",
+          "value": "{error.600-s}",
+          "type": "color"
+        },
+        "destructive-pressed": {
+          "value": "{error.700-s}",
           "type": "color"
         },
         "quiet": {
@@ -1143,6 +1147,18 @@
         },
         "pressed": {
           "value": "{primary.800-s}",
+          "type": "color"
+        },
+        "focused": {
+          "value": "{primary.800-s}",
+          "type": "color"
+        },
+        "secondary-focused": {
+          "value": "{secondary.900-s}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{error.700-s}",
           "type": "color"
         }
       },
