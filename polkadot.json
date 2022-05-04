@@ -721,7 +721,7 @@
       "value": {
         "fontFamily": "$fontFamily.secondary",
         "fontWeight": "Regular",
-        "lineHeight": "131%",
+        "lineHeight": "116%",
         "fontSize": "{fontSize.1}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
