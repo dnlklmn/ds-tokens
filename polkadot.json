@@ -906,7 +906,7 @@
           "type": "color"
         },
         "error": {
-          "value": "{error.400-t}",
+          "value": "{error.100-t}",
           "type": "color"
         },
         "code": {
