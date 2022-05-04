@@ -1006,6 +1006,10 @@
         "dimmed": {
           "value": "{grey.500}",
           "type": "color"
+        },
+        "error": {
+          "value": "{error.600-s}",
+          "type": "color"
         }
       }
     },
@@ -1321,11 +1325,11 @@
     "textfield": {
       "bg": {
         "default": {
-          "value": "{indigo.950-s}",
+          "value": "{indigo.900-s}",
           "type": "color"
         },
         "error": {
-          "value": "{error.700-s}",
+          "value": "{error.900-s}",
           "type": "color"
         }
       },
@@ -1355,6 +1359,10 @@
         "dimmed": {
           "value": "{grey.400}",
           "type": "color"
+        },
+        "error": {
+          "value": "{error.600-s}",
+          "type": "color"
         }
       }
     },
@@ -1376,7 +1384,7 @@
           "type": "color"
         },
         "highlight": {
-          "value": "$primary.800-s",
+          "value": "$primary.900-s",
           "type": "color"
         }
       },
