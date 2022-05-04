@@ -1153,7 +1153,7 @@
           "value": "{primary.800-s}",
           "type": "color"
         },
-        "secondary-focused": {
+        "sensitive-focused": {
           "value": "{secondary.900-s}",
           "type": "color"
         },
@@ -1479,6 +1479,14 @@
         },
         "focused": {
           "value": "{white}",
+          "type": "color"
+        },
+        "sensitive-pressed": {
+          "value": "{secondary.100-t}",
+          "type": "color"
+        },
+        "error-focused": {
+          "value": "{error.200-t}",
           "type": "color"
         }
       },
