@@ -734,7 +734,7 @@
       "value": {
         "fontFamily": "{fontFamily.primary}",
         "fontWeight": "Regular",
-        "lineHeight": "131%",
+        "lineHeight": "132%",
         "fontSize": "{fontSize.4}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
@@ -812,7 +812,7 @@
       "value": {
         "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
-        "lineHeight": "131%",
+        "lineHeight": "150%",
         "fontSize": "{fontSize.2}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
