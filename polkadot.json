@@ -271,16 +271,28 @@
       }
     },
     "error": {
-      "default": {
-        "value": "#D84331",
+      "200-t": {
+        "value": "#FED2CD",
         "type": "color"
       },
-      "light": {
-        "value": "#FBECEA",
+      "300-t": {
+        "value": "#FE8D81",
         "type": "color"
       },
-      "dark": {
-        "value": "#9F3327",
+      "400-t": {
+        "value": "#FD4935",
+        "type": "color"
+      },
+      "500-base": {
+        "value": "#E31902",
+        "type": "color"
+      },
+      "600-s": {
+        "value": "#991000",
+        "type": "color"
+      },
+      "700-s": {
+        "value": "#4C0800",
         "type": "color"
       }
     },
@@ -845,7 +857,7 @@
         "type": "color"
       },
       "error": {
-        "value": "{error.default}",
+        "value": "{error.500-base}",
         "type": "color"
       }
     },
@@ -866,7 +878,7 @@
           "type": "color"
         },
         "error": {
-          "value": "{error.light}",
+          "value": "{error.400-t}",
           "type": "color"
         },
         "code": {
@@ -884,7 +896,7 @@
       },
       "border": {
         "error": {
-          "value": "{error.default}",
+          "value": "{error.500-base}",
           "type": "color"
         },
         "primary": {
@@ -900,7 +912,7 @@
           "type": "color"
         },
         "error-light": {
-          "value": "{error.light}",
+          "value": "{error.400-t}",
           "type": "color"
         }
       },
@@ -1001,11 +1013,11 @@
           "type": "color"
         },
         "destructive": {
-          "value": "{error.default}",
+          "value": "{error.500-base}",
           "type": "color"
         },
         "destructive-hover": {
-          "value": "{error.dark}",
+          "value": "{error.300-t}",
           "type": "color"
         },
         "quiet": {
@@ -1194,7 +1206,7 @@
         "type": "color"
       },
       "error": {
-        "value": "{error.default}",
+        "value": "{error.500-base}",
         "type": "color"
       }
     },
@@ -1215,13 +1227,13 @@
           "type": "color"
         },
         "error": {
-          "value": "{error.dark}",
+          "value": "{error.300-t}",
           "type": "color"
         }
       },
       "border": {
         "error": {
-          "value": "{error.default}",
+          "value": "{error.500-base}",
           "type": "color"
         },
         "primary": {
@@ -1324,11 +1336,11 @@
           "type": "color"
         },
         "destructive": {
-          "value": "{error.default}",
+          "value": "{error.500-base}",
           "type": "color"
         },
         "destructive-hover": {
-          "value": "{error.dark}",
+          "value": "{error.300-t}",
           "type": "color"
         },
         "quiet": {
