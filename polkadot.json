@@ -1473,14 +1473,6 @@
         }
       },
       "border": {
-        "error": {
-          "value": "{error.600-s}",
-          "type": "color"
-        },
-        "focus": {
-          "value": "{indigo.500-base}",
-          "type": "color"
-        },
         "default": {
           "value": "{grey.100}",
           "type": "color"
@@ -1489,16 +1481,24 @@
           "value": "$grey.700",
           "type": "color"
         },
+        "focus": {
+          "value": "{indigo.500-base}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{error.600-s}",
+          "type": "color"
+        },
         "error-light": {
           "value": "{error.600-s}",
           "type": "color"
         },
-        "success-light": {
-          "value": "{lime.600-s}",
-          "type": "color"
-        },
         "success": {
           "value": "{lime.700-s}",
+          "type": "color"
+        },
+        "success-light": {
+          "value": "{lime.600-s}",
           "type": "color"
         },
         "sensitive": {
