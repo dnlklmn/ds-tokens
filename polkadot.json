@@ -374,6 +374,10 @@
       "secondary": {
         "value": "Inter",
         "type": "fontFamilies"
+      },
+      "code": {
+        "value": "Roboto Mono",
+        "type": "fontFamilies"
       }
     },
     "fontSize": {
@@ -850,9 +854,22 @@
     },
     "Code1": {
       "value": {
-        "fontFamily": "{fontFamily.secondary}",
+        "fontFamily": "{fontFamily.code}",
         "fontWeight": "Regular",
-        "lineHeight": "AUTO",
+        "lineHeight": "151%",
+        "fontSize": "{fontSize.2}",
+        "letterSpacing": "3%",
+        "paragraphSpacing": "0",
+        "textCase": "none",
+        "textDecoration": "none"
+      },
+      "type": "typography"
+    },
+    "Code2": {
+      "value": {
+        "fontFamily": "{fontFamily.code}",
+        "fontWeight": "Regular",
+        "lineHeight": "151%",
         "fontSize": "{fontSize.1}",
         "letterSpacing": "3%",
         "paragraphSpacing": "0",
