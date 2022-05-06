@@ -183,6 +183,10 @@
       }
     },
     "primary": {
+      "50-t": {
+        "value": "#FFF5FB",
+        "type": "color"
+      },
       "100-t": {
         "value": "#ffe4f3",
         "type": "color"
@@ -222,19 +226,19 @@
       "950-s": {
         "value": "#33001B",
         "type": "color"
-      },
-      "50-t": {
-        "value": "#FFF5FB",
-        "type": "color"
       }
     },
     "secondary": {
-      "100-t": {
-        "value": "#EDD6FF",
+      "50-t": {
+        "value": "#f9f3ff",
         "type": "color"
       },
       "200-t": {
         "value": "#D9A8FF",
+        "type": "color"
+      },
+      "100-t": {
+        "value": "#EDD6FF",
         "type": "color"
       },
       "300-t": {
@@ -268,13 +272,13 @@
       "950-s": {
         "value": "#180029",
         "type": "color"
-      },
-      "50-t": {
-        "value": "#f9f3ff",
-        "type": "color"
       }
     },
     "error": {
+      "50-t": {
+        "value": "#FFF5F5",
+        "type": "color"
+      },
       "100-t": {
         "value": "#FFF1F0",
         "type": "color"
@@ -316,12 +320,12 @@
         "type": "color"
       }
     },
-    "black": {
-      "value": "#171717",
-      "type": "color"
-    },
     "white": {
       "value": "#ffffff",
+      "type": "color"
+    },
+    "black": {
+      "value": "#171717",
       "type": "color"
     },
     "success": {
@@ -439,8 +443,12 @@
       }
     },
     "indigo": {
+      "50-t": {
+        "value": "#F5F7FF",
+        "type": "color"
+      },
       "100-t": {
-        "value": "#F2F5FF",
+        "value": "#E5EBFF",
         "type": "color"
       },
       "200-t": {
@@ -481,6 +489,10 @@
       }
     },
     "lime": {
+      "50-t": {
+        "value": "#FCFEF6",
+        "type": "color"
+      },
       "100-t": {
         "value": "#F8FDEC",
         "type": "color"
@@ -519,10 +531,6 @@
       },
       "950-s": {
         "value": "#2e4200",
-        "type": "color"
-      },
-      "50-t": {
-        "value": "#FCFEF6",
         "type": "color"
       }
     },
