@@ -1442,11 +1442,35 @@
         "error": {
           "value": "{error.900-s}",
           "type": "color"
+        },
+        "code": {
+          "value": "{secondary.900-s}",
+          "type": "color"
+        },
+        "light": {
+          "value": "{grey.50}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{grey.800}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{lime.50-t}",
+          "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.900-s}",
+          "type": "color"
+        },
+        "sensitive-disabled": {
+          "value": "{secondary.800-s}",
+          "type": "color"
         }
       },
       "border": {
         "error": {
-          "value": "{error.500-base}",
+          "value": "{error.600-s}",
           "type": "color"
         },
         "primary": {
@@ -1464,11 +1488,11 @@
       },
       "foreground": {
         "default": {
-          "value": "{grey.100}",
+          "value": "{grey.50}",
           "type": "color"
         },
         "dimmed": {
-          "value": "{grey.400}",
+          "value": "{grey.300}",
           "type": "color"
         },
         "error": {
