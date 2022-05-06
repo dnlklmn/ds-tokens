@@ -471,6 +471,48 @@
         "value": "#00051A",
         "type": "color"
       }
+    },
+    "lime": {
+      "100-t": {
+        "value": "#F8FDEC",
+        "type": "color"
+      },
+      "200-t": {
+        "value": "#eefad1",
+        "type": "color"
+      },
+      "300-t": {
+        "value": "#d7fc82",
+        "type": "color"
+      },
+      "400-t": {
+        "value": "#c2ff33",
+        "type": "color"
+      },
+      "500-base": {
+        "value": "#abe12c",
+        "type": "color"
+      },
+      "600-s": {
+        "value": "#94c424",
+        "type": "color"
+      },
+      "700-s": {
+        "value": "#7da61d",
+        "type": "color"
+      },
+      "800-s": {
+        "value": "#638513",
+        "type": "color"
+      },
+      "900-s": {
+        "value": "#48630a",
+        "type": "color"
+      },
+      "950-s": {
+        "value": "#2e4200",
+        "type": "color"
+      }
     }
   },
   "space": {
@@ -995,6 +1037,10 @@
         },
         "error-light": {
           "value": "{error.400-t}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{success}",
           "type": "color"
         }
       },
