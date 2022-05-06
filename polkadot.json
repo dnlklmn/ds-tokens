@@ -1522,6 +1522,14 @@
         "error": {
           "value": "{error.600-s}",
           "type": "color"
+        },
+        "success": {
+          "value": "{lime.700-s}",
+          "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.500-base}",
+          "type": "color"
         }
       }
     },
