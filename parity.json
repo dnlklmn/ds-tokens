@@ -862,6 +862,10 @@
       "warning": {
         "value": "{warning}",
         "type": "color"
+      },
+      "white": {
+        "value": "{white}",
+        "type": "color"
       }
     },
     "bg": {
