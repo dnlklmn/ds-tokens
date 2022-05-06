@@ -525,6 +525,10 @@
         "value": "#FCFEF6",
         "type": "color"
       }
+    },
+    "number": {
+      "value": "95",
+      "type": "spacing"
     }
   },
   "space": {
