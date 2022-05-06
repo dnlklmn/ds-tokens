@@ -512,6 +512,10 @@
       "950-s": {
         "value": "#2e4200",
         "type": "color"
+      },
+      "50-t": {
+        "value": "#FCFEF6",
+        "type": "color"
       }
     }
   },
@@ -1016,6 +1020,10 @@
         "disabled": {
           "value": "{grey.100}",
           "type": "color"
+        },
+        "success": {
+          "value": "{lime.50-t}",
+          "type": "color"
         }
       },
       "border": {
@@ -1039,8 +1047,12 @@
           "value": "{error.400-t}",
           "type": "color"
         },
+        "success-light": {
+          "value": "{lime.600-s}",
+          "type": "color"
+        },
         "success": {
-          "value": "{success}",
+          "value": "{lime.700-s}",
           "type": "color"
         }
       },
@@ -1055,6 +1067,10 @@
         },
         "error": {
           "value": "{error.600-s}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{lime.700-s}",
           "type": "color"
         }
       }
