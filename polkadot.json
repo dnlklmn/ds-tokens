@@ -268,6 +268,10 @@
       "950-s": {
         "value": "#180029",
         "type": "color"
+      },
+      "50-t": {
+        "value": "#f9f3ff",
+        "type": "color"
       }
     },
     "error": {
@@ -1024,6 +1028,14 @@
         "success": {
           "value": "{lime.50-t}",
           "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.50-t}",
+          "type": "color"
+        },
+        "sensitive-disabled": {
+          "value": "{secondary.100-t}",
+          "type": "color"
         }
       },
       "border": {
@@ -1054,6 +1066,18 @@
         "success": {
           "value": "{lime.700-s}",
           "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.500-base}",
+          "type": "color"
+        },
+        "sensitive-light": {
+          "value": "{secondary.400-t}",
+          "type": "color"
+        },
+        "sensitive-dimmed": {
+          "value": "{secondary.100-t}",
+          "type": "color"
         }
       },
       "foreground": {
@@ -1071,6 +1095,10 @@
         },
         "success": {
           "value": "{lime.700-s}",
+          "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.500-base}",
           "type": "color"
         }
       }
