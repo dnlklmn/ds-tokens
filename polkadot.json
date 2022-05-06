@@ -1456,7 +1456,7 @@
           "type": "color"
         },
         "success": {
-          "value": "{lime.50-t}",
+          "value": "{lime.950-s}",
           "type": "color"
         },
         "sensitive": {
@@ -1473,16 +1473,40 @@
           "value": "{error.600-s}",
           "type": "color"
         },
-        "primary": {
-          "value": "{primary.700-s}",
+        "focus": {
+          "value": "{indigo.500-base}",
           "type": "color"
         },
         "default": {
-          "value": "$grey.700",
+          "value": "{grey.100}",
           "type": "color"
         },
         "bright": {
-          "value": "$grey.500",
+          "value": "$grey.700",
+          "type": "color"
+        },
+        "error-light": {
+          "value": "{error.600-s}",
+          "type": "color"
+        },
+        "success-light": {
+          "value": "{lime.600-s}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{lime.700-s}",
+          "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.500-base}",
+          "type": "color"
+        },
+        "sensitive-light": {
+          "value": "{secondary.400-t}",
+          "type": "color"
+        },
+        "sensitive-dimmed": {
+          "value": "{secondary.100-t}",
           "type": "color"
         }
       },
