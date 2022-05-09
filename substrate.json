@@ -183,6 +183,10 @@
       }
     },
     "primary": {
+      "50-t": {
+        "value": "#F2F7FD",
+        "type": "color"
+      },
       "100-t": {
         "value": "#d4f7e8",
         "type": "color"
@@ -264,6 +268,10 @@
       "950-s": {
         "value": "#1B1D2D",
         "type": "color"
+      },
+      "50-t": {
+        "value": "#F6F8FE",
+        "type": "color"
       }
     },
     "borderRadius": {
@@ -305,6 +313,10 @@
       }
     },
     "error": {
+      "50-t": {
+        "value": "#FFF5F5",
+        "type": "color"
+      },
       "100-t": {
         "value": "#FFF1F0",
         "type": "color"
@@ -1305,12 +1317,16 @@
           "value": "{secondary.700-s}",
           "type": "color"
         },
-        "destructive": {
-          "value": "{error.default}",
+        "danger": {
+          "value": "{error.500-base}",
           "type": "color"
         },
-        "destructive-hover": {
-          "value": "{error.dark}",
+        "danger-hover": {
+          "value": "{error.600-s}",
+          "type": "color"
+        },
+        "danger-pressed": {
+          "value": "{error.700-s}",
           "type": "color"
         },
         "quiet": {
@@ -1393,6 +1409,26 @@
         },
         "quiet": {
           "value": "$grey.300",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{primary.500-base}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{primary.600-s}",
+          "type": "color"
+        },
+        "focused": {
+          "value": "{primary.100-t}",
+          "type": "color"
+        },
+        "sensitive-focused": {
+          "value": "{secondary.950-s}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{error.700-s}",
           "type": "color"
         }
       }
