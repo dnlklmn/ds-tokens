@@ -993,11 +993,11 @@
           "type": "color"
         },
         "danger": {
-          "value": "{error.default}",
+          "value": "{error.500-base}",
           "type": "color"
         },
         "danger-hover": {
-          "value": "{error.dark}",
+          "value": "{error.600-s}",
           "type": "color"
         },
         "destructive-pressed": {
@@ -1095,11 +1095,11 @@
           "type": "color"
         },
         "focused": {
-          "value": "{primary.800-s}",
+          "value": "{primary.700-s}",
           "type": "color"
         },
         "sensitive-focused": {
-          "value": "{secondary.900-s}",
+          "value": "{secondary.950-s}",
           "type": "color"
         },
         "error": {
