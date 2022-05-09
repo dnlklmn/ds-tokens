@@ -1090,7 +1090,7 @@
           "y": "{2}",
           "blur": "{6}",
           "spread": "0",
-          "color": "#00000030",
+          "color": "#00000015",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1326,6 +1326,12 @@
           "value": "#aeb3be",
           "type": "color"
         }
+      }
+    },
+    "separator": {
+      "default": {
+        "value": "{grey.300}",
+        "type": "color"
       }
     }
   },
