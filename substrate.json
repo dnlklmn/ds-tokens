@@ -1368,30 +1368,100 @@
     },
     "textfield": {
       "bg": {
-        "primary": {
+        "default": {
           "value": "{primary.900-s}",
           "type": "color"
         },
         "error": {
-          "value": "{error.dark}",
+          "value": "{error.800-s}",
+          "type": "color"
+        },
+        "code": {
+          "value": "{secondary.900-s}",
+          "type": "color"
+        },
+        "light": {
+          "value": "{grey.950}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{grey.800}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{lime.950-s}",
+          "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.950-s}",
+          "type": "color"
+        },
+        "sensitive-disabled": {
+          "value": "{secondary.800-s}",
           "type": "color"
         }
       },
       "border": {
         "error": {
-          "value": "{error.default}",
+          "value": "{error.500-base}",
           "type": "color"
         },
-        "primary": {
-          "value": "{primary.700-s}",
+        "focus": {
+          "value": "{primary.500-base}",
           "type": "color"
         },
         "default": {
-          "value": "$grey.700",
+          "value": "{grey.600}",
           "type": "color"
         },
         "bright": {
-          "value": "$grey.500",
+          "value": "$grey.700",
+          "type": "color"
+        },
+        "error-light": {
+          "value": "{error.400-t}",
+          "type": "color"
+        },
+        "success-light": {
+          "value": "{lime.600-s}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{lime.700-s}",
+          "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.500-base}",
+          "type": "color"
+        },
+        "sensitive-light": {
+          "value": "{secondary.400-t}",
+          "type": "color"
+        },
+        "sensitive-dimmed": {
+          "value": "{secondary.700-s}",
+          "type": "color"
+        }
+      },
+      "foreground": {
+        "default": {
+          "value": "{white}",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "{grey.500}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{error.600-s}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{lime.700-s}",
+          "type": "color"
+        },
+        "sensitive": {
+          "value": "{secondary.500-base}",
           "type": "color"
         }
       }
