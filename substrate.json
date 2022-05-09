@@ -663,11 +663,63 @@
       }
     },
     "textField": {
-      "code": {
-        "default": {
-          "value": "{borderRadius.md}",
-          "type": "borderRadius"
+      "padding": {
+        "medium": {
+          "topBottom": {
+            "value": "{3}",
+            "type": "spacing"
+          },
+          "leftRight": {
+            "value": "{4}",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "topBottom": {
+            "value": "{2}",
+            "type": "spacing"
+          },
+          "leftRight": {
+            "value": "{3}",
+            "type": "spacing"
+          }
         }
+      },
+      "default": {
+        "value": "{borderRadius.default}",
+        "type": "borderRadius"
+      },
+      "gap": {
+        "icon-text": {
+          "value": "{1}",
+          "type": "spacing"
+        },
+        "medium": {
+          "vertical": {
+            "value": "{2}",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "vertical": {
+            "value": "{2}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "button-borderWidth": {
+      "medium": {
+        "value": "{borderWidth.2}",
+        "type": "borderWidth"
+      },
+      "small": {
+        "value": "{borderWidth.1}",
+        "type": "borderWidth"
+      },
+      "large": {
+        "value": "{borderWidth.2}",
+        "type": "borderWidth"
       }
     }
   },
