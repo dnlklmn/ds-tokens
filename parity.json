@@ -1090,42 +1090,66 @@
           "value": "{primary.500-base}",
           "type": "color"
         },
-        "hover": {
-          "value": "{primary.400-t}",
+        "primary-hover": {
+          "value": "{primary.600-s}",
+          "type": "color"
+        },
+        "primary-pressed": {
+          "value": "{primary.700-s}",
+          "type": "color"
+        },
+        "down": {
+          "value": "{primary.600-s}",
           "type": "color"
         },
         "light": {
-          "value": "{primary.800-s}",
+          "value": "{primary.100-t}",
           "type": "color"
         },
-        "sensitive": {
+        "secondary": {
           "value": "{secondary.500-base}",
           "type": "color"
         },
-        "destructive": {
-          "value": "{error.default}",
+        "secondary-hover": {
+          "value": "{secondary.600-s}",
           "type": "color"
         },
-        "quiet": {
+        "secondary-pressed": {
+          "value": "{secondary.700-s}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{error.500-base}",
+          "type": "color"
+        },
+        "danger-hover": {
+          "value": "{error.600-s}",
+          "type": "color"
+        },
+        "destructive-pressed": {
+          "value": "{error.700-s}",
+          "type": "color"
+        },
+        "inverted": {
           "value": "{white}",
           "type": "color"
         },
-        "primaryDisabled": {
-          "value": "{primary.300-t}",
+        "disabled": {
+          "value": "{grey.300}",
           "type": "color"
         },
-        "sensitiveDisabled": {
-          "value": "{secondary.300-t}",
+        "tertiary-pressed": {
+          "value": "{primary.200-t}",
           "type": "color"
         }
       },
-      "text": {
+      "foreground": {
         "primary-inverts": {
-          "value": "{white}",
+          "value": "{primary.500-base}",
           "type": "color"
         },
         "white": {
-          "value": "{white}",
+          "value": "$white",
           "type": "color"
         },
         "primary-stable": {
@@ -1133,25 +1157,33 @@
           "type": "color"
         },
         "quiet": {
-          "value": "{grey.900}",
+          "value": "{primary.500-base}",
           "type": "color"
         },
         "disabled": {
-          "value": "{primary.500-base}70",
+          "value": "$grey.500",
           "type": "color"
         },
         "destructive": {
-          "value": "{white}",
+          "value": "$white",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{primary.500-base}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{primary.700-s}",
           "type": "color"
         }
       },
       "idle": {
         "value": {
           "x": "0",
-          "y": "{offset.xs}",
-          "blur": "{offset.xs}",
+          "y": "{1}",
+          "blur": "{1}",
           "spread": "0",
-          "color": "#00000015",
+          "color": "#00000010",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1159,10 +1191,10 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "{offsest.s}",
-          "blur": "{offsest.s}",
+          "y": "{2}",
+          "blur": "{2}",
           "spread": "0",
-          "color": "#00000022",
+          "color": "#00000007",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -1173,11 +1205,31 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{primary.700-s}",
+          "value": "{grey.400}",
           "type": "color"
         },
         "quiet": {
-          "value": "{grey.300}",
+          "value": "$grey.800",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{primary.500-base}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{primary.600-s}",
+          "type": "color"
+        },
+        "focused": {
+          "value": "{primary.700-s}",
+          "type": "color"
+        },
+        "sensitive-focused": {
+          "value": "{secondary.950-s}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{error.700-s}",
           "type": "color"
         }
       }
