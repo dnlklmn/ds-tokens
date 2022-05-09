@@ -1329,7 +1329,7 @@
           "value": "{error.700-s}",
           "type": "color"
         },
-        "quiet": {
+        "inverted": {
           "value": "{grey.800}",
           "type": "color"
         },
@@ -1424,11 +1424,11 @@
           "type": "color"
         },
         "sensitive-focused": {
-          "value": "{secondary.950-s}",
+          "value": "{secondary.300-t}",
           "type": "color"
         },
         "error": {
-          "value": "{error.700-s}",
+          "value": "{error.200-t}",
           "type": "color"
         }
       }
