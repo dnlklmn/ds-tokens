@@ -533,7 +533,11 @@
   },
   "space": {
     "button": {
-      "default": {
+      "small": {
+        "value": "{borderRadius.full}",
+        "type": "borderRadius"
+      },
+      "medium": {
         "value": "{borderRadius.full}",
         "type": "borderRadius"
       },
@@ -578,6 +582,10 @@
           "value": "{1}",
           "type": "spacing"
         }
+      },
+      "large": {
+        "value": "{borderRadius.full}",
+        "type": "borderRadius"
       }
     },
     "dropdown": {
