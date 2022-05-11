@@ -1,5 +1,5 @@
 {
-  "source": ["./substrate.json"],
+  "source": ["./build/polkadot-style-dictionary.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
@@ -7,7 +7,9 @@
       "files": [
         {
           "destination": "_variables.scss",
-          "format": "scss/variables"
+          "format": "scss/variables",
+          "className": "StyleDictionary",
+          "filter": {}
         }
       ]
     },
@@ -16,7 +18,9 @@
       "files": [
         {
           "format": "css/variables",
-          "destination": "variables.css"
+          "destination": "_variables.css",
+          "className": "StyleDictionary",
+          "filter": {}
         }
       ]
     },
@@ -36,26 +40,6 @@
           "format": "android/resources",
           "filter": {
             "type": "spacing"
-          }
-        }
-      ]
-    },
-    "ios-swift": {
-      "transformGroup": "ios-swift",
-      "buildPath": "build/ios-swift/",
-      "files": [
-        {
-          "destination": "StyleDictionary.swift",
-          "format": "ios-swift/class.swift",
-          "className": "StyleDictionary",
-          "filter": {}
-        },
-        {
-          "destination": "StyleDictionaryColor.swift",
-          "format": "ios-swift/class.swift",
-          "className": "StyleDictionary",
-          "filter": {
-            "type": "color"
           }
         }
       ]

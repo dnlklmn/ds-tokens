@@ -2,40 +2,72 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 22 Dec 2021 19:49:36 GMT
+  Generated on Fri, 29 Apr 2022 11:56:15 GMT
 -->
 <resources>
-  <string name="global_xs">4</string>
-  <string name="global_s">8</string>
-  <string name="global_m">16</string>
-  <string name="global_l">24</string>
-  <string name="global_xl">32</string>
-  <string name="global_xxl">48</string>
-  <string name="substrate_padding_button_big_left_right">$xl</string>
-  <string name="substrate_padding_button_big_top_bottom">$m</string>
-  <string name="substrate_padding_button_default_left_right">$m</string>
-  <string name="substrate_padding_button_default_top_bottom">$s</string>
-  <string name="substrate_padding_button_small_left_right">$m</string>
-  <string name="substrate_padding_button_small_top_bottom">$s</string>
-  <string name="substrate_padding_dropdown_default_all">$s</string>
-  <string name="substrate_padding_list_default_top_bottom">$l</string>
-  <string name="substrate_padding_content_card_default_all">$m</string>
-  <string name="substrate_padding_page_default_all">$l</string>
-  <string name="substrate_gap_list_default">$m</string>
-  <string name="substrate_gap_list_small">$s</string>
-  <string name="substrate_gap_label_default">$s</string>
-  <string name="substrate_gap_sidebar_default">$xl</string>
-  <string name="substrate_gap_sidebar_small">$m</string>
-  <string name="substrate_gap_title_default">$m</string>
-  <string name="substrate_gap_title_small">$xs</string>
-  <string name="substrate_gap_actions_default">$l</string>
-  <string name="substrate_gap_content_card_default">$l</string>
-  <string name="polkadot_padding_button_left_right">$xl</string>
-  <string name="polkadot_padding_button_top_bottom">$l</string>
-  <string name="polkadot_padding_dropdown_all">$l</string>
-  <string name="polkadot_gap_label_default">$s</string>
-  <string name="polkadot_gap_sidebar_default">$xxl</string>
-  <string name="polkadot_gap_sidebar_small">$l</string>
-  <string name="polkadot_gap_title_default">$m</string>
+  <string name="0">0px</string>
+  <string name="1">0.25 rem</string>
+  <string name="2">0.5 rem</string>
+  <string name="3">0.75 rem</string>
+  <string name="4">1 rem</string>
+  <string name="5">1.25 rem</string>
+  <string name="6">1.5 rem</string>
+  <string name="7">1.75 rem</string>
+  <string name="8">2 rem</string>
+  <string name="9">2.25 rem</string>
+  <string name="10">2.5 rem</string>
+  <string name="11">2.75 rem</string>
+  <string name="12">3 rem</string>
+  <string name="14">3.5 rem</string>
+  <string name="16">4 rem</string>
+  <string name="20">5 rem</string>
+  <string name="24">6 rem</string>
+  <string name="28">7 rem</string>
+  <string name="32">8 rem</string>
+  <string name="36">9 rem</string>
+  <string name="40">10 rem</string>
+  <string name="44">11 rem</string>
+  <string name="48">12 rem</string>
+  <string name="52">13 rem</string>
+  <string name="56">14 rem</string>
+  <string name="60">15 rem</string>
+  <string name="64">16 rem</string>
+  <string name="72">18 rem</string>
+  <string name="80">20 rem</string>
+  <string name="96">24 rem</string>
+  <string name="text_label_gap_vertical">0.5 rem</string>
+  <string name="text_title_gap_default_horizontal">1 rem</string>
+  <string name="text_title_gap_default_vertical">0.5 rem</string>
+  <string name="text_title_gap_small_horizontal">0.25 rem</string>
+  <string name="text_title_gap_big_horizontal">2 rem</string>
+  <string name="text_title_gap_big_vertical">1 rem</string>
+  <string name="dropdown_padding_default">0.5 rem</string>
+  <string name="dropdown_padding_big">1 rem</string>
+  <string name="button_padding_default_left_right">1.5 rem</string>
+  <string name="button_padding_default_top_bottom">0.75 rem</string>
+  <string name="button_padding_small_left_right">1 rem</string>
+  <string name="button_padding_small_top_bottom">0.5 rem</string>
+  <string name="button_padding_big_left_right">2.5 rem</string>
+  <string name="button_padding_big_top_bottom">1.5 rem</string>
+  <string name="button_gap_default">0.5 rem</string>
+  <string name="button_gap_small">0.125 rem</string>
+  <string name="tag_padding_all">0.5 rem</string>
+  <string name="list_gap_default">2 rem</string>
+  <string name="list_gap_small">1 rem</string>
+  <string name="list_padding_default_top_bottom">1.5 rem</string>
+  <string name="content_card_padding_default_all">1.5 rem</string>
+  <string name="content_card_gap_default">1.5 rem</string>
+  <string name="content_card_gap_small">1 rem</string>
+  <string name="page_padding_default_all">2 rem</string>
+  <string name="page_gap_default">3 rem</string>
+  <string name="page_gap_small">1.5 rem</string>
+  <string name="form_gap_default">1.5 rem</string>
+  <string name="form_gap_small">1 rem</string>
+  <string name="actions_gap_default">1.5 rem</string>
+  <string name="actions_gap_big">2 rem</string>
+  <string name="0_5">0.125 rem</string>
+  <string name="1_5">0.375 rem</string>
+  <string name="2_5">0.625 rem</string>
+  <string name="3_5">0.875 rem</string>
   
 </resources>
