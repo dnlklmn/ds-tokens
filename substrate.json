@@ -463,16 +463,16 @@
   },
   "space": {
     "button": {
-      "default": {
+      "small": {
+        "value": "{borderRadius.default}",
+        "type": "borderRadius"
+      },
+      "medium": {
         "value": "{borderRadius.md}",
         "type": "borderRadius"
       },
-      "big": {
+      "large": {
         "value": "{borderRadius.lg}",
-        "type": "borderRadius"
-      },
-      "small": {
-        "value": "{borderRadius.default}",
         "type": "borderRadius"
       },
       "padding": {
