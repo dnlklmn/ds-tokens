@@ -362,7 +362,7 @@
         "type": "borderRadius"
       },
       "full": {
-        "value": "9999 px",
+        "value": "9999px",
         "type": "borderRadius"
       }
     },
