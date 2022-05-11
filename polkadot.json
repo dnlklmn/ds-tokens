@@ -981,7 +981,7 @@
       },
       "type": "typography"
     },
-    "ButtonDefault": {
+    "ButtonMedium": {
       "value": {
         "fontFamily": "{fontFamily.secondary}",
         "fontWeight": "Regular",
