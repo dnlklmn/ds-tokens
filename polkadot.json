@@ -924,7 +924,7 @@
       "small": {
         "value": {
           "fontFamily": "$fontFamily.secondary",
-          "fontWeight": "Regular",
+          "fontWeight": "{fontWeight.semiBold}",
           "lineHeight": "116%",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "3%",
@@ -950,7 +950,7 @@
       "medium": {
         "value": {
           "fontFamily": "{fontFamily.secondary}",
-          "fontWeight": "Regular",
+          "fontWeight": "{fontWeight.semiBold}",
           "lineHeight": "150%",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "3%",
