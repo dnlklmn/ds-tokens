@@ -426,11 +426,11 @@
     },
     "borderWidth": {
       "1": {
-        "value": "1",
+        "value": "1px",
         "type": "borderWidth"
       },
       "2": {
-        "value": "2",
+        "value": "2px",
         "type": "borderWidth"
       }
     },
