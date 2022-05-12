@@ -1207,19 +1207,19 @@
           "value": "{primary.600-s}",
           "type": "color"
         },
-        "light": {
+        "secondary-hover": {
           "value": "{primary.100-t}",
           "type": "color"
         },
-        "secondary": {
+        "sensitive": {
           "value": "{secondary.500-base}",
           "type": "color"
         },
-        "secondary-hover": {
+        "sensitive-hover": {
           "value": "{secondary.600-s}",
           "type": "color"
         },
-        "secondary-pressed": {
+        "sensitive-pressed": {
           "value": "{secondary.700-s}",
           "type": "color"
         },
@@ -1243,7 +1243,7 @@
           "value": "{grey.200}",
           "type": "color"
         },
-        "tertiary-pressed": {
+        "secondary-pressed": {
           "value": "{primary.200-t}",
           "type": "color"
         }
