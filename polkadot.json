@@ -1211,6 +1211,10 @@
           "value": "{primary.100-t}",
           "type": "color"
         },
+        "secondary-pressed": {
+          "value": "{primary.200-t}",
+          "type": "color"
+        },
         "sensitive": {
           "value": "{secondary.500-base}",
           "type": "color"
@@ -1241,10 +1245,6 @@
         },
         "disabled": {
           "value": "{grey.200}",
-          "type": "color"
-        },
-        "secondary-pressed": {
-          "value": "{primary.200-t}",
           "type": "color"
         }
       },
