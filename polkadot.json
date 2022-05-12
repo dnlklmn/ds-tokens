@@ -1616,19 +1616,23 @@
           "value": "{primary.600-s}",
           "type": "color"
         },
-        "light": {
+        "secondary-hover": {
           "value": "{primary.800-s}",
           "type": "color"
         },
-        "secondary": {
+        "secondary-pressed": {
+          "value": "{primary.900-s}",
+          "type": "color"
+        },
+        "sensitive": {
           "value": "{secondary.500-base}",
           "type": "color"
         },
-        "secondary-hover": {
+        "sensitive-hover": {
           "value": "{secondary.600-s}",
           "type": "color"
         },
-        "secondary-pressed": {
+        "sensitive-pressed": {
           "value": "{secondary.700-s}",
           "type": "color"
         },
@@ -1650,10 +1654,6 @@
         },
         "disabled": {
           "value": "{grey.800}",
-          "type": "color"
-        },
-        "tertiary-pressed": {
-          "value": "{primary.900-s}",
           "type": "color"
         }
       },
