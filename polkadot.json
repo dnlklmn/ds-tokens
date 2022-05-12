@@ -1551,8 +1551,8 @@
       "pop": {
         "value": {
           "x": "0",
-          "y": "{offset.s}",
-          "blur": "{offset.l}",
+          "y": "{2}",
+          "blur": "{6}",
           "spread": "0",
           "color": "#00000060",
           "type": "dropShadow"
@@ -1572,8 +1572,8 @@
       "idle": {
         "value": {
           "x": "0",
-          "y": "{offset.s}",
-          "blur": "{offset.l}",
+          "y": "{2}",
+          "blur": "{6}",
           "spread": "0",
           "color": "#00000050",
           "type": "dropShadow"
@@ -1589,8 +1589,8 @@
       "hover": {
         "value": {
           "x": "0",
-          "y": "{offset.s}",
-          "blur": "{offset.s}",
+          "y": "{2}",
+          "blur": "{2}",
           "spread": "0",
           "color": "#00000008",
           "type": "dropShadow"
