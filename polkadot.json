@@ -921,7 +921,7 @@
       }
     },
     "button-label": {
-      "1": {
+      "large": {
         "value": {
           "fontFamily": "{fontFamily.primary}",
           "fontWeight": "Regular",
@@ -934,7 +934,7 @@
         },
         "type": "typography"
       },
-      "2": {
+      "medium": {
         "value": {
           "fontFamily": "{fontFamily.secondary}",
           "fontWeight": "Semi Bold",
@@ -947,7 +947,7 @@
         },
         "type": "typography"
       },
-      "3": {
+      "small": {
         "value": {
           "fontFamily": "$fontFamily.secondary",
           "fontWeight": "{fontWeight.semiBold}",
@@ -1818,5 +1818,6 @@
       "value": "{grey.800}",
       "type": "color"
     }
-  }
+  },
+  "$themes": []
 }
