@@ -416,11 +416,11 @@
     },
     "fontWeight": {
       "regular": {
-        "value": "300",
+        "value": "Regular",
         "type": "fontWeights"
       },
       "semiBold": {
-        "value": "500",
+        "value": "Semi Bold",
         "type": "fontWeights"
       }
     },
@@ -950,7 +950,7 @@
       "medium": {
         "value": {
           "fontFamily": "{fontFamily.secondary}",
-          "fontWeight": "{fontWeight.semiBold}",
+          "fontWeight": "Semi Bold",
           "lineHeight": "150%",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "3%",
@@ -1337,7 +1337,7 @@
           "type": "color"
         },
         "focused": {
-          "value": "{primary.700-s}",
+          "value": "{primary.800-s}",
           "type": "color"
         },
         "sensitive-focused": {
