@@ -718,7 +718,7 @@
         }
       },
       "default": {
-        "value": "{borderRadius.default}",
+        "value": "{borderRadius.lg}",
         "type": "borderRadius"
       },
       "gap": {
@@ -1167,13 +1167,17 @@
           "type": "color"
         },
         "highlight": {
-          "value": "{primary.100-t}",
+          "value": "{indigo.100-t}",
           "type": "color"
         }
       },
       "border": {
         "hint": {
           "value": "$grey.300",
+          "type": "color"
+        },
+        "white": {
+          "value": "{white}",
           "type": "color"
         }
       },
@@ -1187,6 +1191,16 @@
           "type": "dropShadow"
         },
         "type": "boxShadow"
+      },
+      "foreground": {
+        "default": {
+          "value": "{grey.950}",
+          "type": "color"
+        },
+        "dimmed": {
+          "value": "{grey.500}",
+          "type": "color"
+        }
       }
     },
     "button": {
