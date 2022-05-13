@@ -565,11 +565,11 @@
       },
       "large": {
         "leftRight": {
-          "value": "{10}",
+          "value": "{8}",
           "type": "spacing"
         },
         "topBottom": {
-          "value": "{6}",
+          "value": "{5}",
           "type": "spacing"
         }
       }
@@ -923,8 +923,8 @@
     "button-label": {
       "large": {
         "value": {
-          "fontFamily": "{fontFamily.primary}",
-          "fontWeight": "Regular",
+          "fontFamily": "{fontFamily.secondary}",
+          "fontWeight": "Semi Bold",
           "lineHeight": "132%",
           "fontSize": "{fontSize.4}",
           "letterSpacing": "3%",
