@@ -1197,11 +1197,11 @@
           "type": "color"
         },
         "secondary-hover": {
-          "value": "{secondary.600-s}",
+          "value": "{primary.100-t}",
           "type": "color"
         },
         "secondary-pressed": {
-          "value": "{secondary.700-s}",
+          "value": "{primary.200-t}",
           "type": "color"
         },
         "danger": {
