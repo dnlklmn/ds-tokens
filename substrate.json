@@ -462,7 +462,7 @@
     }
   },
   "space": {
-    "button": {
+    "button-borderRadius": {
       "small": {
         "value": "{borderRadius.default}",
         "type": "borderRadius"
@@ -474,7 +474,9 @@
       "large": {
         "value": "{borderRadius.lg}",
         "type": "borderRadius"
-      },
+      }
+    },
+    "button": {
       "padding": {
         "default": {
           "leftRight": {
