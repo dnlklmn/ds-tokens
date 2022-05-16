@@ -1097,6 +1097,10 @@
         "sensitive-disabled": {
           "value": "{secondary.100-t}",
           "type": "color"
+        },
+        "match-bg": {
+          "value": "{bg.default}",
+          "type": "color"
         }
       },
       "border": {
@@ -1539,6 +1543,10 @@
         },
         "sensitive-disabled": {
           "value": "{secondary.800-s}",
+          "type": "color"
+        },
+        "match-bg": {
+          "value": "{bg.default}",
           "type": "color"
         }
       },
