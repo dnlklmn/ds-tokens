@@ -953,7 +953,7 @@
           "fontWeight": "Semi Bold",
           "lineHeight": "132%",
           "fontSize": "{fontSize.4}",
-          "letterSpacing": "3%",
+          "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textCase": "none",
           "textDecoration": "none"
@@ -966,7 +966,7 @@
           "fontWeight": "Semi Bold",
           "lineHeight": "150%",
           "fontSize": "{fontSize.2}",
-          "letterSpacing": "3%",
+          "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textCase": "none",
           "textDecoration": "none"
@@ -979,7 +979,7 @@
           "fontWeight": "{fontWeight.semiBold}",
           "lineHeight": "116%",
           "fontSize": "{fontSize.1}",
-          "letterSpacing": "3%",
+          "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textCase": "none",
           "textDecoration": "none"
