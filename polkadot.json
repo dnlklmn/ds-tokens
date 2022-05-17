@@ -936,7 +936,7 @@
         "value": {
           "fontFamily": "{fontFamily.code}",
           "fontWeight": "Regular",
-          "lineHeight": "151%",
+          "lineHeight": "125%",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "3%",
           "paragraphSpacing": "0",
