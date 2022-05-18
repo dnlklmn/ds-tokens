@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 18 May 2022 15:39:41 GMT
+ * Generated on Wed, 18 May 2022 16:10:48 GMT
  */
 
 :root {
@@ -50,9 +50,10 @@
   --textfield-bg-success: #FCFEF6;
   --textfield-bg-sensitive: #f9f3ff;
   --textfield-bg-sensitive-disabled: #EDD6FF;
+  --textfield-bg-match-bg: #ffffff;
   --textfield-border-error: #E31902;
   --textfield-border-focus: #6E85DB;
-  --textfield-border-default: #E5E5EB;
+  --textfield-border-default: #D1D1DB;
   --textfield-border-bright: #4C4B63;
   --textfield-border-error-light: #FD4935;
   --textfield-border-success-light: #94c424;
@@ -65,12 +66,34 @@
   --textfield-foreground-error: #B21200;
   --textfield-foreground-success: #7da61d;
   --textfield-foreground-sensitive: #8F00FF;
-  --dropdown-pop: [object Object];
-  --dropdown-idle: [object Object];
+  --dropdown-pop-x: 0;
+  --dropdown-pop-y: 0.5rem;
+  --dropdown-pop-blur: 1.5rem;
+  --dropdown-pop-spread: 0;
+  --dropdown-pop-color: #00000030;
+  --dropdown-pop-type: dropShadow;
+  --dropdown-idle-x: 0;
+  --dropdown-idle-y: 0.25rem;
+  --dropdown-idle-blur: 1rem;
+  --dropdown-idle-spread: 0;
+  --dropdown-idle-color: #00000015;
+  --dropdown-idle-type: dropShadow;
   --dropdown-base-default: #ffffff;
-  --dropdown-base-highlight: #ffe4f3;
-  --dropdown-border-hint: #B7B7C7;
-  --dropdown-hover: [object Object];
+  --dropdown-base-highlight: #F2F5FF;
+  --dropdown-base-emphasized: #E6007A;
+  --dropdown-border-hint: #D1D1DB;
+  --dropdown-border-white: #ffffff;
+  --dropdown-border-filled: #818098;
+  --dropdown-hover-x: 0;
+  --dropdown-hover-y: 0.5rem;
+  --dropdown-hover-blur: 0.5rem;
+  --dropdown-hover-spread: 0;
+  --dropdown-hover-color: #00000008;
+  --dropdown-hover-type: dropShadow;
+  --dropdown-foreground-default: #121127;
+  --dropdown-foreground-dimmed: #818098;
+  --dropdown-foreground-white: #ffffff;
+  --dropdown-foreground-white-dimmed: #ffe4f3;
   --dropdown-padding-default: 0.5rem;
   --dropdown-padding-big: 1rem;
   --button-base-primary: #E6007A;
@@ -95,9 +118,24 @@
   --button-foreground-destructive: #ffffff;
   --button-foreground-hover: #a9005a;
   --button-foreground-pressed: #640035;
-  --button-idle: [object Object];
-  --button-pressed: [object Object];
-  --button-hover: [object Object];
+  --button-idle-x: 0;
+  --button-idle-y: 0.25rem;
+  --button-idle-blur: 0.5rem;
+  --button-idle-spread: 0;
+  --button-idle-color: #00000010;
+  --button-idle-type: dropShadow;
+  --button-pressed-x: 0;
+  --button-pressed-y: 0.25rem;
+  --button-pressed-blur: 0.25rem;
+  --button-pressed-spread: 0;
+  --button-pressed-color: #00000010;
+  --button-pressed-type: dropShadow;
+  --button-hover-x: 0;
+  --button-hover-y: 0.5rem;
+  --button-hover-blur: 0.75rem;
+  --button-hover-spread: 0;
+  --button-hover-color: #00000010;
+  --button-hover-type: dropShadow;
   --button-border-primary: #E6007A;
   --button-border-disabled: #B7B7C7;
   --button-border-quiet: #9D9CAF;
@@ -106,7 +144,12 @@
   --button-border-focused: #640035;
   --button-border-sensitive-focused: #280042;
   --button-border-error: #4C0800;
-  --button-none: [object Object];
+  --button-none-x: 0;
+  --button-none-y: 0;
+  --button-none-blur: 0;
+  --button-none-spread: 0;
+  --button-none-color: #000000;
+  --button-none-type: dropShadow;
   --tag-base-default: #ffffff;
   --tag-text-default: #201F37;
   --tag-border-default: #B7B7C7;
@@ -196,6 +239,22 @@
   --body-2-paragraph-spacing: 0;
   --body-2-text-case: none;
   --body-2-text-decoration: none;
+  --body-1-bold-font-family: Inter;
+  --body-1-bold-font-weight: Semi Bold;
+  --body-1-bold-line-height: 150%;
+  --body-1-bold-font-size: 1rem;
+  --body-1-bold-letter-spacing: 0%;
+  --body-1-bold-paragraph-spacing: 0;
+  --body-1-bold-text-case: none;
+  --body-1-bold-text-decoration: none;
+  --body-2-bold-font-family: Inter;
+  --body-2-bold-font-weight: Semi Bold;
+  --body-2-bold-line-height: 130%;
+  --body-2-bold-font-size: 0.875rem;
+  --body-2-bold-letter-spacing: 0;
+  --body-2-bold-paragraph-spacing: 0;
+  --body-2-bold-text-case: none;
+  --body-2-bold-text-decoration: none;
   --code-1-font-family: Roboto Mono;
   --code-1-font-weight: Regular;
   --code-1-line-height: 151%;
@@ -206,17 +265,17 @@
   --code-1-text-decoration: none;
   --code-2-font-family: Roboto Mono;
   --code-2-font-weight: Regular;
-  --code-2-line-height: 151%;
+  --code-2-line-height: 125%;
   --code-2-font-size: 0.875rem;
   --code-2-letter-spacing: 3%;
   --code-2-paragraph-spacing: 0;
   --code-2-text-case: none;
   --code-2-text-decoration: none;
-  --button-label-large-font-family: Polkadot;
-  --button-label-large-font-weight: Regular;
+  --button-label-large-font-family: Inter;
+  --button-label-large-font-weight: Semi Bold;
   --button-label-large-line-height: 132%;
   --button-label-large-font-size: 1.5rem;
-  --button-label-large-letter-spacing: 3%;
+  --button-label-large-letter-spacing: 0%;
   --button-label-large-paragraph-spacing: 0;
   --button-label-large-text-case: none;
   --button-label-large-text-decoration: none;
@@ -224,7 +283,7 @@
   --button-label-medium-font-weight: Semi Bold;
   --button-label-medium-line-height: 150%;
   --button-label-medium-font-size: 1rem;
-  --button-label-medium-letter-spacing: 3%;
+  --button-label-medium-letter-spacing: 0%;
   --button-label-medium-paragraph-spacing: 0;
   --button-label-medium-text-case: none;
   --button-label-medium-text-decoration: none;
@@ -232,7 +291,7 @@
   --button-label-small-font-weight: Semi Bold;
   --button-label-small-line-height: 116%;
   --button-label-small-font-size: 0.875rem;
-  --button-label-small-letter-spacing: 3%;
+  --button-label-small-letter-spacing: 0%;
   --button-label-small-paragraph-spacing: 0;
   --button-label-small-text-case: none;
   --button-label-small-text-decoration: none;
@@ -267,8 +326,8 @@
   --button-padding-medium-top-bottom: 0.75rem;
   --button-padding-small-left-right: 1rem;
   --button-padding-small-top-bottom: 0.5rem;
-  --button-padding-large-left-right: 2.5rem;
-  --button-padding-large-top-bottom: 1.5rem;
+  --button-padding-large-left-right: 2rem;
+  --button-padding-large-top-bottom: 1.25rem;
   --button-gap-medium: 0.5rem;
   --button-gap-small: 0.25rem;
   --list-gap-default: 2rem;
@@ -289,7 +348,7 @@
   --text-field-padding-medium-left-right: 1rem;
   --text-field-padding-small-top-bottom: 0.5rem;
   --text-field-padding-small-left-right: 0.75rem;
-  --text-field-default: 0.25rem;
+  --text-field-default: 0.5rem;
   --text-field-gap-icon-text: 0.25rem;
   --text-field-gap-medium-vertical: 0.5rem;
   --text-field-gap-small-vertical: 0.5rem;
