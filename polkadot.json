@@ -1480,6 +1480,18 @@
     "separator": {
       "value": "{grey.300}",
       "type": "color"
+    },
+    "toggle": {
+      "bg": {
+        "off": {
+          "value": "{grey.500}",
+          "type": "color"
+        },
+        "on": {
+          "value": "{lime.700-s}",
+          "type": "color"
+        }
+      }
     }
   },
   "dark": {
