@@ -1052,6 +1052,10 @@
       "error": {
         "value": "{error.500-base}",
         "type": "color"
+      },
+      "success": {
+        "value": "{lime.600-s}",
+        "type": "color"
       }
     },
     "bg": {
