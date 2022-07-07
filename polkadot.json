@@ -623,7 +623,7 @@
     "body": {
       "1": {
         "value": {
-          "fontFamily": "{fontFamily.secondary}",
+          "fontFamily": "{fontFamily.body}",
           "fontWeight": "Regular",
           "lineHeight": "150%",
           "fontSize": "{fontSize.2}",
@@ -636,7 +636,7 @@
       },
       "2": {
         "value": {
-          "fontFamily": "{fontFamily.secondary}",
+          "fontFamily": "{fontFamily.body}",
           "fontWeight": "Regular",
           "lineHeight": "130%",
           "fontSize": "{fontSize.1}",
@@ -649,7 +649,7 @@
       },
       "1-bold": {
         "value": {
-          "fontFamily": "{fontFamily.secondary}",
+          "fontFamily": "{fontFamily.body}",
           "fontWeight": "Semi Bold",
           "lineHeight": "150%",
           "fontSize": "{fontSize.2}",
@@ -662,7 +662,7 @@
       },
       "2-bold": {
         "value": {
-          "fontFamily": "{fontFamily.secondary}",
+          "fontFamily": "{fontFamily.body}",
           "fontWeight": "Semi Bold",
           "lineHeight": "130%",
           "fontSize": "{fontSize.1}",
@@ -677,7 +677,7 @@
     "code": {
       "1": {
         "value": {
-          "fontFamily": "{fontFamily.code}",
+          "fontFamily": "{fontFamily.mono}",
           "fontWeight": "Regular",
           "lineHeight": "151%",
           "fontSize": "{fontSize.2}",
@@ -690,7 +690,7 @@
       },
       "2": {
         "value": {
-          "fontFamily": "{fontFamily.code}",
+          "fontFamily": "{fontFamily.mono}",
           "fontWeight": "Regular",
           "lineHeight": "125%",
           "fontSize": "{fontSize.1}",
@@ -705,7 +705,7 @@
     "button-label": {
       "large": {
         "value": {
-          "fontFamily": "{fontFamily.secondary}",
+          "fontFamily": "{fontFamily.body}",
           "fontWeight": "Semi Bold",
           "lineHeight": "132%",
           "fontSize": "{fontSize.4}",
@@ -718,7 +718,7 @@
       },
       "medium": {
         "value": {
-          "fontFamily": "{fontFamily.secondary}",
+          "fontFamily": "{fontFamily.body}",
           "fontWeight": "Semi Bold",
           "lineHeight": "150%",
           "fontSize": "{fontSize.2}",
@@ -731,7 +731,7 @@
       },
       "small": {
         "value": {
-          "fontFamily": "$fontFamily.secondary",
+          "fontFamily": "$fontFamily.body",
           "fontWeight": "{fontWeight.semiBold}",
           "lineHeight": "116%",
           "fontSize": "{fontSize.1}",
@@ -745,7 +745,7 @@
     },
     "Caption": {
       "value": {
-        "fontFamily": "{fontFamily.secondary}",
+        "fontFamily": "{fontFamily.body}",
         "fontWeight": "Regular",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.1}",
@@ -758,7 +758,7 @@
     },
     "Overline": {
       "value": {
-        "fontFamily": "{fontFamily.secondary}",
+        "fontFamily": "{fontFamily.body}",
         "fontWeight": "Bold",
         "lineHeight": "AUTO",
         "fontSize": "{fontSize.0}",
@@ -771,7 +771,7 @@
     },
     "Label": {
       "value": {
-        "fontFamily": "{fontFamily.secondary}",
+        "fontFamily": "{fontFamily.body}",
         "fontWeight": "{fontWeight.regular}",
         "lineHeight": "150%",
         "fontSize": "{fontSize.2}",
