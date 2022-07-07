@@ -19967,16 +19967,84 @@ video {
   vertical-align: text-bottom;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-heading fontFamily 1 {
+  font-family: var(--heading-1-font-family, Polkadot);
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+.font-heading fontFamily 2 {
+  font-family: var(--heading-2-font-family, Polkadot);
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.font-heading fontFamily 3 {
+  font-family: var(--heading-3-font-family, Polkadot);
+}
+
+.font-heading fontFamily 4 {
+  font-family: var(--heading-4-font-family, Polkadot);
+}
+
+.font-heading fontFamily 5 {
+  font-family: var(--heading-5-font-family, Polkadot);
+}
+
+.font-heading fontFamily 6 {
+  font-family: var(--heading-6-font-family, Polkadot);
+}
+
+.font-subtitle fontFamily 1 {
+  font-family: var(--subtitle-1-font-family, Polkadot);
+}
+
+.font-subtitle fontFamily 2 {
+  font-family: var(--subtitle-2-font-family, Polkadot);
+}
+
+.font-body fontFamily 1 {
+  font-family: var(--body-1-font-family, Inter);
+}
+
+.font-body fontFamily 2 {
+  font-family: var(--body-2-font-family, Inter);
+}
+
+.font-body fontFamily 1-bold {
+  font-family: var(--body-1-bold-font-family, Inter);
+}
+
+.font-body fontFamily 2-bold {
+  font-family: var(--body-2-bold-font-family, Inter);
+}
+
+.font-code fontFamily 1 {
+  font-family: var(--code-1-font-family, Roboto Mono);
+}
+
+.font-code fontFamily 2 {
+  font-family: var(--code-2-font-family, Roboto Mono);
+}
+
+.font-button-label fontFamily large {
+  font-family: var(--button-label-large-font-family, Inter);
+}
+
+.font-button-label fontFamily medium {
+  font-family: var(--button-label-medium-font-family, Inter);
+}
+
+.font-button-label fontFamily small {
+  font-family: var(--button-label-small-font-family, Inter);
+}
+
+.font-Caption fontFamily {
+  font-family: var(--caption-font-family, Inter);
+}
+
+.font-Overline fontFamily {
+  font-family: var(--overline-font-family, Inter);
+}
+
+.font-Label fontFamily {
+  font-family: var(--label-font-family, Inter);
 }
 
 .text-xs {
@@ -46053,16 +46121,84 @@ video {
     vertical-align: text-bottom;
   }
 
-  .sm\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .sm\:font-heading fontFamily 1 {
+    font-family: var(--heading-1-font-family, Polkadot);
   }
 
-  .sm\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .sm\:font-heading fontFamily 2 {
+    font-family: var(--heading-2-font-family, Polkadot);
   }
 
-  .sm\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .sm\:font-heading fontFamily 3 {
+    font-family: var(--heading-3-font-family, Polkadot);
+  }
+
+  .sm\:font-heading fontFamily 4 {
+    font-family: var(--heading-4-font-family, Polkadot);
+  }
+
+  .sm\:font-heading fontFamily 5 {
+    font-family: var(--heading-5-font-family, Polkadot);
+  }
+
+  .sm\:font-heading fontFamily 6 {
+    font-family: var(--heading-6-font-family, Polkadot);
+  }
+
+  .sm\:font-subtitle fontFamily 1 {
+    font-family: var(--subtitle-1-font-family, Polkadot);
+  }
+
+  .sm\:font-subtitle fontFamily 2 {
+    font-family: var(--subtitle-2-font-family, Polkadot);
+  }
+
+  .sm\:font-body fontFamily 1 {
+    font-family: var(--body-1-font-family, Inter);
+  }
+
+  .sm\:font-body fontFamily 2 {
+    font-family: var(--body-2-font-family, Inter);
+  }
+
+  .sm\:font-body fontFamily 1-bold {
+    font-family: var(--body-1-bold-font-family, Inter);
+  }
+
+  .sm\:font-body fontFamily 2-bold {
+    font-family: var(--body-2-bold-font-family, Inter);
+  }
+
+  .sm\:font-code fontFamily 1 {
+    font-family: var(--code-1-font-family, Roboto Mono);
+  }
+
+  .sm\:font-code fontFamily 2 {
+    font-family: var(--code-2-font-family, Roboto Mono);
+  }
+
+  .sm\:font-button-label fontFamily large {
+    font-family: var(--button-label-large-font-family, Inter);
+  }
+
+  .sm\:font-button-label fontFamily medium {
+    font-family: var(--button-label-medium-font-family, Inter);
+  }
+
+  .sm\:font-button-label fontFamily small {
+    font-family: var(--button-label-small-font-family, Inter);
+  }
+
+  .sm\:font-Caption fontFamily {
+    font-family: var(--caption-font-family, Inter);
+  }
+
+  .sm\:font-Overline fontFamily {
+    font-family: var(--overline-font-family, Inter);
+  }
+
+  .sm\:font-Label fontFamily {
+    font-family: var(--label-font-family, Inter);
   }
 
   .sm\:text-xs {
@@ -71859,16 +71995,84 @@ video {
     vertical-align: text-bottom;
   }
 
-  .md\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .md\:font-heading fontFamily 1 {
+    font-family: var(--heading-1-font-family, Polkadot);
   }
 
-  .md\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .md\:font-heading fontFamily 2 {
+    font-family: var(--heading-2-font-family, Polkadot);
   }
 
-  .md\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .md\:font-heading fontFamily 3 {
+    font-family: var(--heading-3-font-family, Polkadot);
+  }
+
+  .md\:font-heading fontFamily 4 {
+    font-family: var(--heading-4-font-family, Polkadot);
+  }
+
+  .md\:font-heading fontFamily 5 {
+    font-family: var(--heading-5-font-family, Polkadot);
+  }
+
+  .md\:font-heading fontFamily 6 {
+    font-family: var(--heading-6-font-family, Polkadot);
+  }
+
+  .md\:font-subtitle fontFamily 1 {
+    font-family: var(--subtitle-1-font-family, Polkadot);
+  }
+
+  .md\:font-subtitle fontFamily 2 {
+    font-family: var(--subtitle-2-font-family, Polkadot);
+  }
+
+  .md\:font-body fontFamily 1 {
+    font-family: var(--body-1-font-family, Inter);
+  }
+
+  .md\:font-body fontFamily 2 {
+    font-family: var(--body-2-font-family, Inter);
+  }
+
+  .md\:font-body fontFamily 1-bold {
+    font-family: var(--body-1-bold-font-family, Inter);
+  }
+
+  .md\:font-body fontFamily 2-bold {
+    font-family: var(--body-2-bold-font-family, Inter);
+  }
+
+  .md\:font-code fontFamily 1 {
+    font-family: var(--code-1-font-family, Roboto Mono);
+  }
+
+  .md\:font-code fontFamily 2 {
+    font-family: var(--code-2-font-family, Roboto Mono);
+  }
+
+  .md\:font-button-label fontFamily large {
+    font-family: var(--button-label-large-font-family, Inter);
+  }
+
+  .md\:font-button-label fontFamily medium {
+    font-family: var(--button-label-medium-font-family, Inter);
+  }
+
+  .md\:font-button-label fontFamily small {
+    font-family: var(--button-label-small-font-family, Inter);
+  }
+
+  .md\:font-Caption fontFamily {
+    font-family: var(--caption-font-family, Inter);
+  }
+
+  .md\:font-Overline fontFamily {
+    font-family: var(--overline-font-family, Inter);
+  }
+
+  .md\:font-Label fontFamily {
+    font-family: var(--label-font-family, Inter);
   }
 
   .md\:text-xs {
@@ -97665,16 +97869,84 @@ video {
     vertical-align: text-bottom;
   }
 
-  .lg\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .lg\:font-heading fontFamily 1 {
+    font-family: var(--heading-1-font-family, Polkadot);
   }
 
-  .lg\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .lg\:font-heading fontFamily 2 {
+    font-family: var(--heading-2-font-family, Polkadot);
   }
 
-  .lg\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .lg\:font-heading fontFamily 3 {
+    font-family: var(--heading-3-font-family, Polkadot);
+  }
+
+  .lg\:font-heading fontFamily 4 {
+    font-family: var(--heading-4-font-family, Polkadot);
+  }
+
+  .lg\:font-heading fontFamily 5 {
+    font-family: var(--heading-5-font-family, Polkadot);
+  }
+
+  .lg\:font-heading fontFamily 6 {
+    font-family: var(--heading-6-font-family, Polkadot);
+  }
+
+  .lg\:font-subtitle fontFamily 1 {
+    font-family: var(--subtitle-1-font-family, Polkadot);
+  }
+
+  .lg\:font-subtitle fontFamily 2 {
+    font-family: var(--subtitle-2-font-family, Polkadot);
+  }
+
+  .lg\:font-body fontFamily 1 {
+    font-family: var(--body-1-font-family, Inter);
+  }
+
+  .lg\:font-body fontFamily 2 {
+    font-family: var(--body-2-font-family, Inter);
+  }
+
+  .lg\:font-body fontFamily 1-bold {
+    font-family: var(--body-1-bold-font-family, Inter);
+  }
+
+  .lg\:font-body fontFamily 2-bold {
+    font-family: var(--body-2-bold-font-family, Inter);
+  }
+
+  .lg\:font-code fontFamily 1 {
+    font-family: var(--code-1-font-family, Roboto Mono);
+  }
+
+  .lg\:font-code fontFamily 2 {
+    font-family: var(--code-2-font-family, Roboto Mono);
+  }
+
+  .lg\:font-button-label fontFamily large {
+    font-family: var(--button-label-large-font-family, Inter);
+  }
+
+  .lg\:font-button-label fontFamily medium {
+    font-family: var(--button-label-medium-font-family, Inter);
+  }
+
+  .lg\:font-button-label fontFamily small {
+    font-family: var(--button-label-small-font-family, Inter);
+  }
+
+  .lg\:font-Caption fontFamily {
+    font-family: var(--caption-font-family, Inter);
+  }
+
+  .lg\:font-Overline fontFamily {
+    font-family: var(--overline-font-family, Inter);
+  }
+
+  .lg\:font-Label fontFamily {
+    font-family: var(--label-font-family, Inter);
   }
 
   .lg\:text-xs {
@@ -123471,16 +123743,84 @@ video {
     vertical-align: text-bottom;
   }
 
-  .xl\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .xl\:font-heading fontFamily 1 {
+    font-family: var(--heading-1-font-family, Polkadot);
   }
 
-  .xl\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .xl\:font-heading fontFamily 2 {
+    font-family: var(--heading-2-font-family, Polkadot);
   }
 
-  .xl\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .xl\:font-heading fontFamily 3 {
+    font-family: var(--heading-3-font-family, Polkadot);
+  }
+
+  .xl\:font-heading fontFamily 4 {
+    font-family: var(--heading-4-font-family, Polkadot);
+  }
+
+  .xl\:font-heading fontFamily 5 {
+    font-family: var(--heading-5-font-family, Polkadot);
+  }
+
+  .xl\:font-heading fontFamily 6 {
+    font-family: var(--heading-6-font-family, Polkadot);
+  }
+
+  .xl\:font-subtitle fontFamily 1 {
+    font-family: var(--subtitle-1-font-family, Polkadot);
+  }
+
+  .xl\:font-subtitle fontFamily 2 {
+    font-family: var(--subtitle-2-font-family, Polkadot);
+  }
+
+  .xl\:font-body fontFamily 1 {
+    font-family: var(--body-1-font-family, Inter);
+  }
+
+  .xl\:font-body fontFamily 2 {
+    font-family: var(--body-2-font-family, Inter);
+  }
+
+  .xl\:font-body fontFamily 1-bold {
+    font-family: var(--body-1-bold-font-family, Inter);
+  }
+
+  .xl\:font-body fontFamily 2-bold {
+    font-family: var(--body-2-bold-font-family, Inter);
+  }
+
+  .xl\:font-code fontFamily 1 {
+    font-family: var(--code-1-font-family, Roboto Mono);
+  }
+
+  .xl\:font-code fontFamily 2 {
+    font-family: var(--code-2-font-family, Roboto Mono);
+  }
+
+  .xl\:font-button-label fontFamily large {
+    font-family: var(--button-label-large-font-family, Inter);
+  }
+
+  .xl\:font-button-label fontFamily medium {
+    font-family: var(--button-label-medium-font-family, Inter);
+  }
+
+  .xl\:font-button-label fontFamily small {
+    font-family: var(--button-label-small-font-family, Inter);
+  }
+
+  .xl\:font-Caption fontFamily {
+    font-family: var(--caption-font-family, Inter);
+  }
+
+  .xl\:font-Overline fontFamily {
+    font-family: var(--overline-font-family, Inter);
+  }
+
+  .xl\:font-Label fontFamily {
+    font-family: var(--label-font-family, Inter);
   }
 
   .xl\:text-xs {
@@ -149277,16 +149617,84 @@ video {
     vertical-align: text-bottom;
   }
 
-  .\32xl\:font-sans {
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .\32xl\:font-heading fontFamily 1 {
+    font-family: var(--heading-1-font-family, Polkadot);
   }
 
-  .\32xl\:font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  .\32xl\:font-heading fontFamily 2 {
+    font-family: var(--heading-2-font-family, Polkadot);
   }
 
-  .\32xl\:font-mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .\32xl\:font-heading fontFamily 3 {
+    font-family: var(--heading-3-font-family, Polkadot);
+  }
+
+  .\32xl\:font-heading fontFamily 4 {
+    font-family: var(--heading-4-font-family, Polkadot);
+  }
+
+  .\32xl\:font-heading fontFamily 5 {
+    font-family: var(--heading-5-font-family, Polkadot);
+  }
+
+  .\32xl\:font-heading fontFamily 6 {
+    font-family: var(--heading-6-font-family, Polkadot);
+  }
+
+  .\32xl\:font-subtitle fontFamily 1 {
+    font-family: var(--subtitle-1-font-family, Polkadot);
+  }
+
+  .\32xl\:font-subtitle fontFamily 2 {
+    font-family: var(--subtitle-2-font-family, Polkadot);
+  }
+
+  .\32xl\:font-body fontFamily 1 {
+    font-family: var(--body-1-font-family, Inter);
+  }
+
+  .\32xl\:font-body fontFamily 2 {
+    font-family: var(--body-2-font-family, Inter);
+  }
+
+  .\32xl\:font-body fontFamily 1-bold {
+    font-family: var(--body-1-bold-font-family, Inter);
+  }
+
+  .\32xl\:font-body fontFamily 2-bold {
+    font-family: var(--body-2-bold-font-family, Inter);
+  }
+
+  .\32xl\:font-code fontFamily 1 {
+    font-family: var(--code-1-font-family, Roboto Mono);
+  }
+
+  .\32xl\:font-code fontFamily 2 {
+    font-family: var(--code-2-font-family, Roboto Mono);
+  }
+
+  .\32xl\:font-button-label fontFamily large {
+    font-family: var(--button-label-large-font-family, Inter);
+  }
+
+  .\32xl\:font-button-label fontFamily medium {
+    font-family: var(--button-label-medium-font-family, Inter);
+  }
+
+  .\32xl\:font-button-label fontFamily small {
+    font-family: var(--button-label-small-font-family, Inter);
+  }
+
+  .\32xl\:font-Caption fontFamily {
+    font-family: var(--caption-font-family, Inter);
+  }
+
+  .\32xl\:font-Overline fontFamily {
+    font-family: var(--overline-font-family, Inter);
+  }
+
+  .\32xl\:font-Label fontFamily {
+    font-family: var(--label-font-family, Inter);
   }
 
   .\32xl\:text-xs {
