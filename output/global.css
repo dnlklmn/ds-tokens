@@ -87,9 +87,6 @@
   --border-radius-2xl: 1px;
   --border-radius-3xl: 1.5px;
   --border-radius-full: 9999px;
-  --font-family-primary: NaNpx;
-  --font-family-secondary: NaNpx;
-  --font-family-code: NaNpx;
   --font-size-0: 0.75rem;
   --font-size-1: 0.875rem;
   --font-size-2: 1rem;
@@ -141,7 +138,7 @@
   --heading-2-paragraph-spacing: 0;
   --heading-2-text-case: none;
   --heading-2-text-decoration: none;
-  --heading-3-font-family: Polkadot;
+  --heading-3-font-family: Polkadot};
   --heading-3-font-weight: Regular;
   --heading-3-line-height: AUTO;
   --heading-3-font-size: 3.1875rem;
@@ -149,7 +146,7 @@
   --heading-3-paragraph-spacing: 0;
   --heading-3-text-case: none;
   --heading-3-text-decoration: none;
-  --heading-4-font-family: Polkadot;
+  --heading-4-font-family: Polkadot};
   --heading-4-font-weight: Regular;
   --heading-4-line-height: AUTO;
   --heading-4-font-size: 2.25rem;
@@ -157,7 +154,7 @@
   --heading-4-paragraph-spacing: 0;
   --heading-4-text-case: none;
   --heading-4-text-decoration: none;
-  --heading-5-font-family: Polkadot;
+  --heading-5-font-family: Polkadot};
   --heading-5-font-weight: Regular;
   --heading-5-line-height: AUTO;
   --heading-5-font-size: 1.5rem;
@@ -165,7 +162,7 @@
   --heading-5-paragraph-spacing: 0;
   --heading-5-text-case: none;
   --heading-5-text-decoration: none;
-  --heading-6-font-family: Polkadot;
+  --heading-6-font-family: Polkadot};
   --heading-6-font-weight: Regular;
   --heading-6-line-height: 150%;
   --heading-6-font-size: 1.25rem;
@@ -173,7 +170,7 @@
   --heading-6-paragraph-spacing: 0;
   --heading-6-text-case: none;
   --heading-6-text-decoration: none;
-  --subtitle-1-font-family: Polkadot;
+  --subtitle-1-font-family: Polkadot};
   --subtitle-1-font-weight: Regular;
   --subtitle-1-line-height: 32;
   --subtitle-1-font-size: 1.25rem;
@@ -181,7 +178,7 @@
   --subtitle-1-paragraph-spacing: 0;
   --subtitle-1-text-case: none;
   --subtitle-1-text-decoration: none;
-  --subtitle-2-font-family: Polkadot;
+  --subtitle-2-font-family: Polkadot};
   --subtitle-2-font-weight: Regular;
   --subtitle-2-line-height: AUTO;
   --subtitle-2-font-size: 1.25rem;
@@ -285,4 +282,7 @@
   --label-paragraph-spacing: 0;
   --label-text-case: None;
   --label-text-decoration: none;
+  --font-family-display: NaNpx;
+  --font-family-mono: NaNpx;
+  --font-family-body: NaNpx;
 }

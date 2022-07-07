@@ -361,20 +361,6 @@
       "type": "borderRadius"
     }
   },
-  "fontFamily": {
-    "primary": {
-      "value": "Polkadot",
-      "type": "fontFamilies"
-    },
-    "secondary": {
-      "value": "Inter",
-      "type": "fontFamilies"
-    },
-    "code": {
-      "value": "Roboto Mono",
-      "type": "fontFamilies"
-    }
-  },
   "fontSize": {
     "0": {
       "value": "0.75rem",
@@ -596,7 +582,7 @@
     },
     "3": {
       "fontFamily": {
-        "value": "Polkadot",
+        "value": "Polkadot}",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -630,7 +616,7 @@
     },
     "4": {
       "fontFamily": {
-        "value": "Polkadot",
+        "value": "Polkadot}",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -664,7 +650,7 @@
     },
     "5": {
       "fontFamily": {
-        "value": "Polkadot",
+        "value": "Polkadot}",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -698,7 +684,7 @@
     },
     "6": {
       "fontFamily": {
-        "value": "Polkadot",
+        "value": "Polkadot}",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -734,7 +720,7 @@
   "subtitle": {
     "1": {
       "fontFamily": {
-        "value": "Polkadot",
+        "value": "Polkadot}",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -768,7 +754,7 @@
     },
     "2": {
       "fontFamily": {
-        "value": "Polkadot",
+        "value": "Polkadot}",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -1213,6 +1199,20 @@
     "textDecoration": {
       "value": "none",
       "type": "textDecoration"
+    }
+  },
+  "fontFamily": {
+    "display": {
+      "value": "Polkadot",
+      "type": "fontFamily"
+    },
+    "mono": {
+      "value": "Roboto Mono",
+      "type": "fontFamily"
+    },
+    "body": {
+      "value": "Inter",
+      "type": "fontFamily"
     }
   }
 }

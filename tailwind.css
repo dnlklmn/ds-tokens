@@ -19976,27 +19976,27 @@ video {
 }
 
 .font-heading fontFamily 3 {
-  font-family: var(--heading-3-font-family, Polkadot);
+  font-family: var(--heading-3-font-family, Polkadot});
 }
 
 .font-heading fontFamily 4 {
-  font-family: var(--heading-4-font-family, Polkadot);
+  font-family: var(--heading-4-font-family, Polkadot});
 }
 
 .font-heading fontFamily 5 {
-  font-family: var(--heading-5-font-family, Polkadot);
+  font-family: var(--heading-5-font-family, Polkadot});
 }
 
 .font-heading fontFamily 6 {
-  font-family: var(--heading-6-font-family, Polkadot);
+  font-family: var(--heading-6-font-family, Polkadot});
 }
 
 .font-subtitle fontFamily 1 {
-  font-family: var(--subtitle-1-font-family, Polkadot);
+  font-family: var(--subtitle-1-font-family, Polkadot});
 }
 
 .font-subtitle fontFamily 2 {
-  font-family: var(--subtitle-2-font-family, Polkadot);
+  font-family: var(--subtitle-2-font-family, Polkadot});
 }
 
 .font-body fontFamily 1 {
@@ -20045,6 +20045,12 @@ video {
 
 .font-Label fontFamily {
   font-family: var(--label-font-family, Inter);
+}
+
+.font-fontFamily fontFamily {
+  display: var(--font-family-display, NaNpx);
+  mono: var(--font-family-mono, NaNpx);
+  body: var(--font-family-body, NaNpx);
 }
 
 .text-xs {
@@ -46130,27 +46136,27 @@ video {
   }
 
   .sm\:font-heading fontFamily 3 {
-    font-family: var(--heading-3-font-family, Polkadot);
+    font-family: var(--heading-3-font-family, Polkadot});
   }
 
   .sm\:font-heading fontFamily 4 {
-    font-family: var(--heading-4-font-family, Polkadot);
+    font-family: var(--heading-4-font-family, Polkadot});
   }
 
   .sm\:font-heading fontFamily 5 {
-    font-family: var(--heading-5-font-family, Polkadot);
+    font-family: var(--heading-5-font-family, Polkadot});
   }
 
   .sm\:font-heading fontFamily 6 {
-    font-family: var(--heading-6-font-family, Polkadot);
+    font-family: var(--heading-6-font-family, Polkadot});
   }
 
   .sm\:font-subtitle fontFamily 1 {
-    font-family: var(--subtitle-1-font-family, Polkadot);
+    font-family: var(--subtitle-1-font-family, Polkadot});
   }
 
   .sm\:font-subtitle fontFamily 2 {
-    font-family: var(--subtitle-2-font-family, Polkadot);
+    font-family: var(--subtitle-2-font-family, Polkadot});
   }
 
   .sm\:font-body fontFamily 1 {
@@ -46199,6 +46205,12 @@ video {
 
   .sm\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .sm\:font-fontFamily fontFamily {
+    display: var(--font-family-display, NaNpx);
+    mono: var(--font-family-mono, NaNpx);
+    body: var(--font-family-body, NaNpx);
   }
 
   .sm\:text-xs {
@@ -72004,27 +72016,27 @@ video {
   }
 
   .md\:font-heading fontFamily 3 {
-    font-family: var(--heading-3-font-family, Polkadot);
+    font-family: var(--heading-3-font-family, Polkadot});
   }
 
   .md\:font-heading fontFamily 4 {
-    font-family: var(--heading-4-font-family, Polkadot);
+    font-family: var(--heading-4-font-family, Polkadot});
   }
 
   .md\:font-heading fontFamily 5 {
-    font-family: var(--heading-5-font-family, Polkadot);
+    font-family: var(--heading-5-font-family, Polkadot});
   }
 
   .md\:font-heading fontFamily 6 {
-    font-family: var(--heading-6-font-family, Polkadot);
+    font-family: var(--heading-6-font-family, Polkadot});
   }
 
   .md\:font-subtitle fontFamily 1 {
-    font-family: var(--subtitle-1-font-family, Polkadot);
+    font-family: var(--subtitle-1-font-family, Polkadot});
   }
 
   .md\:font-subtitle fontFamily 2 {
-    font-family: var(--subtitle-2-font-family, Polkadot);
+    font-family: var(--subtitle-2-font-family, Polkadot});
   }
 
   .md\:font-body fontFamily 1 {
@@ -72073,6 +72085,12 @@ video {
 
   .md\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .md\:font-fontFamily fontFamily {
+    display: var(--font-family-display, NaNpx);
+    mono: var(--font-family-mono, NaNpx);
+    body: var(--font-family-body, NaNpx);
   }
 
   .md\:text-xs {
@@ -97878,27 +97896,27 @@ video {
   }
 
   .lg\:font-heading fontFamily 3 {
-    font-family: var(--heading-3-font-family, Polkadot);
+    font-family: var(--heading-3-font-family, Polkadot});
   }
 
   .lg\:font-heading fontFamily 4 {
-    font-family: var(--heading-4-font-family, Polkadot);
+    font-family: var(--heading-4-font-family, Polkadot});
   }
 
   .lg\:font-heading fontFamily 5 {
-    font-family: var(--heading-5-font-family, Polkadot);
+    font-family: var(--heading-5-font-family, Polkadot});
   }
 
   .lg\:font-heading fontFamily 6 {
-    font-family: var(--heading-6-font-family, Polkadot);
+    font-family: var(--heading-6-font-family, Polkadot});
   }
 
   .lg\:font-subtitle fontFamily 1 {
-    font-family: var(--subtitle-1-font-family, Polkadot);
+    font-family: var(--subtitle-1-font-family, Polkadot});
   }
 
   .lg\:font-subtitle fontFamily 2 {
-    font-family: var(--subtitle-2-font-family, Polkadot);
+    font-family: var(--subtitle-2-font-family, Polkadot});
   }
 
   .lg\:font-body fontFamily 1 {
@@ -97947,6 +97965,12 @@ video {
 
   .lg\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .lg\:font-fontFamily fontFamily {
+    display: var(--font-family-display, NaNpx);
+    mono: var(--font-family-mono, NaNpx);
+    body: var(--font-family-body, NaNpx);
   }
 
   .lg\:text-xs {
@@ -123752,27 +123776,27 @@ video {
   }
 
   .xl\:font-heading fontFamily 3 {
-    font-family: var(--heading-3-font-family, Polkadot);
+    font-family: var(--heading-3-font-family, Polkadot});
   }
 
   .xl\:font-heading fontFamily 4 {
-    font-family: var(--heading-4-font-family, Polkadot);
+    font-family: var(--heading-4-font-family, Polkadot});
   }
 
   .xl\:font-heading fontFamily 5 {
-    font-family: var(--heading-5-font-family, Polkadot);
+    font-family: var(--heading-5-font-family, Polkadot});
   }
 
   .xl\:font-heading fontFamily 6 {
-    font-family: var(--heading-6-font-family, Polkadot);
+    font-family: var(--heading-6-font-family, Polkadot});
   }
 
   .xl\:font-subtitle fontFamily 1 {
-    font-family: var(--subtitle-1-font-family, Polkadot);
+    font-family: var(--subtitle-1-font-family, Polkadot});
   }
 
   .xl\:font-subtitle fontFamily 2 {
-    font-family: var(--subtitle-2-font-family, Polkadot);
+    font-family: var(--subtitle-2-font-family, Polkadot});
   }
 
   .xl\:font-body fontFamily 1 {
@@ -123821,6 +123845,12 @@ video {
 
   .xl\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .xl\:font-fontFamily fontFamily {
+    display: var(--font-family-display, NaNpx);
+    mono: var(--font-family-mono, NaNpx);
+    body: var(--font-family-body, NaNpx);
   }
 
   .xl\:text-xs {
@@ -149626,27 +149656,27 @@ video {
   }
 
   .\32xl\:font-heading fontFamily 3 {
-    font-family: var(--heading-3-font-family, Polkadot);
+    font-family: var(--heading-3-font-family, Polkadot});
   }
 
   .\32xl\:font-heading fontFamily 4 {
-    font-family: var(--heading-4-font-family, Polkadot);
+    font-family: var(--heading-4-font-family, Polkadot});
   }
 
   .\32xl\:font-heading fontFamily 5 {
-    font-family: var(--heading-5-font-family, Polkadot);
+    font-family: var(--heading-5-font-family, Polkadot});
   }
 
   .\32xl\:font-heading fontFamily 6 {
-    font-family: var(--heading-6-font-family, Polkadot);
+    font-family: var(--heading-6-font-family, Polkadot});
   }
 
   .\32xl\:font-subtitle fontFamily 1 {
-    font-family: var(--subtitle-1-font-family, Polkadot);
+    font-family: var(--subtitle-1-font-family, Polkadot});
   }
 
   .\32xl\:font-subtitle fontFamily 2 {
-    font-family: var(--subtitle-2-font-family, Polkadot);
+    font-family: var(--subtitle-2-font-family, Polkadot});
   }
 
   .\32xl\:font-body fontFamily 1 {
@@ -149695,6 +149725,12 @@ video {
 
   .\32xl\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .\32xl\:font-fontFamily fontFamily {
+    display: var(--font-family-display, NaNpx);
+    mono: var(--font-family-mono, NaNpx);
+    body: var(--font-family-body, NaNpx);
   }
 
   .\32xl\:text-xs {

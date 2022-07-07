@@ -785,15 +785,15 @@
     "fontFamily": {
       "display": {
         "value": "Polkadot",
-        "type": "fontFamilies"
+        "type": "fontFamily"
       },
       "mono": {
         "value": "Roboto Mono",
-        "type": "fontFamilies"
+        "type": "fontFamily"
       },
       "body": {
         "value": "Inter",
-        "type": "fontFamilies"
+        "type": "fontFamily"
       }
     }
   },
