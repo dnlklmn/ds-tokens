@@ -285,4 +285,6 @@
   --font-family-display: Polkadot;
   --font-family-mono: Roboto Mono;
   --font-family-body: Inter;
+  --body1-font-family: Inter;
+  --body1-font-size: 6.4375rem;
 }

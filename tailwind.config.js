@@ -10,6 +10,9 @@ module.exports = {
   theme: {
     colors,
     fontFamily,
+    // fontFamily: {
+    //   display: "Polkadot",
+    // },
   },
   variants: {},
   plugins: [],

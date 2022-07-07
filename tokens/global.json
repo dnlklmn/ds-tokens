@@ -1214,5 +1214,15 @@
       "value": "Inter",
       "type": "fontFamily"
     }
+  },
+  "body1": {
+    "fontFamily": {
+      "value": "Inter",
+      "type": "fontFamily"
+    },
+    "fontSize": {
+      "value": "6.4375rem",
+      "type": "fontSize"
+    }
   }
 }

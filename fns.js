@@ -28,7 +28,8 @@ function createArray({ dictionary, platform }) {
 function filterTokensByType(type, tokens) {
   const obj = tokens.reduce((acc, cur) => {
     if (cur.type === type) {
-      acc[cur.path.join(".")] = `var(--${cur.name}, ${cur.value})`;
+      acc[cur.path.join(".")] = `${cur.value}`;
+      //acc[cur.path.join(".")] = `var(--${cur.name}, ${cur.value})`;
     }
     return acc;
   }, {});
