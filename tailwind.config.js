@@ -9,10 +9,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors,
-    fontFamily,
-    // fontFamily: {
-    //   display: "Polkadot",
-    // },
+    // fontFamily,
+    fontFamily: {
+      display: "Polkadot",
+    },
   },
   variants: {},
   plugins: [],
