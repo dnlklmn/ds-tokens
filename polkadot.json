@@ -799,7 +799,7 @@
     "body1": {
       "value": {
         "fontFamily": "Inter",
-        "fontSize": "48"
+        "fontSize": "{fontSize.8}"
       },
       "type": "typography"
     }
