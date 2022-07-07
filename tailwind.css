@@ -19967,8 +19967,8 @@ video {
   vertical-align: text-bottom;
 }
 
-.font-heading fontFamily 1 {
-  font-family: var(--heading-1-font-family, Polkadot);
+.font-h1 fontFamily {
+  font-family: var(--h1-font-family, Polkadot);
 }
 
 .font-heading fontFamily 2 {
@@ -20045,6 +20045,12 @@ video {
 
 .font-Label fontFamily {
   font-family: var(--label-font-family, Inter);
+}
+
+.font-fontFamily fontFamily {
+  display: var(--font-family-display, Polkadot);
+  mono: var(--font-family-mono, Roboto Mono);
+  body: var(--font-family-body, Inter);
 }
 
 .text-xs {
@@ -46121,8 +46127,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .sm\:font-heading fontFamily 1 {
-    font-family: var(--heading-1-font-family, Polkadot);
+  .sm\:font-h1 fontFamily {
+    font-family: var(--h1-font-family, Polkadot);
   }
 
   .sm\:font-heading fontFamily 2 {
@@ -46199,6 +46205,12 @@ video {
 
   .sm\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .sm\:font-fontFamily fontFamily {
+    display: var(--font-family-display, Polkadot);
+    mono: var(--font-family-mono, Roboto Mono);
+    body: var(--font-family-body, Inter);
   }
 
   .sm\:text-xs {
@@ -71995,8 +72007,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .md\:font-heading fontFamily 1 {
-    font-family: var(--heading-1-font-family, Polkadot);
+  .md\:font-h1 fontFamily {
+    font-family: var(--h1-font-family, Polkadot);
   }
 
   .md\:font-heading fontFamily 2 {
@@ -72073,6 +72085,12 @@ video {
 
   .md\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .md\:font-fontFamily fontFamily {
+    display: var(--font-family-display, Polkadot);
+    mono: var(--font-family-mono, Roboto Mono);
+    body: var(--font-family-body, Inter);
   }
 
   .md\:text-xs {
@@ -97869,8 +97887,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .lg\:font-heading fontFamily 1 {
-    font-family: var(--heading-1-font-family, Polkadot);
+  .lg\:font-h1 fontFamily {
+    font-family: var(--h1-font-family, Polkadot);
   }
 
   .lg\:font-heading fontFamily 2 {
@@ -97947,6 +97965,12 @@ video {
 
   .lg\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .lg\:font-fontFamily fontFamily {
+    display: var(--font-family-display, Polkadot);
+    mono: var(--font-family-mono, Roboto Mono);
+    body: var(--font-family-body, Inter);
   }
 
   .lg\:text-xs {
@@ -123743,8 +123767,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .xl\:font-heading fontFamily 1 {
-    font-family: var(--heading-1-font-family, Polkadot);
+  .xl\:font-h1 fontFamily {
+    font-family: var(--h1-font-family, Polkadot);
   }
 
   .xl\:font-heading fontFamily 2 {
@@ -123821,6 +123845,12 @@ video {
 
   .xl\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .xl\:font-fontFamily fontFamily {
+    display: var(--font-family-display, Polkadot);
+    mono: var(--font-family-mono, Roboto Mono);
+    body: var(--font-family-body, Inter);
   }
 
   .xl\:text-xs {
@@ -149617,8 +149647,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .\32xl\:font-heading fontFamily 1 {
-    font-family: var(--heading-1-font-family, Polkadot);
+  .\32xl\:font-h1 fontFamily {
+    font-family: var(--h1-font-family, Polkadot);
   }
 
   .\32xl\:font-heading fontFamily 2 {
@@ -149695,6 +149725,12 @@ video {
 
   .\32xl\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
+  }
+
+  .\32xl\:font-fontFamily fontFamily {
+    display: var(--font-family-display, Polkadot);
+    mono: var(--font-family-mono, Roboto Mono);
+    body: var(--font-family-body, Inter);
   }
 
   .\32xl\:text-xs {

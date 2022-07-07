@@ -511,41 +511,41 @@
     "value": 95,
     "type": "spacing"
   },
-  "heading": {
-    "1": {
-      "fontFamily": {
-        "value": "Polkadot",
-        "type": "fontFamily"
-      },
-      "fontWeight": {
-        "value": "Regular",
-        "type": "fontWeight"
-      },
-      "lineHeight": {
-        "value": "AUTO",
-        "type": "lineHeight"
-      },
-      "fontSize": {
-        "value": "6.4375rem",
-        "type": "fontSize"
-      },
-      "letterSpacing": {
-        "value": "0%",
-        "type": "letterSpacing"
-      },
-      "paragraphSpacing": {
-        "value": 0,
-        "type": "paragraphSpacing"
-      },
-      "textCase": {
-        "value": "none",
-        "type": "textCase"
-      },
-      "textDecoration": {
-        "value": "none",
-        "type": "textDecoration"
-      }
+  "h1": {
+    "fontFamily": {
+      "value": "Polkadot",
+      "type": "fontFamily"
     },
+    "fontWeight": {
+      "value": "Regular",
+      "type": "fontWeight"
+    },
+    "lineHeight": {
+      "value": "AUTO",
+      "type": "lineHeight"
+    },
+    "fontSize": {
+      "value": "6.4375rem",
+      "type": "fontSize"
+    },
+    "letterSpacing": {
+      "value": "0%",
+      "type": "letterSpacing"
+    },
+    "paragraphSpacing": {
+      "value": 0,
+      "type": "paragraphSpacing"
+    },
+    "textCase": {
+      "value": "none",
+      "type": "textCase"
+    },
+    "textDecoration": {
+      "value": "none",
+      "type": "textDecoration"
+    }
+  },
+  "heading": {
     "2": {
       "fontFamily": {
         "value": "Polkadot",
@@ -1203,106 +1203,16 @@
   },
   "fontFamily": {
     "display": {
-      "0": {
-        "value": "P",
-        "type": "0"
-      },
-      "1": {
-        "value": "o",
-        "type": "1"
-      },
-      "2": {
-        "value": "l",
-        "type": "2"
-      },
-      "3": {
-        "value": "k",
-        "type": "3"
-      },
-      "4": {
-        "value": "a",
-        "type": "4"
-      },
-      "5": {
-        "value": "d",
-        "type": "5"
-      },
-      "6": {
-        "value": "o",
-        "type": "6"
-      },
-      "7": {
-        "value": "t",
-        "type": "7"
-      }
+      "value": "Polkadot",
+      "type": "fontFamily"
     },
     "mono": {
-      "0": {
-        "value": "R",
-        "type": "0"
-      },
-      "1": {
-        "value": "o",
-        "type": "1"
-      },
-      "2": {
-        "value": "b",
-        "type": "2"
-      },
-      "3": {
-        "value": "o",
-        "type": "3"
-      },
-      "4": {
-        "value": "t",
-        "type": "4"
-      },
-      "5": {
-        "value": "o",
-        "type": "5"
-      },
-      "6": {
-        "value": " ",
-        "type": "6"
-      },
-      "7": {
-        "value": "M",
-        "type": "7"
-      },
-      "8": {
-        "value": "o",
-        "type": "8"
-      },
-      "9": {
-        "value": "n",
-        "type": "9"
-      },
-      "10": {
-        "value": "o",
-        "type": "10"
-      }
+      "value": "Roboto Mono",
+      "type": "fontFamily"
     },
     "body": {
-      "0": {
-        "value": "I",
-        "type": "0"
-      },
-      "1": {
-        "value": "n",
-        "type": "1"
-      },
-      "2": {
-        "value": "t",
-        "type": "2"
-      },
-      "3": {
-        "value": "e",
-        "type": "3"
-      },
-      "4": {
-        "value": "r",
-        "type": "4"
-      }
+      "value": "Inter",
+      "type": "fontFamily"
     }
   }
 }
