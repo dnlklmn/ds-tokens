@@ -362,20 +362,6 @@
         "type": "borderRadius"
       }
     },
-    "fontFamily": {
-      "primary": {
-        "value": "Polkadot",
-        "type": "fontFamilies"
-      },
-      "secondary": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      },
-      "code": {
-        "value": "Roboto Mono",
-        "type": "fontFamilies"
-      }
-    },
     "fontSize": {
       "0": {
         "value": "0.75rem",
@@ -795,6 +781,18 @@
         "textDecoration": "none"
       },
       "type": "typography"
+    },
+    "display": {
+      "value": "Polkadot",
+      "type": "fontFamilies"
+    },
+    "mono": {
+      "value": "Roboto Mono",
+      "type": "fontFamilies"
+    },
+    "text": {
+      "value": "Inter",
+      "type": "fontFamilies"
     }
   },
   "components": {
