@@ -1,0 +1,267 @@
+{
+  "button-borderRadius": {
+    "small": {
+      "value": "{borderRadius.full}",
+      "type": "borderRadius",
+      "failedToResolve": true
+    },
+    "medium": {
+      "value": "{borderRadius.full}",
+      "type": "borderRadius",
+      "failedToResolve": true
+    },
+    "large": {
+      "value": "{borderRadius.full}",
+      "type": "borderRadius",
+      "failedToResolve": true
+    }
+  },
+  "button-padding": {
+    "medium": {
+      "leftRight": {
+        "value": "{6}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "topBottom": {
+        "value": "{3}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    },
+    "small": {
+      "leftRight": {
+        "value": "{4}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "topBottom": {
+        "value": "{2}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    },
+    "large": {
+      "leftRight": {
+        "value": "{8}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "topBottom": {
+        "value": "{5}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    }
+  },
+  "button-gap": {
+    "medium": {
+      "value": "{2}",
+      "type": "spacing",
+      "failedToResolve": true
+    },
+    "small": {
+      "value": "{1}",
+      "type": "spacing",
+      "failedToResolve": true
+    }
+  },
+  "dropdown": {
+    "padding": {
+      "default": {
+        "value": "{2}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "big": {
+        "value": "{4}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    }
+  },
+  "list": {
+    "gap": {
+      "default": {
+        "value": "{8}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "small": {
+        "value": "{4}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    },
+    "padding": {
+      "default": {
+        "topBottom": {
+          "value": "{6}",
+          "type": "spacing",
+          "failedToResolve": true
+        }
+      }
+    }
+  },
+  "contentCard": {
+    "padding": {
+      "default": {
+        "all": {
+          "value": "{6}",
+          "type": "spacing",
+          "failedToResolve": true
+        }
+      }
+    },
+    "gap": {
+      "default": {
+        "value": "{6}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "small": {
+        "value": "{4}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    }
+  },
+  "page": {
+    "padding": {
+      "default": {
+        "all": {
+          "value": "{8}",
+          "type": "spacing",
+          "failedToResolve": true
+        }
+      }
+    },
+    "gap": {
+      "default": {
+        "value": "{12}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "small": {
+        "value": "{6}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    }
+  },
+  "form": {
+    "gap": {
+      "default": {
+        "value": "{6}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "small": {
+        "value": "{4}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    }
+  },
+  "actions": {
+    "gap": {
+      "default": {
+        "value": "{6}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "big": {
+        "value": "{8}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    }
+  },
+  "tag": {
+    "padding": {
+      "all": {
+        "value": "{2}",
+        "type": "spacing",
+        "failedToResolve": true
+      }
+    }
+  },
+  "card": {
+    "default": {
+      "value": "{borderRadius.md}",
+      "type": "borderRadius",
+      "failedToResolve": true
+    }
+  },
+  "textField": {
+    "padding": {
+      "medium": {
+        "topBottom": {
+          "value": "{3}",
+          "type": "spacing",
+          "failedToResolve": true
+        },
+        "leftRight": {
+          "value": "{4}",
+          "type": "spacing",
+          "failedToResolve": true
+        }
+      },
+      "small": {
+        "topBottom": {
+          "value": "{2}",
+          "type": "spacing",
+          "failedToResolve": true
+        },
+        "leftRight": {
+          "value": "{3}",
+          "type": "spacing",
+          "failedToResolve": true
+        }
+      }
+    },
+    "default": {
+      "value": "{borderRadius.lg}",
+      "type": "borderRadius",
+      "failedToResolve": true
+    },
+    "gap": {
+      "icon-text": {
+        "value": "{1}",
+        "type": "spacing",
+        "failedToResolve": true
+      },
+      "medium": {
+        "vertical": {
+          "value": "{2}",
+          "type": "spacing",
+          "failedToResolve": true
+        }
+      },
+      "small": {
+        "vertical": {
+          "value": "{2}",
+          "type": "spacing",
+          "failedToResolve": true
+        }
+      }
+    }
+  },
+  "button-borderWidth": {
+    "medium": {
+      "value": "{borderWidth.2}",
+      "type": "borderWidth",
+      "failedToResolve": true
+    },
+    "small": {
+      "value": "{borderWidth.1}",
+      "type": "borderWidth",
+      "failedToResolve": true
+    },
+    "large": {
+      "value": "{borderWidth.2}",
+      "type": "borderWidth",
+      "failedToResolve": true
+    }
+  }
+}
