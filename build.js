@@ -20,7 +20,7 @@ function getStyleDictionaryConfig(theme) {
     },
     platforms: {
       web: {
-        transforms: ["attribute/cti", "name/cti/kebab", "sizes/px"],
+        transforms: ["attribute/cti", "name/cti/kebab"],
         buildPath: `output/`,
         files: [
           {

@@ -20047,12 +20047,6 @@ video {
   font-family: var(--label-font-family, Inter);
 }
 
-.font-fontFamily fontFamily {
-  display: var(--font-family-display, NaNpx);
-  mono: var(--font-family-mono, NaNpx);
-  body: var(--font-family-body, NaNpx);
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -46207,12 +46201,6 @@ video {
     font-family: var(--label-font-family, Inter);
   }
 
-  .sm\:font-fontFamily fontFamily {
-    display: var(--font-family-display, NaNpx);
-    mono: var(--font-family-mono, NaNpx);
-    body: var(--font-family-body, NaNpx);
-  }
-
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -72085,12 +72073,6 @@ video {
 
   .md\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
-  }
-
-  .md\:font-fontFamily fontFamily {
-    display: var(--font-family-display, NaNpx);
-    mono: var(--font-family-mono, NaNpx);
-    body: var(--font-family-body, NaNpx);
   }
 
   .md\:text-xs {
@@ -97967,12 +97949,6 @@ video {
     font-family: var(--label-font-family, Inter);
   }
 
-  .lg\:font-fontFamily fontFamily {
-    display: var(--font-family-display, NaNpx);
-    mono: var(--font-family-mono, NaNpx);
-    body: var(--font-family-body, NaNpx);
-  }
-
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -123847,12 +123823,6 @@ video {
     font-family: var(--label-font-family, Inter);
   }
 
-  .xl\:font-fontFamily fontFamily {
-    display: var(--font-family-display, NaNpx);
-    mono: var(--font-family-mono, NaNpx);
-    body: var(--font-family-body, NaNpx);
-  }
-
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -149725,12 +149695,6 @@ video {
 
   .\32xl\:font-Label fontFamily {
     font-family: var(--label-font-family, Inter);
-  }
-
-  .\32xl\:font-fontFamily fontFamily {
-    display: var(--font-family-display, NaNpx);
-    mono: var(--font-family-mono, NaNpx);
-    body: var(--font-family-body, NaNpx);
   }
 
   .\32xl\:text-xs {
