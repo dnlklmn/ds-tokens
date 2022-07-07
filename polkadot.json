@@ -795,6 +795,13 @@
         "value": "Inter",
         "type": "fontFamily"
       }
+    },
+    "body1": {
+      "value": {
+        "fontFamily": "Inter",
+        "fontSize": "48"
+      },
+      "type": "typography"
     }
   },
   "components": {
