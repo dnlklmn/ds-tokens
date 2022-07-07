@@ -630,9 +630,9 @@ video {
 
 @import "output/light.css";
 
-@import "output/dark.css";
+@import "output/global.css";
 
-@import "custom.css";
+@import "output/dark.css";
 
 .sr-only {
   position: absolute;

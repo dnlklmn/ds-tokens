@@ -2,7 +2,7 @@
 
 @import "tailwindcss/components";
 @import "output/light.css";
+@import "output/global.css";
 @import "output/dark.css";
-@import "custom.css";
 
 @import "tailwindcss/utilities";
