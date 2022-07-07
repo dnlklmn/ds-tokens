@@ -19,6 +19,7 @@ StyleDictionaryPackage.registerTransform({
     // You can be more specific here if you only want 'em' units for font sizes
     return [
       "fontSizes",
+      "fontFamily",
       "spacing",
       "borderRadius",
       "borderWidth",
