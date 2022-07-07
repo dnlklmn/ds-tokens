@@ -782,17 +782,19 @@
       },
       "type": "typography"
     },
-    "display": {
-      "value": "Polkadot",
-      "type": "fontFamilies"
-    },
-    "mono": {
-      "value": "Roboto Mono",
-      "type": "fontFamilies"
-    },
-    "text": {
-      "value": "Inter",
-      "type": "fontFamilies"
+    "fontFamily": {
+      "display": {
+        "value": "Polkadot",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "Roboto Mono",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
     }
   },
   "components": {
