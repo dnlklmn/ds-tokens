@@ -421,43 +421,47 @@
       }
     },
     "indigo": {
-      "100-t": {
+      "50": {
         "value": "#F2F5FF",
         "type": "color"
       },
-      "200-t": {
+      "100": {
         "value": "#D2DCFA",
         "type": "color"
       },
-      "300-t": {
+      "200": {
         "value": "#B1BFF0",
         "type": "color"
       },
-      "400-t": {
+      "300": {
         "value": "#90A2E6",
         "type": "color"
       },
-      "500-base": {
+      "400": {
         "value": "#6E85DB",
         "type": "color"
       },
-      "600-s": {
+      "500": {
         "value": "#4D68D1",
         "type": "color"
       },
-      "700-s": {
-        "value": "#2742B0",
+      "600": {
+        "value": "#2C4BC7",
         "type": "color"
       },
-      "800-s": {
-        "value": "#071340",
+      "700": {
+        "value": "#1B3499",
         "type": "color"
       },
-      "900-s": {
-        "value": "#071340",
+      "800": {
+        "value": "#0D2378",
         "type": "color"
       },
-      "950-s": {
+      "900": {
+        "value": "#001464",
+        "type": "color"
+      },
+      "950": {
         "value": "#00051A",
         "type": "color"
       }
@@ -1076,7 +1080,7 @@
     "textfield": {
       "bg": {
         "default": {
-          "value": "{indigo.100-t}",
+          "value": "{indigo.100}",
           "type": "color"
         },
         "error": {
@@ -1118,7 +1122,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{indigo.500-base}",
+          "value": "{indigo.500}",
           "type": "color"
         },
         "default": {
@@ -1223,7 +1227,7 @@
           "type": "color"
         },
         "highlight": {
-          "value": "{indigo.100-t}",
+          "value": "{indigo.100}",
           "type": "color"
         },
         "emphasized": {
@@ -1543,7 +1547,7 @@
     "textfield": {
       "bg": {
         "default": {
-          "value": "{indigo.900-s}",
+          "value": "{indigo.900}",
           "type": "color"
         },
         "error": {
@@ -1585,7 +1589,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{indigo.500-base}",
+          "value": "{indigo.500}",
           "type": "color"
         },
         "default": {
