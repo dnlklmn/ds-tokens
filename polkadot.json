@@ -806,6 +806,98 @@
         "fontSize": "{fontSize.8}"
       },
       "type": "typography"
+    },
+    "cyan": {
+      "50": {
+        "value": "#EDF9FC",
+        "type": "color"
+      },
+      "100": {
+        "value": "#E4F7FC",
+        "type": "color"
+      },
+      "200": {
+        "value": "#B2E8F6",
+        "type": "color"
+      },
+      "300": {
+        "value": "#80DAF1",
+        "type": "color"
+      },
+      "400": {
+        "value": "#4ECCEB",
+        "type": "color"
+      },
+      "500": {
+        "value": "#3EB6D4",
+        "type": "color"
+      },
+      "600": {
+        "value": "#2FA0BC",
+        "type": "color"
+      },
+      "700": {
+        "value": "#1F7C93",
+        "type": "color"
+      },
+      "800": {
+        "value": "#10596B",
+        "type": "color"
+      },
+      "900": {
+        "value": "#003542",
+        "type": "color"
+      },
+      "950": {
+        "value": "#001F27",
+        "type": "color"
+      }
+    },
+    "green": {
+      "50": {
+        "value": "#ECFDF9",
+        "type": "color"
+      },
+      "100": {
+        "value": "#D1FAF0",
+        "type": "color"
+      },
+      "200": {
+        "value": "#93F7DF",
+        "type": "color"
+      },
+      "300": {
+        "value": "#56F3CE",
+        "type": "color"
+      },
+      "400": {
+        "value": "#18F0BD",
+        "type": "color"
+      },
+      "500": {
+        "value": "#13D0A3",
+        "type": "color"
+      },
+      "600": {
+        "value": "#0EAF88",
+        "type": "color"
+      },
+      "700": {
+        "value": "#098B6B",
+        "type": "color"
+      },
+      "800": {
+        "value": "#05664F",
+        "type": "color"
+      },
+      "900": {
+        "value": "#004232",
+        "type": "color"
+      },
+      "950": {
+        "value": "#002B20",
+        "type": "color"
+      }
     }
   },
   "components": {
