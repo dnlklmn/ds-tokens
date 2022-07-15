@@ -1188,7 +1188,7 @@
     "textfield": {
       "bg": {
         "default": {
-          "value": "{indigo.100}",
+          "value": "{Colors.Indigo.100}",
           "type": "color"
         },
         "error": {
@@ -1230,7 +1230,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{indigo.500}",
+          "value": "{Colors.Indigo.500}",
           "type": "color"
         },
         "default": {
@@ -1335,7 +1335,7 @@
           "type": "color"
         },
         "highlight": {
-          "value": "{indigo.100}",
+          "value": "{Colors.Indigo.100}",
           "type": "color"
         },
         "emphasized": {
@@ -1371,7 +1371,7 @@
           "type": "color"
         },
         "white-dimmed": {
-          "value": "{primary.100}",
+          "value": "{Colors.Pink.100}",
           "type": "color"
         }
       },
@@ -1385,27 +1385,27 @@
     "button": {
       "base": {
         "primary": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "primary-hover": {
-          "value": "{primary.700}",
+          "value": "{Colors.Pink.700}",
           "type": "color"
         },
         "primary-pressed": {
-          "value": "{primary.800}",
+          "value": "{Colors.Pink.800}",
           "type": "color"
         },
         "down": {
-          "value": "{primary.600}",
+          "value": "{Colors.Pink.600}",
           "type": "color"
         },
         "secondary-hover": {
-          "value": "{primary.100}",
+          "value": "{Colors.Pink.100}",
           "type": "color"
         },
         "secondary-pressed": {
-          "value": "{primary.200}",
+          "value": "{Colors.Pink.200}",
           "type": "color"
         },
         "sensitive": {
@@ -1443,7 +1443,7 @@
       },
       "foreground": {
         "primary-inverts": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "white": {
@@ -1451,11 +1451,11 @@
           "type": "color"
         },
         "primarytable": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "quiet": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "disabled": {
@@ -1467,11 +1467,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.700}",
+          "value": "{Colors.Pink.700}",
           "type": "color"
         },
         "pressed": {
-          "value": "{primary.800}",
+          "value": "{Colors.Pink.800}",
           "type": "color"
         }
       },
@@ -1510,7 +1510,7 @@
       },
       "border": {
         "primary": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "disabled": {
@@ -1522,15 +1522,15 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.700}",
+          "value": "{Colors.Pink.700}",
           "type": "color"
         },
         "pressed": {
-          "value": "{primary.800}",
+          "value": "{Colors.Pink.800}",
           "type": "color"
         },
         "focused": {
-          "value": "{primary.800}",
+          "value": "{Colors.Pink.800}",
           "type": "color"
         },
         "sensitive-focused": {
@@ -1626,7 +1626,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "{primary.500}",
+        "value": "{Colors.Pink.500}",
         "type": "color"
       },
       "link": {
@@ -1655,7 +1655,7 @@
     "textfield": {
       "bg": {
         "default": {
-          "value": "{indigo.900}",
+          "value": "{Colors.Indigo.900}",
           "type": "color"
         },
         "error": {
@@ -1697,7 +1697,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{indigo.500}",
+          "value": "{Colors.Indigo.500}",
           "type": "color"
         },
         "default": {
@@ -1838,7 +1838,7 @@
           "type": "color"
         },
         "white-dimmed": {
-          "value": "{primary.100}",
+          "value": "{Colors.Pink.100}",
           "type": "color"
         }
       },
@@ -1852,27 +1852,27 @@
     "button": {
       "base": {
         "primary": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "primary-hover": {
-          "value": "{primary.600}",
+          "value": "{Colors.Pink.600}",
           "type": "color"
         },
         "primary-pressed": {
-          "value": "{primary.800}",
+          "value": "{Colors.Pink.800}",
           "type": "color"
         },
         "down": {
-          "value": "{primary.600}",
+          "value": "{Colors.Pink.600}",
           "type": "color"
         },
         "secondary-hover": {
-          "value": "{primary.800}",
+          "value": "{Colors.Pink.800}",
           "type": "color"
         },
         "secondary-pressed": {
-          "value": "{primary.900}",
+          "value": "{Colors.Pink.900}",
           "type": "color"
         },
         "sensitive": {
@@ -1918,7 +1918,7 @@
           "type": "color"
         },
         "primarytable": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "quiet": {
@@ -1934,7 +1934,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.700}",
+          "value": "{Colors.Pink.700}",
           "type": "color"
         },
         "pressed": {
@@ -1966,7 +1966,7 @@
       },
       "border": {
         "primary": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "disabled": {
@@ -1978,11 +1978,11 @@
           "type": "color"
         },
         "hover": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "pressed": {
-          "value": "{primary.500}",
+          "value": "{Colors.Pink.500}",
           "type": "color"
         },
         "focused": {
