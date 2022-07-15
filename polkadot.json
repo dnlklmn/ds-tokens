@@ -1147,7 +1147,7 @@
   "light": {
     "text": {
       "default": {
-        "value": "$grey.900",
+        "value": "{Colors.Grey.900}",
         "type": "color"
       },
       "dimmed": {
@@ -1155,7 +1155,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "{primary.500}",
+        "value": "{Colors.Pink.500}",
         "type": "color"
       },
       "link": {
