@@ -1276,7 +1276,7 @@
           "type": "color"
         },
         "error": {
-          "value": "{Colors.Red.60000}",
+          "value": "{Colors.Red.600}",
           "type": "color"
         },
         "success": {
