@@ -1151,7 +1151,7 @@
         "type": "color"
       },
       "dimmed": {
-        "value": "$grey.500",
+        "value": "{Colors.Grey.500}",
         "type": "color"
       },
       "primary": {
@@ -1159,11 +1159,11 @@
         "type": "color"
       },
       "link": {
-        "value": "{secondary.500}",
+        "value": "{Colors.Purple.500}",
         "type": "color"
       },
       "disabled": {
-        "value": "$grey.300",
+        "value": "{Colors.Grey.300}",
         "type": "color"
       },
       "error": {
@@ -1181,7 +1181,7 @@
         "type": "color"
       },
       "grey": {
-        "value": "$grey.50",
+        "value": "{Colors.Grey.50}",
         "type": "color"
       }
     },
@@ -1196,7 +1196,7 @@
           "type": "color"
         },
         "code": {
-          "value": "{secondary.900}",
+          "value": "{Colors.Purple.900}",
           "type": "color"
         },
         "light": {
@@ -1212,11 +1212,11 @@
           "type": "color"
         },
         "sensitive": {
-          "value": "{secondary.50}",
+          "value": "{Colors.Purple.50}",
           "type": "color"
         },
         "sensitive-disabled": {
-          "value": "{secondary.100}",
+          "value": "{Colors.Purple.100}",
           "type": "color"
         },
         "match-bg": {
@@ -1238,7 +1238,7 @@
           "type": "color"
         },
         "bright": {
-          "value": "$grey.700",
+          "value": "{Colors.Grey.700}",
           "type": "color"
         },
         "error-light": {
@@ -1254,15 +1254,15 @@
           "type": "color"
         },
         "sensitive": {
-          "value": "{secondary.500}",
+          "value": "{Colors.Purple.500}",
           "type": "color"
         },
         "sensitive-light": {
-          "value": "{secondary.400}",
+          "value": "{Colors.Purple.400}",
           "type": "color"
         },
         "sensitive-dimmed": {
-          "value": "{secondary.100}",
+          "value": "{Colors.Purple.100}",
           "type": "color"
         }
       },
@@ -1284,7 +1284,7 @@
           "type": "color"
         },
         "sensitive": {
-          "value": "{secondary.500}",
+          "value": "{Colors.Purple.500}",
           "type": "color"
         }
       }
@@ -1345,7 +1345,7 @@
       },
       "border": {
         "hint": {
-          "value": "$grey.200",
+          "value": "{Colors.Grey.200}",
           "type": "color"
         },
         "white": {
@@ -1409,15 +1409,15 @@
           "type": "color"
         },
         "sensitive": {
-          "value": "{secondary.500}",
+          "value": "{Colors.Purple.500}",
           "type": "color"
         },
         "sensitive-hover": {
-          "value": "{secondary.600}",
+          "value": "{Colors.Purple.600}",
           "type": "color"
         },
         "sensitive-pressed": {
-          "value": "{secondary.700}",
+          "value": "{Colors.Purple.700}",
           "type": "color"
         },
         "destructive": {
@@ -1459,7 +1459,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "$grey.400",
+          "value": "{Colors.Grey.400}",
           "type": "color"
         },
         "destructive": {
@@ -1518,7 +1518,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.400",
+          "value": "{Colors.Grey.400}",
           "type": "color"
         },
         "hover": {
@@ -1534,7 +1534,7 @@
           "type": "color"
         },
         "sensitive-focused": {
-          "value": "{secondary.900}",
+          "value": "{Colors.Purple.900}",
           "type": "color"
         },
         "error": {
@@ -1563,13 +1563,13 @@
       },
       "text": {
         "default": {
-          "value": "$grey.900",
+          "value": "{Colors.Grey.900}",
           "type": "color"
         }
       },
       "border": {
         "default": {
-          "value": "$grey.300",
+          "value": "{Colors.Grey.300}",
           "type": "color"
         }
       }
@@ -1618,7 +1618,7 @@
   "dark": {
     "text": {
       "default": {
-        "value": "$grey.50",
+        "value": "{Colors.Grey.50}",
         "type": "color"
       },
       "dimmed": {
@@ -1630,11 +1630,11 @@
         "type": "color"
       },
       "link": {
-        "value": "{secondary.500}",
+        "value": "{Colors.Purple.500}",
         "type": "color"
       },
       "disabled": {
-        "value": "$grey.700",
+        "value": "{Colors.Grey.700}",
         "type": "color"
       },
       "error": {
@@ -1663,7 +1663,7 @@
           "type": "color"
         },
         "code": {
-          "value": "{secondary.900}",
+          "value": "{Colors.Purple.900}",
           "type": "color"
         },
         "light": {
@@ -1679,11 +1679,11 @@
           "type": "color"
         },
         "sensitive": {
-          "value": "{secondary.900}",
+          "value": "{Colors.Purple.900}",
           "type": "color"
         },
         "sensitive-disabled": {
-          "value": "{secondary.800}",
+          "value": "{Colors.Purple.800}",
           "type": "color"
         },
         "match-bg": {
@@ -1705,7 +1705,7 @@
           "type": "color"
         },
         "bright": {
-          "value": "$grey.700",
+          "value": "{Colors.Grey.700}",
           "type": "color"
         },
         "error-light": {
@@ -1721,15 +1721,15 @@
           "type": "color"
         },
         "sensitive": {
-          "value": "{secondary.500}",
+          "value": "{Colors.Purple.500}",
           "type": "color"
         },
         "sensitive-light": {
-          "value": "{secondary.400}",
+          "value": "{Colors.Purple.400}",
           "type": "color"
         },
         "sensitive-dimmed": {
-          "value": "{secondary.100}",
+          "value": "{Colors.Purple.100}",
           "type": "color"
         }
       },
@@ -1751,7 +1751,7 @@
           "type": "color"
         },
         "sensitive": {
-          "value": "{secondary.500}",
+          "value": "{Colors.Purple.500}",
           "type": "color"
         }
       }
@@ -1812,7 +1812,7 @@
       },
       "border": {
         "hint": {
-          "value": "$grey.200",
+          "value": "{Colors.Grey.200}",
           "type": "color"
         },
         "white": {
@@ -1876,15 +1876,15 @@
           "type": "color"
         },
         "sensitive": {
-          "value": "{secondary.500}",
+          "value": "{Colors.Purple.500}",
           "type": "color"
         },
         "sensitive-hover": {
-          "value": "{secondary.600}",
+          "value": "{Colors.Purple.600}",
           "type": "color"
         },
         "sensitive-pressed": {
-          "value": "{secondary.700}",
+          "value": "{Colors.Purple.700}",
           "type": "color"
         },
         "destructive": {
@@ -1926,7 +1926,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "$grey.600",
+          "value": "{Colors.Grey.600}",
           "type": "color"
         },
         "destructive": {
@@ -1974,7 +1974,7 @@
           "type": "color"
         },
         "quiet": {
-          "value": "$grey.700",
+          "value": "{Colors.Grey.700}",
           "type": "color"
         },
         "hover": {
@@ -1990,7 +1990,7 @@
           "type": "color"
         },
         "sensitive-pressed": {
-          "value": "{secondary.100}",
+          "value": "{Colors.Purple.100}",
           "type": "color"
         },
         "error-focused": {
@@ -2024,19 +2024,19 @@
     "tag": {
       "base": {
         "default": {
-          "value": "{secondary.950}",
+          "value": "{Colors.Purple.950}",
           "type": "color"
         }
       },
       "text": {
         "default": {
-          "value": "$grey.100",
+          "value": "{Colors.Grey.100}",
           "type": "color"
         }
       },
       "border": {
         "default": {
-          "value": "$grey.800",
+          "value": "{Colors.Grey.800}",
           "type": "color"
         }
       }
