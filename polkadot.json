@@ -1713,7 +1713,7 @@
           "type": "color"
         },
         "success-light": {
-          "value": "{Colors.Lime.6}",
+          "value": "{Colors.Lime.600}",
           "type": "color"
         },
         "success": {
