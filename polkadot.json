@@ -1276,7 +1276,7 @@
           "type": "color"
         },
         "error": {
-          "value": "{Colors.Red.600}",
+          "value": "{Colors.Red.60000}",
           "type": "color"
         },
         "success": {
@@ -1425,7 +1425,7 @@
           "type": "color"
         },
         "destructive-hover": {
-          "value": "{Colors.Red.6}",
+          "value": "{Colors.Red.600}",
           "type": "color"
         },
         "destructive-pressed": {
@@ -1693,7 +1693,7 @@
       },
       "border": {
         "error": {
-          "value": "{Colors.Red.6}",
+          "value": "{Colors.Red.600}",
           "type": "color"
         },
         "focus": {
@@ -1709,7 +1709,7 @@
           "type": "color"
         },
         "error-light": {
-          "value": "{Colors.Red.6}",
+          "value": "{Colors.Red.600}",
           "type": "color"
         },
         "success-light": {
@@ -1743,7 +1743,7 @@
           "type": "color"
         },
         "error": {
-          "value": "{Colors.Red.6}",
+          "value": "{Colors.Red.600}",
           "type": "color"
         },
         "success": {
@@ -1892,7 +1892,7 @@
           "type": "color"
         },
         "destructive-hover": {
-          "value": "{Colors.Red.6}",
+          "value": "{Colors.Red.600}",
           "type": "color"
         },
         "destructive-pressed": {
