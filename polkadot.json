@@ -1975,6 +1975,30 @@
             "type": "typography"
           }
         }
+      },
+      "textField": {
+        "label": {
+          "medium": {
+            "regular": {
+              "value": "{Inter.Regular.Medium}",
+              "type": "typography"
+            },
+            "medium": {
+              "value": "{Inter.Medium.Medium}",
+              "type": "typography"
+            }
+          },
+          "small": {
+            "regular": {
+              "value": "{Inter.Regular.Small}",
+              "type": "typography"
+            },
+            "medium": {
+              "value": "{Inter.Medium.Small}",
+              "type": "typography"
+            }
+          }
+        }
       }
     }
   },
