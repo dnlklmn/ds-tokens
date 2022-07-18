@@ -1998,6 +1998,16 @@
               "type": "typography"
             }
           }
+        },
+        "input": {
+          "medium": {
+            "value": "{Inter.Regular.Medium}",
+            "type": "typography"
+          },
+          "small": {
+            "value": "{Inter.Regular.Small}",
+            "type": "typography"
+          }
         }
       }
     }
