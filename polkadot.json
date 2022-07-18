@@ -1958,6 +1958,24 @@
         "value": "{borderWidth.2}",
         "type": "borderWidth"
       }
+    },
+    "Components": {
+      "button": {
+        "label": {
+          "small": {
+            "value": "{Inter.Medium.Small}",
+            "type": "typography"
+          },
+          "medium": {
+            "value": "{Inter.Medium.Medium}",
+            "type": "typography"
+          },
+          "large": {
+            "value": "{Inter.Bold.xLarge}",
+            "type": "typography"
+          }
+        }
+      }
     }
   },
   "light": {
@@ -2155,8 +2173,8 @@
           "type": "color"
         },
         "emphasized": {
-          "value": "{button.base.primary}",
-          "type": "color"
+          "type": "color",
+          "value": "{Components.button.base.primary}"
         }
       },
       "border": {
@@ -2622,8 +2640,8 @@
           "type": "color"
         },
         "emphasized": {
-          "value": "{button.base.primary}",
-          "type": "color"
+          "type": "color",
+          "value": "{Components.button.base.primary}"
         }
       },
       "border": {
