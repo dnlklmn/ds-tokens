@@ -1,44 +1,44 @@
 {
   "text": {
     "default": {
-      "value": "$grey.50",
+      "value": "{Colors.Grey.50}",
       "type": "color",
       "failedToResolve": true
     },
     "dimmed": {
-      "value": "{grey.500}",
+      "value": "{Colors.Grey.500}",
       "type": "color",
       "failedToResolve": true
     },
     "primary": {
-      "value": "{primary.500-base}",
+      "value": "{Colors.Pink.500}",
       "type": "color",
       "failedToResolve": true
     },
     "link": {
-      "value": "{secondary.500-base}",
+      "value": "{Colors.Purple.500}",
       "type": "color",
       "failedToResolve": true
     },
     "disabled": {
-      "value": "$grey.700",
+      "value": "{Colors.Grey.700}",
       "type": "color",
       "failedToResolve": true
     },
     "error": {
-      "value": "{error.500-base}",
+      "value": "{Colors.Red.500}",
       "type": "color",
       "failedToResolve": true
     }
   },
   "bg": {
     "default": {
-      "value": "{grey.900}",
+      "value": "{Colors.Grey.900}",
       "type": "color",
       "failedToResolve": true
     },
     "grey": {
-      "value": "{grey.950}",
+      "value": "{Colors.Grey.950}",
       "type": "color",
       "failedToResolve": true
     }
@@ -46,126 +46,126 @@
   "textfield": {
     "bg": {
       "default": {
-        "value": "{indigo.900-s}",
+        "value": "{Colors.Indigo.900}",
         "type": "color",
         "failedToResolve": true
       },
       "error": {
-        "value": "{error.900-s}",
+        "value": "{Colors.Red.900}",
         "type": "color",
         "failedToResolve": true
       },
       "code": {
-        "value": "{secondary.900-s}",
+        "value": "{Colors.Purple.900}",
         "type": "color",
         "failedToResolve": true
       },
       "light": {
-        "value": "{grey.950}",
+        "value": "{Colors.Grey.950}",
         "type": "color",
         "failedToResolve": true
       },
       "disabled": {
-        "value": "{grey.800}",
+        "value": "{Colors.Grey.800}",
         "type": "color",
         "failedToResolve": true
       },
       "success": {
-        "value": "{lime.950-s}",
+        "value": "{Colors.Lime.950}",
         "type": "color",
         "failedToResolve": true
       },
       "sensitive": {
-        "value": "{secondary.900-s}",
+        "value": "{Colors.Purple.900}",
         "type": "color",
         "failedToResolve": true
       },
       "sensitive-disabled": {
-        "value": "{secondary.800-s}",
+        "value": "{Colors.Purple.800}",
         "type": "color",
         "failedToResolve": true
       },
       "match-bg": {
-        "value": "{grey.900}",
+        "value": "{Colors.Grey.900}",
         "type": "color",
         "failedToResolve": true
       }
     },
     "border": {
       "error": {
-        "value": "{error.600-s}",
+        "value": "{Colors.Red.600}",
         "type": "color",
         "failedToResolve": true
       },
       "focus": {
-        "value": "{indigo.500-base}",
+        "value": "{Colors.Indigo.500}",
         "type": "color",
         "failedToResolve": true
       },
       "default": {
-        "value": "{grey.100}",
+        "value": "{Colors.Grey.100}",
         "type": "color",
         "failedToResolve": true
       },
       "bright": {
-        "value": "$grey.700",
+        "value": "{Colors.Grey.700}",
         "type": "color",
         "failedToResolve": true
       },
       "error-light": {
-        "value": "{error.600-s}",
+        "value": "{Colors.Red.600}",
         "type": "color",
         "failedToResolve": true
       },
       "success-light": {
-        "value": "{lime.600-s}",
+        "value": "{Colors.Lime.600}",
         "type": "color",
         "failedToResolve": true
       },
       "success": {
-        "value": "{lime.700-s}",
+        "value": "{Colors.Lime.700}",
         "type": "color",
         "failedToResolve": true
       },
       "sensitive": {
-        "value": "{secondary.500-base}",
+        "value": "{Colors.Purple.500}",
         "type": "color",
         "failedToResolve": true
       },
       "sensitive-light": {
-        "value": "{secondary.400-t}",
+        "value": "{Colors.Purple.400}",
         "type": "color",
         "failedToResolve": true
       },
       "sensitive-dimmed": {
-        "value": "{secondary.100-t}",
+        "value": "{Colors.Purple.100}",
         "type": "color",
         "failedToResolve": true
       }
     },
     "foreground": {
       "default": {
-        "value": "{grey.50}",
+        "value": "{Colors.Grey.50}",
         "type": "color",
         "failedToResolve": true
       },
       "dimmed": {
-        "value": "{grey.300}",
+        "value": "{Colors.Grey.300}",
         "type": "color",
         "failedToResolve": true
       },
       "error": {
-        "value": "{error.600-s}",
+        "value": "{Colors.Red.600}",
         "type": "color",
         "failedToResolve": true
       },
       "success": {
-        "value": "{lime.700-s}",
+        "value": "{Colors.Lime.700}",
         "type": "color",
         "failedToResolve": true
       },
       "sensitive": {
-        "value": "{secondary.500-base}",
+        "value": "{Colors.Purple.500}",
         "type": "color",
         "failedToResolve": true
       }
@@ -183,7 +183,7 @@
       },
       "type": "boxShadow",
       "background": {
-        "value": "{grey.800}",
+        "value": "{Colors.Grey.800}",
         "type": "color"
       }
     },
@@ -213,34 +213,34 @@
   "dropdown": {
     "base": {
       "default": {
-        "value": "{grey.950}",
+        "value": "{Colors.Grey.950}",
         "type": "color",
         "failedToResolve": true
       },
       "highlight": {
-        "value": "{grey.700}",
+        "value": "{Colors.Grey.700}",
         "type": "color",
         "failedToResolve": true
       },
       "emphasized": {
-        "value": "{primary.500-base}",
+        "value": "{Colors.Pink.500}",
         "type": "color",
         "failedToResolve": true
       }
     },
     "border": {
       "hint": {
-        "value": "$grey.200",
+        "value": "{Colors.Grey.200}",
         "type": "color",
         "failedToResolve": true
       },
       "white": {
-        "value": "{grey.300}",
+        "value": "{Colors.Grey.300}",
         "type": "color",
         "failedToResolve": true
       },
       "filled": {
-        "value": "{grey.500}",
+        "value": "{Colors.Grey.500}",
         "type": "color",
         "failedToResolve": true
       }
@@ -252,7 +252,7 @@
         "failedToResolve": true
       },
       "dimmed": {
-        "value": "{grey.500}",
+        "value": "{Colors.Grey.500}",
         "type": "color",
         "failedToResolve": true
       },
@@ -262,14 +262,14 @@
         "failedToResolve": true
       },
       "white-dimmed": {
-        "value": "{primary.100-t}",
+        "value": "{Colors.Pink.100}",
         "type": "color",
         "failedToResolve": true
       }
     },
     "pop": {
       "match-bg": {
-        "value": "{grey.900}",
+        "value": "{Colors.Grey.900}",
         "type": "color",
         "failedToResolve": true
       }
@@ -278,72 +278,72 @@
   "button": {
     "base": {
       "primary": {
-        "value": "{primary.500-base}",
+        "value": "{Colors.Pink.500}",
         "type": "color",
         "failedToResolve": true
       },
       "primary-hover": {
-        "value": "{primary.600-s}",
+        "value": "{Colors.Pink.600}",
         "type": "color",
         "failedToResolve": true
       },
       "primary-pressed": {
-        "value": "{primary.800-s}",
+        "value": "{Colors.Pink.800}",
         "type": "color",
         "failedToResolve": true
       },
       "down": {
-        "value": "{primary.600-s}",
+        "value": "{Colors.Pink.600}",
         "type": "color",
         "failedToResolve": true
       },
       "secondary-hover": {
-        "value": "{primary.800-s}",
+        "value": "{Colors.Pink.800}",
         "type": "color",
         "failedToResolve": true
       },
       "secondary-pressed": {
-        "value": "{primary.900-s}",
+        "value": "{Colors.Pink.900}",
         "type": "color",
         "failedToResolve": true
       },
       "sensitive": {
-        "value": "{secondary.500-base}",
+        "value": "{Colors.Purple.500}",
         "type": "color",
         "failedToResolve": true
       },
       "sensitive-hover": {
-        "value": "{secondary.600-s}",
+        "value": "{Colors.Purple.600}",
         "type": "color",
         "failedToResolve": true
       },
       "sensitive-pressed": {
-        "value": "{secondary.700-s}",
+        "value": "{Colors.Purple.700}",
         "type": "color",
         "failedToResolve": true
       },
       "destructive": {
-        "value": "{error.500-base}",
+        "value": "{Colors.Red.500}",
         "type": "color",
         "failedToResolve": true
       },
       "destructive-hover": {
-        "value": "{error.600-s}",
+        "value": "{Colors.Red.600}",
         "type": "color",
         "failedToResolve": true
       },
       "destructive-pressed": {
-        "value": "{error.700-s}",
+        "value": "{Colors.Red.700}",
         "type": "color",
         "failedToResolve": true
       },
       "inverted": {
-        "value": "{grey.700}",
+        "value": "{Colors.Grey.700}",
         "type": "color",
         "failedToResolve": true
       },
       "disabled": {
-        "value": "{grey.800}",
+        "value": "{Colors.Grey.800}",
         "type": "color",
         "failedToResolve": true
       }
@@ -359,8 +359,8 @@
         "type": "color",
         "failedToResolve": true
       },
-      "primary-stable": {
-        "value": "{primary.500-base}",
+      "primarytable": {
+        "value": "{Colors.Pink.500}",
         "type": "color",
         "failedToResolve": true
       },
@@ -370,7 +370,7 @@
         "failedToResolve": true
       },
       "disabled": {
-        "value": "$grey.600",
+        "value": "{Colors.Grey.600}",
         "type": "color",
         "failedToResolve": true
       },
@@ -380,7 +380,7 @@
         "failedToResolve": true
       },
       "hover": {
-        "value": "{primary.700-s}",
+        "value": "{Colors.Pink.700}",
         "type": "color",
         "failedToResolve": true
       },
@@ -414,27 +414,27 @@
     },
     "border": {
       "primary": {
-        "value": "{primary.500-base}",
+        "value": "{Colors.Pink.500}",
         "type": "color",
         "failedToResolve": true
       },
       "disabled": {
-        "value": "{grey.600}",
+        "value": "{Colors.Grey.600}",
         "type": "color",
         "failedToResolve": true
       },
       "quiet": {
-        "value": "$grey.700",
+        "value": "{Colors.Grey.700}",
         "type": "color",
         "failedToResolve": true
       },
       "hover": {
-        "value": "{primary.500-base}",
+        "value": "{Colors.Pink.500}",
         "type": "color",
         "failedToResolve": true
       },
       "pressed": {
-        "value": "{primary.500-base}",
+        "value": "{Colors.Pink.500}",
         "type": "color",
         "failedToResolve": true
       },
@@ -444,12 +444,12 @@
         "failedToResolve": true
       },
       "sensitive-pressed": {
-        "value": "{secondary.100-t}",
+        "value": "{Colors.Purple.100}",
         "type": "color",
         "failedToResolve": true
       },
       "error-focused": {
-        "value": "{error.100-t}",
+        "value": "{Colors.Red.100}",
         "type": "color",
         "failedToResolve": true
       }
@@ -480,21 +480,21 @@
   "tag": {
     "base": {
       "default": {
-        "value": "{secondary.950-s}",
+        "value": "{Colors.Purple.950}",
         "type": "color",
         "failedToResolve": true
       }
     },
     "text": {
       "default": {
-        "value": "$grey.100",
+        "value": "{Colors.Grey.100}",
         "type": "color",
         "failedToResolve": true
       }
     },
     "border": {
       "default": {
-        "value": "$grey.800",
+        "value": "{Colors.Grey.800}",
         "type": "color",
         "failedToResolve": true
       }
@@ -525,7 +525,7 @@
     }
   },
   "separator": {
-    "value": "{grey.800}",
+    "value": "{Colors.Grey.800}",
     "type": "color",
     "failedToResolve": true
   }

@@ -226,7 +226,7 @@
       "failedToResolve": true
     },
     "gap": {
-      "icon-text": {
+      "iconext": {
         "value": "{1}",
         "type": "spacing",
         "failedToResolve": true
